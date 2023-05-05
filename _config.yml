@@ -1,6 +1,6 @@
 layout: default
 title: Kedy's Page
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 logo: me.jpg
 markdown: kramdown 
 description: My personal website
