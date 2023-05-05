@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 ---
 # Welcome to my page
 My name is Kedy Edme
