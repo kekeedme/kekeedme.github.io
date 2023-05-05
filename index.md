@@ -5,6 +5,6 @@ layout: default
 My name is Kedy Edme
 ## Current projects
 
-- Quantum dynamics with the dynamics
-- My science blog in Haitian creole
+- [Quantum dynamics with the dynamics](/Quantum-Dynamics.md)
+- [My science blog in Haitian creole](https://anps.space/)
 - 
