@@ -1,7 +1,7 @@
 layout: default
 title: Kedy's Page
 theme: jekyll-theme-slate
-logo: me.jpg
+logo: /me.jpg
 markdown: kramdown 
 description: My personal website
 owner:
