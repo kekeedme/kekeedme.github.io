@@ -2,7 +2,7 @@
 layout: default
 ---
 # About The Site
-![myself](me.jpg){: style="float: left"}  
+<img align="right" width="150" height="150" src="me.jpg">
 Hello and welcome. My name is Kedy Edme and 
 am passionate about many things. One of my passions is science, 
 in particular the physical sciences. I obtained a PhD in physical chemistry
