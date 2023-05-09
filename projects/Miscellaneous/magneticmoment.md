@@ -3,6 +3,7 @@ The magnetic moment, $\boldsymbol{\mu}$, is an indication of the 'strength' of t
 $\boldsymbol{\mu}$ is proportional to the number of loops $N$, the current $I$ and the area of the loop $A$. Hence, 
 the units of the magnetic moments are amperes meter squared $[Am^2]$.  
 If we want to look at the case of an electron going around a nucleus. We can derive an expression:
+
 $$
 \begin{align}
     \tag{1}
@@ -13,6 +14,7 @@ $$
         &I=\frac{-e}{t}
 \end{align}
 $$
+
 We need a better expression for $I$ in this case. 
 Suppose the electron is going around the nucleus with velocity $v$. 
 Then the period $T$ is the time it takes to do one complete revolution $2\pi r$. 
@@ -20,6 +22,7 @@ Hence, $T=\frac{2\pi r}{v}$.
 So we can write $I=\frac{-ev}{2\pi r}$. 
 If we recall the classical magnitude of angular momentum $L=mvr$. 
 Putting everything together:
+
 $$
 \begin{align}
     &I=\frac{-ev}{2\pi r}\nonumber\\
@@ -28,21 +31,26 @@ $$
     &\boldsymbol{\mu_{L}}=\frac{-eL}{2m}
 \end{align}
 $$
+
 Using the fact from quantum mechanics that the magnitude of the angular momentum is
 $\sqrt{l(l+1)}\hbar$, we can determine the quantum mechanical magnetic moment:
+
 $$
 \begin{align}
     \tag{5}
      \boldsymbol{\mu_{L}}=\frac{-e\hbar\sqrt{l(l+1)}}{2m_{e}}
 \end{align}
 $$
+
 The quantity $\frac{e\hbar}{2m_e}$ is the Bohr magneton denoted $\boldsymbol{\mu_B}$.
+
 $$
 \begin{align}
 \tag{6}
     \boldsymbol{\mu_L}=-\boldsymbol{\mu_B}\sqrt{l(l+1)}
 \end{align}
 $$
+
 The z-component of the orbital magnetic moment is given by the z-component of angular 
 momentum (magnitude $m_l$)
 
@@ -52,36 +60,39 @@ $$
     \boldsymbol{\mu_{z}}=-m_{l}\boldsymbol{\mu_{B}}
 \end{align}
 $$
+
 If we put a magnetic moment in a magnetic field, it will experience a torque given by the expression:
 $$
 \begin{align}
 \tag{8}
-    \boldsymbol{\tau}=\boldsymbol{\vec{\mu}}\cross\vec{B}
+    \boldsymbol{\tau}=\boldsymbol{\vec{\mu}}\times\vec{B}
 \end{align}
 $$
+
 This torque will cause a change in angular momentum $\delta l$ that is perpendicular to the 
 angular momentum of the electron. 
 This change in momentum will cause the electron to precess about the magnetic field. 
 This precession is known as Larmor Precession. We can write the following expressions:
+
 $$
 \begin{align}
 \tag{9}
-
     \boldsymbol{\tau}&=\frac{\Delta l}{\Delta t}\\\
     \frac{\Delta l}{\Delta t}&=\frac{l\sin{\theta}\Delta\phi}{\Delta t}\nonumber\\\
-    \boldsymbol{\vec{\mu}}\cross\vec{B}&=l\sin{\theta}\omega\nonumber\\\
+    \boldsymbol{\vec{\mu}}\times\vec{B}&=l\sin{\theta}\omega\nonumber\\\
     \frac{\boldsymbol{\mu_{B}}}{\hbar}Bl\sin{\theta}&=l\sin{\theta}\omega\nonumber\\\
     \omega&=\frac{\boldsymbol{\mu_{B}}}{\hbar}B\nonumber
 \end{align}
 $$
+
 Here $\omega$ is known as the Larmor frequency.
 Similar to orbital magnetic moment, 
 electrons also possess a magnetic moment due to the spin angular momentum, 
 known as the spin magnetic moment $\mu_{s}$.
+
 $$
 \begin{align}
 \tag{10}
-
     \vec{\mu_{s}}=\frac{-g_{s}\mu_{B}\vec{s}}{\hbar}\\
     \mu_{s_{z}}=-g_{s}\mu_{B}m_{s}
 \end{align}
