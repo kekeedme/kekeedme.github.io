@@ -2,14 +2,14 @@
 layout: default
 ---
 # About The Site
-<img align="right" width="100" height="150" src="me.jpg">
+<img align="right" width="120" height="150" src="me.jpg">
 Hello and welcome. My name is Kedy Edme and 
 am passionate about many things. One of my passions is science, 
 in particular the physical sciences. I obtained a PhD in physical chemistry
 but I can't seem to stop wanting to learn more physics and chemistry. 
 I am particularly interested in the intersection of quantum mechanics
 and chemistry (quantum chemistry and quantum dynamics
-applied to chemistry). I have also been involved in education. 
+applied to chemistry). I have also been involved in education throughout my life. 
 I have taught math, chemistry and physics in high school in Haiti, 
 and entering college students in the US.  
 This website is dedicated to personal projects that I want to share.
