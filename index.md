@@ -7,4 +7,4 @@ My name is Kedy Edme
 
 - [Quantum dynamics with the dynamics](/projects/QDWD/QDWD.md)
 - [My science blog in Haitian creole](https://anps.space/)
-- 
+- ![myself](me.jpg)
