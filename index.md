@@ -2,7 +2,7 @@
 layout: default
 ---
 # About The Site
-<img align="right" width="150" height="150" src="me.jpg">
+<img align="right" width="100" height="150" src="me.jpg">
 Hello and welcome. My name is Kedy Edme and 
 am passionate about many things. One of my passions is science, 
 in particular the physical sciences. I obtained a PhD in physical chemistry
