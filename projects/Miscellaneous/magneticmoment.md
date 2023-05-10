@@ -30,7 +30,9 @@ Putting everything together:
 $$
 \begin{align}
     &I=\frac{-ev}{2\pi r}\nonumber\\
+    \\
     &\boldsymbol{\mu}=\frac{-ev}{2\pi r}\pi r^2\nonumber\\
+    \\
     \tag{4}
     &\boldsymbol{\mu_{L}}=\frac{-eL}{2m}
 \end{align}
@@ -66,6 +68,7 @@ $$
 $$
 
 If we put a magnetic moment in a magnetic field, it will experience a torque given by the expression:
+
 $$
 \begin{align}
 \tag{8}
@@ -82,9 +85,13 @@ $$
 \begin{align}
 \tag{9}
     \boldsymbol{\tau}&=\frac{\Delta l}{\Delta t}\\\
+    \\
     \frac{\Delta l}{\Delta t}&=\frac{l\sin{\theta}\Delta\phi}{\Delta t}\nonumber\\\
+    \\
     \boldsymbol{\vec{\mu}}\times\vec{B}&=l\sin{\theta}\omega\nonumber\\\
+    \\
     \frac{\boldsymbol{\mu_{B}}}{\hbar}Bl\sin{\theta}&=l\sin{\theta}\omega\nonumber\\\
+    \\
     \omega&=\frac{\boldsymbol{\mu_{B}}}{\hbar}B\nonumber
 \end{align}
 $$
@@ -98,6 +105,7 @@ $$
 \begin{align}
 \tag{10}
     \vec{\mu_{s}}=\frac{-g_{s}\mu_{B}\vec{s}}{\hbar}\\
+    \\
     \mu_{s_{z}}=-g_{s}\mu_{B}m_{s}
 \end{align}
 $$
