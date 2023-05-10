@@ -15,7 +15,7 @@ $$
     \tag{2}
      &A=\pi r^2\\
     \tag{3}
-        &I=\frac{-e}{t}
+        &I=\frac{e}{t}
 \end{align}
 $$
 
@@ -25,16 +25,25 @@ Then the period $T$ is the time it takes to do one complete revolution $2\pi r$.
 Hence, $T=\frac{2\pi r}{v}$. 
 So we can write $I=\frac{-ev}{2\pi r}$. 
 If we recall the classical magnitude of angular momentum $L=mvr$. 
-Putting everything together:
+Putting everything together, we get the following expressions and the magnitude of magnetic moment:
 
 $$
 \begin{align}
-    &I=\frac{-ev}{2\pi r}\nonumber\\
+    &I=\frac{ev}{2\pi r}\nonumber\\
     \\
-    &\boldsymbol{\mu}=\frac{-ev}{2\pi r}\pi r^2\nonumber\\
+    &\boldsymbol{\mu}=\frac{ev}{2\pi r}\pi r^2\nonumber\\
     \\
     \tag{4}
-    &\boldsymbol{\mu_{L}}=\frac{-eL}{2m}
+    &\boldsymbol{\mu_{L}}=\frac{eL}{2m}
+\end{align}
+$$
+
+In vector notation, since the electron is negatively charged, its magnetic moment points opposite the angular momentum vector: 
+
+$$
+\begin{align}
+\tag{5}
+\vec{\mu_{L}}=\frac{-e\vec{L}}{2m}
 \end{align}
 $$
 
@@ -43,8 +52,8 @@ $\sqrt{l(l+1)}\hbar$, we can determine the quantum mechanical magnetic moment:
 
 $$
 \begin{align}
-    \tag{5}
-     \boldsymbol{\mu_{L}}=\frac{-e\hbar\sqrt{l(l+1)}}{2m_{e}}
+    \tag{6}
+     \boldsymbol{\mu_{L}}=\frac{e\hbar\sqrt{l(l+1)}}{2m_{e}}
 \end{align}
 $$
 
@@ -52,8 +61,8 @@ The quantity $\frac{e\hbar}{2m_e}$ is the Bohr magneton denoted $\boldsymbol{\mu
 
 $$
 \begin{align}
-\tag{6}
-    \boldsymbol{\mu_L}=-\boldsymbol{\mu_B}\sqrt{l(l+1)}
+\tag{7}
+    \boldsymbol{\mu_L}=\boldsymbol{\mu_B}\sqrt{l(l+1)}
 \end{align}
 $$
 
@@ -62,7 +71,7 @@ momentum (magnitude $m_l$)
 
 $$
 \begin{align}
-\tag{7}
+\tag{8}
     \boldsymbol{\mu_{z}}=-m_{l}\boldsymbol{\mu_{B}}
 \end{align}
 $$
@@ -71,7 +80,7 @@ If we put a magnetic moment in a magnetic field, it will experience a torque giv
 
 $$
 \begin{align}
-\tag{8}
+\tag{9}
     \boldsymbol{\tau}=\boldsymbol{\vec{\mu}}\times\vec{B}
 \end{align}
 $$
@@ -83,7 +92,7 @@ This precession is known as Larmor Precession. We can write the following expres
 
 $$
 \begin{align}
-\tag{9}
+\tag{10}
     \boldsymbol{\tau}&=\frac{\Delta l}{\Delta t}\\\
     \\
     \frac{\Delta l}{\Delta t}&=\frac{l\sin{\theta}\Delta\phi}{\Delta t}\nonumber\\\
@@ -103,7 +112,7 @@ known as the spin magnetic moment $\mu_{s}$.
 
 $$
 \begin{align}
-\tag{10}
+\tag{11}
     \vec{\mu_{s}}=\frac{-g_{s}\mu_{B}\vec{s}}{\hbar}\\
     \\
     \mu_{s_{z}}=-g_{s}\mu_{B}m_{s}
