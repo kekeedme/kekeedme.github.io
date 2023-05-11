@@ -90,6 +90,8 @@ The fact that an electron in a _s-orbital_ does not have an angular magnetic mom
 should not have any preferential orientation when passing through a magnetic field. However, the Stern-Gerlach experiment showed such an atom (silver) passing through a magnetic field did orient itself with or against a magnetic field. This observation was experimental evidence that electrons had another magnetic moment
 in addition to the orbital magnetic moment. Since the magnetic moment was understood with respect to a circular (angular to be more precise) type of motion, this "new" magnetic moment was also related to a "new" angular degree of freedom, the spin of the electron.
 
+</div>
+
 ## Electron in a Magnetic Field
 If we put a magnetic moment in a magnetic field, it will experience a torque given by the expression:
 
