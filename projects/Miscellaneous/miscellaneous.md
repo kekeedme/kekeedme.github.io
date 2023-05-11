@@ -1,2 +1,20 @@
 ## Miscellaneous Projects
+<div align="justify">
+
+On this page, you will find lecture slides, notes or paper style documents I have written
+to explain a concept in quantum mechanics, or a mathematical concept that is then applied to a 
+physical chemistry or quantum concept. I created these documents as I was studying the concepts presented 
+therein myself. I made these documents as a way to better understand what I was learning,
+make them presentable such that someone else could use, in the hopes that they would be useful to
+their own self-study. 
+I started doing this during the first covid lockdown. Typically, when one makes slides for a presentation,
+they include the institution to which they belong on the first page. Since I was home when I started, 
+I put _Lakay Institute of Technology_. It is a bit of a joke because _Lakay_ is the Haitian creole word for 
+_Home_. So I kept doing that for the rest of the slides. 
+
+</div>
+
+### Currently Available Slides or Posts
+
+-[Hydrogen Atom](/projects/Miscellaneous/slides/Hydrogen_atom.pdf)  
 -[My notes on the magnetic moment](/projects/Miscellaneous/magneticmoment)
