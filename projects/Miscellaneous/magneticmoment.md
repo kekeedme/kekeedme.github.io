@@ -80,10 +80,11 @@ $$
 $$
 
 We note that for an electron in a _s-orbital_ in a hydrogen atom, the electron does not generate an orbital magnetic moment. 
-Indeed, recall that for a _s-orbital_, $l=0$. As a result, there will only be an orbital magnetic moment for an electron in orbitals with $l\geq 1$, $\left(p,d ...\right)$
+Indeed, recall that for a _s-orbital_, $l=0$. As a result, there will only be an orbital magnetic moment for an electron in orbitals with $l\geq 1$, $\left(p,d ...\right)$.
 For instance, for an electron in a _p-orbital_, $l=1$, and $m_l=\left(-1,0,1\right)$. Hence we will get one total magnetic moment $\left(\sqrt{2}\mu_B\right)$, 
 and three possible values for the z-component of the magnetic moment, corresponding to one of each _p-orbitals_.  
-The fact that an electron in a _s-orbital_ does not have an angular magnetic moment suggests that an atom with a single electron in a s-type valence shell 
+
+The fact that an electron in a _s-orbital_ does not have an angular magnetic moment suggests that an otherwise closed-shell atom with a single electron in a s-type valence shell 
 should not have any preferential orientation when passing through a magnetic field. However, the Stern-Gerlach experiment showed such an atom (silver) passing through a magnetic field did orient itself with or against a magnetic field. This observation was experimental evidence that electrons had another magnetic moment
 in addition to the orbital magnetic moment. Since the magnetic moment was understood with respect to a circular (angular to be more precise) type of motion, this "new" magnetic moment was also related to a "new" angular degree of freedom, the spin of the electron.
 
