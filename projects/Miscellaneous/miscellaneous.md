@@ -16,5 +16,6 @@ Home. So I kept doing that for the rest of the slides.
 
 ### Currently Available Slides or Posts
 
--[Hydrogen Atom](/projects/Miscellaneous/slides/Hydrogen_atom.pdf)  
+-[Quantum probability density, probability current and momentum operator](/projects/Miscellaneous/slides/Prob_densisty_current_momentum.pdf)  
+-[Linear first order differential equations- Applied to chemical kinetics](/projects/Miscellaneous/slides/L1st_ODE.pdf)  
 -[My notes on the magnetic moment](/projects/Miscellaneous/magneticmoment)
