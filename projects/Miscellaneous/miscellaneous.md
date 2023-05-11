@@ -9,8 +9,8 @@ make them presentable such that someone else could use, in the hopes that they w
 their own self-study. 
 I started doing this during the first covid lockdown. Typically, when one makes slides for a presentation,
 they include the institution to which they belong on the first page. Since I was home when I started, 
-I put *Lakay Institute of Technology*. It is a bit of a joke because *Lakay* is the Haitian creole word for 
-*Home*. So I kept doing that for the rest of the slides. 
+I put Lakay Institute of Technology. It is a bit of a joke because Lakay is the Haitian creole word for 
+Home. So I kept doing that for the rest of the slides. 
 
 </div>
 
