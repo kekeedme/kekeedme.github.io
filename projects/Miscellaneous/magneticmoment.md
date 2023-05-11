@@ -80,7 +80,7 @@ $$
 $$
 
 We note that for an electron in a _s-orbital_ in a hydrogen atom, the electron does not generate an orbital magnetic moment. 
-Indeed, recall that for a _s-orbital_, $l=0$. As a result, there will only be an orbital magnetic moment for an electron in orbitals with $l\geq 1$ $\left(_p_,_d_...\right)$
+Indeed, recall that for a _s-orbital_, $l=0$. As a result, there will only be an orbital magnetic moment for an electron in orbitals with $l\geq 1$, $\left(p,d ...\right)$
 For instance, for an electron in a _p-orbital_, $l=1$, and $m_l=\left(-1,0,1\right)$. Hence we will get one total magnetic moment $\left(\sqrt{2}\mu_B\right)$, 
 and three possible values for the z-component of the magnetic moment, corresponding to one of each _p-orbitals_.  
 The fact that an electron in a _s-orbital_ does not have an angular magnetic moment suggests that an atom with a single electron in a s-type valence shell 
