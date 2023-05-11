@@ -93,6 +93,8 @@ in addition to the orbital magnetic moment. Since the magnetic moment was unders
 </div>
 
 ## Electron in a Magnetic Field
+<div align="justify">
+
 If we put a magnetic moment in a magnetic field, it will experience a torque given by the expression:
 
 $$
@@ -136,4 +138,5 @@ $$
 \end{align}
 $$
 
+</div>    
 
