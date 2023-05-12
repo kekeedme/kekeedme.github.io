@@ -1,4 +1,6 @@
-
+---
+layout: default
+---
 # About The Site
 
 <div align="justify">
