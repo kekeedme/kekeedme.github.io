@@ -2,7 +2,10 @@
 layout: default
 ---
 # About The Site
-<img align="right" width="120" height="150" src="me.jpg">
+<img align="left" width="120" height="150" src="me.jpg">
+
+<div align="justify">
+
 Hello and welcome. My name is Kedy Edme and 
 am passionate about many things. One of my passions is science, 
 in particular the physical sciences. I obtained a PhD in physical chemistry
@@ -17,10 +20,17 @@ In particular:
 -Python projects simulating dynamics of simple quantum systems  
 -My science blog creole  
 -Miscellaneous science contents (in the form of slides) I made in order to teach myself,
-but also to share if someone would want to learn these as well.
+but also to share if someone would want to learn these as well.  
+
+
+
+
+
 ## Current projects
 
 - [Quantum dynamics with the dynamics](/projects/QDWD/QDWD.md)
 - [My science blog in Haitian creole](/projects/ANPS/posts/Akey.md)
 - [ANPS: my blog at old URL](https://anps.space/)
 - [More science slides-aka miscellaneous](/projects/Miscellaneous/miscellaneous.md)
+
+</div>
