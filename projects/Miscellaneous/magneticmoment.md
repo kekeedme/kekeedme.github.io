@@ -132,7 +132,7 @@ known as the spin magnetic moment $\mu_{s}$.
 $$
 \begin{align}
 \tag{11}
-    \vec{\mu_{s}}=\frac{-g_{s}\mu_{B}\vec{s}}{\hbar}\\
+    \vec{\mu_{s}}=\frac{-g_{s}\mu_{B}\vec{S}}{\hbar}\\
     \\
     \mu_{s_{z}}=-g_{s}\mu_{B}m_{s}
 \end{align}
