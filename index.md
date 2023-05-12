@@ -3,7 +3,7 @@ layout: default
 ---
 # About The Site
 <img align="center" width="120" height="150" src="me.jpg">
-<div align="justify">
+
 Hello and welcome. My name is Kedy Edme and 
 am passionate about many things. One of my passions is science, 
 in particular the physical sciences. I obtained a PhD in physical chemistry
@@ -27,4 +27,3 @@ but also to share if someone would want to learn these as well.
 - [ANPS: my blog at old URL](https://anps.space/)
 - [More science slides-aka miscellaneous](/projects/Miscellaneous/miscellaneous.md)
 
-</div>
