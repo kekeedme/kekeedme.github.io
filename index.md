@@ -17,6 +17,7 @@ I have taught math, chemistry and physics in high school in Haiti,
 and entering college students in the US.  
 This website is dedicated to personal projects that I want to share.
 In particular:  
+
 -Python projects simulating dynamics of simple quantum systems  
 -My science blog creole  
 -Miscellaneous science contents (in the form of slides) I made in order to teach myself,
