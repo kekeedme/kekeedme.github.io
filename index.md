@@ -2,10 +2,8 @@
 layout: default
 ---
 # About The Site
-<img align="left" width="120" height="150" src="me.jpg">
-
+<img align="center" width="120" height="150" src="me.jpg">
 <div align="justify">
-
 Hello and welcome. My name is Kedy Edme and 
 am passionate about many things. One of my passions is science, 
 in particular the physical sciences. I obtained a PhD in physical chemistry
@@ -21,10 +19,6 @@ In particular:
 -My science blog creole  
 -Miscellaneous science contents (in the form of slides) I made in order to teach myself,
 but also to share if someone would want to learn these as well.  
-
-
-
-
 
 ## Current projects
 
