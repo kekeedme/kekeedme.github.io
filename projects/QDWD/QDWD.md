@@ -8,7 +8,7 @@ layout: default
 This page will, at first, be dedicated to discussing
 the mathematica notebook published by professors
 [Beratan](https://beratanlab.chem.duke.edu/) and [Polizzi](https://www.polizzilab.org/) 
-titled [Quantum Dynamics...With the Dynamics ](https://pubs.acs.org/doi/10.1021/acs.jchemed.5b00662).
+titled [Quantum Dynamics...With the Dynamics](https://pubs.acs.org/doi/10.1021/acs.jchemed.5b00662).
 Their notebook is a wonderfully pedagogical tool developed to 
 teach certain aspects of quantum dynamics to students
 aided with simulations and visualizations in mathematica. 
