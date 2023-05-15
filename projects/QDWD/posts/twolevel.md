@@ -58,6 +58,7 @@ diagonal $2\times 2$ Hermitian matrix.
 
 $$
 \begin{align}
+\tag{1.4}
 H_0&=E_1|\phi_1\rangle \langle\phi_1|+E_2 |\phi_2\rangle \langle\phi_2| \\
 H_0&=\begin{pmatrix}E_1 & 0 \\\ 0 & E_2 \end{pmatrix}
 \end{align}
