@@ -53,8 +53,8 @@ diagonal $2\times 2$ Hermitian matrix.
 
 $$
 \begin{align}
-H_0=E_1|\phi_1\rangle \langle\phi_1|+E_2 |\phi_2\rangle \langle\phi_2| \\
-H_0=\begin{pmatrix}E_1 \quad 0 \\ 0\quad E_2 \end{pmatrix}
+H_0&=E_1|\phi_1\rangle \langle\phi_1|+E_2 |\phi_2\rangle \langle\phi_2| \\
+H_0&=\begin{pmatrix}E_1 & 0 \\\ 0 & E_2 \end{pmatrix}
 \end{align}
 $$
 
@@ -84,9 +84,9 @@ Hence it will be informative to obtain an expression for the coefficients.
 $$
 \begin{align}
 \tag{1.6}
-i\hbar\frac{\partial\Psi(r,t)}{\partial t}=H(r,t)\Psi(r,t)\\
+i\hbar\frac{\partial\Psi(r,t)}{\partial t}&=H(r,t)\Psi(r,t)\\
 \tag{1.7}
-i\hbar\frac{\partial \left\[c_1(t)\phi_1+c_2(t)\phi_2\right]}{\partial t}=H(r,t)\left\[c_1(t)\phi_1+c_2(t)\phi_2\right]
+i\hbar\frac{\partial \left\[c_1(t)\phi_1+c_2(t)\phi_2\right]}{\partial t}&=H(r,t)\left\[c_1(t)\phi_1+c_2(t)\phi_2\right]
 \end{align}
 $$
 
