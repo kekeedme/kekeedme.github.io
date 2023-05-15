@@ -1,6 +1,5 @@
 ---
 layout: default
-#usemathjax : true
 ---
 
 ## 2-Level System (Oscillation forever) Part 1
