@@ -1,3 +1,8 @@
+---
+layout: default
+#usemathjax : true
+---
+
 ## 2-Level System (Oscillation forever) Part 1
 <div align="justify">
 In this section, we explore the dynamics of a 

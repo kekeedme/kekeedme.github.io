@@ -1,3 +1,8 @@
+---
+layout: default
+#usemathjax : true
+---
+
 # Quantum Dynamics: A pedagogical tool
 <div align="justify">
 
