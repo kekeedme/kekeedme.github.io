@@ -1,6 +1,5 @@
 ---
 layout: default
-#usemathjax : true
 ---
 
 # Quantum Dynamics: A pedagogical tool
@@ -26,4 +25,5 @@ read the code, and or just read about the dynamics.
 </div>
 
 ## Table of Contens
--[Two-level system(oscillations forever)](/projects/QDWD/posts/twolevel.md)
+-[Two-level system(oscillations forever)](/projects/QDWD/posts/twolevel.md)  
+-[Two-level system with an ending]()
