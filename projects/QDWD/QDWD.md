@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 # Quantum Dynamics: A pedagogical tool
 <div align="justify">
 
