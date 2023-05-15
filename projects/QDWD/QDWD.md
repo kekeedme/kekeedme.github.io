@@ -5,8 +5,7 @@ layout: default
 <div align="justify">
 
 This page will, at first, be dedicated to discussing
-the mathematica notebook published by professors
-[Beratan](https://beratanlab.chem.duke.edu/) and [Polizzi](https://www.polizzilab.org/) 
+the mathematica notebook published by professors [Beratan](https://beratanlab.chem.duke.edu/) and [Polizzi](https://www.polizzilab.org/) 
 titled [Quantum Dynamics...With the Dynamics](https://pubs.acs.org/doi/10.1021/acs.jchemed.5b00662).
 Their notebook is a wonderfully pedagogical tool developed to 
 teach certain aspects of quantum dynamics to students
@@ -24,5 +23,5 @@ read the code, and or just read about the dynamics.
 </div>
 
 ## Table of Contens
--[Two-level system(oscillations forever)](/projects/QDWD/posts/twolevel.md)  
+-[Two-level system(oscillations forever)](/projects/QDWD/twolevel.md)  
 -[Two-level system with an ending]()
