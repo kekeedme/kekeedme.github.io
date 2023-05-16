@@ -94,7 +94,7 @@ Inserting 1.5 in 1.6, we obtain:
 $$
 \begin{align}
 \tag{1.7}
-i\hbar\frac{\partial \left\[c_1(t)\phi_1+c_2(t)\phi_2\right]}{\partial t}&=H(r,t)\left\[c_1(t)\phi_1+c_2(t)\phi_2\right]
+i\hbar\frac{\partial \[c_1(t)\phi_1+c_2(t)\phi_2]}{\partial t}&=H(r,t)\[c_1(t)\phi_1+c_2(t)\phi_2]
 \end{align}
 $$
 
