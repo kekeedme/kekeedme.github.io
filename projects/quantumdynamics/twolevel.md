@@ -118,7 +118,8 @@ i\hbar\frac{\partial c_1(t)}{\partial t}=c_1(t)\langle\phi_1|H(r,t)|\phi_1\rangl
 \end{align}
 $$
 
-We do the same procedure with ($\langle\phi_2|$) to obtain an expression for $\dot{c_2}(t)$:
+We do the same procedure with $\langle\phi_2|$ 
+to obtain an expression for $\dot{c_2}(t)$:
 
 $$
 \begin{align}
