@@ -1,6 +1,3 @@
----
-layout: default
----
 # Quantum Dynamics: A pedagogical tool
 <div align="justify">
 
@@ -25,5 +22,5 @@ read the code, and or just read about the dynamics.
 
 
 ## Table of Contens
--[Two-level system(oscillations forever)](/projects/QDWD/twolevel.md)  
+-[Two-level system-oscillations forever](/projects/QDWD/twolevel.md)  
 -[Two-level system with an ending]()
