@@ -2,7 +2,6 @@
 layout: default
 ---
 # Quantum Dynamics: A pedagogical tool
-<div align="justify">
 
 This page will, at first, be dedicated to discussing
 the mathematica notebook published by professors [Beratan](https://beratanlab.chem.duke.edu/) and [Polizzi](https://www.polizzilab.org/) 
@@ -21,7 +20,7 @@ sections that I have already written in python
 with my explanations if you would like to
 read the code, and or just read about the dynamics.
 
-</div>
+
 
 ## Table of Contens
 -[Two-level system(oscillations forever)](/projects/QDWD/twolevel.md)  
