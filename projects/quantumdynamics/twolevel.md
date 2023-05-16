@@ -98,5 +98,52 @@ i\hbar\frac{\partial \left[c_1(t)\phi_1+c_2(t)\phi_2\right]}{\partial t}&=H(r,t)
 \end{align}
 $$
 
-We can determine an expression for the time-evolution of each time-dependent coefficients,
+We can determine an expression for the time-evolution of each time-dependent coefficients, $c_1(t)$ or $c_2(t)$ by multiplying the TDSE by the complex conjugate of the corresponding stationary-state and integrating (in Dirac notation this amounts to multiplying by the bra ( $\langle\phi_1|$ to obtain $c_1(t)$ for instance). Doing so for $\dot{c_1}(t)$ (recall any variable $\dot{q}(t)=\frac{dq}{dt}$ ) in Dirac notation we get:
+
+$$
+\begin{align}
+\tag{1.8}
+i\hbar\left[\frac{\partial c_1(t)}{\partial t}\langle\phi_1|\phi_1\rangle+\frac{\partial c_2(t)}{\partial t}\langle\phi_2|\phi_1\rangle\right]=c_1(t)\langle\phi_1|H(r,t)|\phi_1\rangle+c_2(t)\langle\phi_1|H(r,t)|\phi_2\rangle
+\end{align}
+$$
+
+exploiting orthornamility, we obtain:
+
+$$
+\begin{align}
+\tag{1.9}
+i\hbar\frac{\partial c_1(t)}{\partial t}=c_1(t)\langle\phi_1|H(r,t)|\phi_1\rangle+c_2(t)\langle\phi_1|H(r,t)|\phi_2\rangle
+\end{align}
+$$
+
+We do the same procedure with $\langle\phi_2|$ to obtain an expression $\dot{c_2}(t)$ for :
+
+$$
+\begin{align}
+\tag{1.10}
+i\hbar\frac{\partial c_2(t)}{\partial t}=c_2(t)<\phi_2|H(r,t)|\phi_2>+c_2(t)<\phi_2|H(r,t)|\phi_1>
+\end{align}
+$$
+
+We can write this system of equations in matrix form:
+
+$$
+\begin{align}
+\tag{1.11}
+i\hbar \frac{\partial}{\partial t}\begin{pmatrix} c_1 (t)\\ c_2(t) \end{pmatrix}=\begin{pmatrix}E_1 & V_{12} \\\V_{21} & E_2 \end{pmatrix} \begin{pmatrix}c_1 (t)\\ c_2 (t)\end{pmatrix}
+\end{align}
+$$
+
+In our exemple, the Hamiltonian matrix is independent of time and we can write:
+
+$$
+\begin{align}
+\tag{1.12}
+i\hbar \frac{\partial \mathbf{c}}{\partial t}=\mathbf{H} \mathbf{c}
+\end{align}
+$$
+
+with $\mathbf{c}(t)=\exp\left(\frac{-i}{\hbar} \mathbf{H}t\right)\mathbf{c}(0)$  
+where $\mathbf{c}$ is a column vector and $\mathbf{H}$ a matrix.  
+We can see if there is no interaction energy between states ($V_{21}=V_{12}=0$), then the transition probability for a given state will be constant ($|c|^2=cst$), the state remains in a stationary state and does not oscillate (which would give us the non-interacting two-state system we started with). 
 
