@@ -98,7 +98,9 @@ i\hbar\frac{\partial \left[c_1(t)\phi_1+c_2(t)\phi_2\right]}{\partial t}&=H(r,t)
 \end{align}
 $$
 
-We can determine an expression for the time-evolution of each time-dependent coefficients, $c_1(t)$ or $c_2(t)$ by multiplying the TDSE by the complex conjugate of the corresponding stationary-state and integrating (in Dirac notation this amounts to multiplying by the bra ( $\langle\phi_1|$ to obtain $c_1(t)$ for instance). Doing so for $\dot{c_1}(t)$ (recall any variable $\dot{q}(t)=\frac{dq}{dt}$ ) in Dirac notation we get:
+We can determine an expression for the time-evolution of each time-dependent coefficients, 
+$c_1(t)$ or $c_2(t)$ by multiplying the TDSE by the complex conjugate of the corresponding stationary-state and integrating
+(in Dirac notation this amounts to multiplying by the bra ($\langle\phi_1|$ to obtain $c_1(t)$ for instance). Doing so for $\dot{c_1}(t)$ (recall any variable $\dot{q}(t)=\frac{dq}{dt}$) in Dirac notation we get:
 
 $$
 \begin{align}
@@ -116,7 +118,7 @@ i\hbar\frac{\partial c_1(t)}{\partial t}=c_1(t)\langle\phi_1|H(r,t)|\phi_1\rangl
 \end{align}
 $$
 
-We do the same procedure with $\langle\phi_2|$ to obtain an expression $\dot{c_2}(t)$ for :
+We do the same procedure with $\langle\phi_2|$ to obtain an expression $\dot{c_2}(t)$ for:
 
 $$
 \begin{align}
@@ -130,7 +132,7 @@ We can write this system of equations in matrix form:
 $$
 \begin{align}
 \tag{1.11}
-i\hbar \frac{\partial}{\partial t}\begin{pmatrix} c_1 (t)\\ c_2(t) \end{pmatrix}=\begin{pmatrix}E_1 & V_{12} \\\V_{21} & E_2 \end{pmatrix} \begin{pmatrix}c_1 (t)\\ c_2 (t)\end{pmatrix}
+i\hbar \frac{\partial}{\partial t}\begin{pmatrix} c_1 (t)\\ c_2(t) \end{pmatrix}=\begin{pmatrix}E_1 & V_{12} \\\ V_{21} & E_2 \end{pmatrix} \begin{pmatrix}c_1 (t)\\ c_2 (t)\end{pmatrix}
 \end{align}
 $$
 
