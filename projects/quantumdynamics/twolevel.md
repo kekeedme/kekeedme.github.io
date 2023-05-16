@@ -85,7 +85,14 @@ Hence it will be informative to obtain an expression for the coefficients.
 $$
 \begin{align}
 \tag{1.6}
-i\hbar\frac{\partial\Psi(r,t)}{\partial t}&=H(r,t)\Psi(r,t)\\
+i\hbar\frac{\partial\Psi(r,t)}{\partial t}&=H(r,t)\Psi(r,t)
+\end{align}
+$$
+
+Inserting 1.5 in 1.6, we obtain:
+
+$$
+\begin{align}
 \tag{1.7}
 i\hbar\frac{\partial \left\[c_1(t)\phi_1+c_2(t)\phi_2\right]}{\partial t}&=H(r,t)\left\[c_1(t)\phi_1+c_2(t)\phi_2\right]
 \end{align}
