@@ -91,4 +91,4 @@ i\hbar\frac{\partial \left\[c_1(t)\phi_1+c_2(t)\phi_2\right]}{\partial t}&=H(r,t
 \end{align}
 $$
 
-
+We can determine an expression for the time-evolution of each time-dependent coefficients,
