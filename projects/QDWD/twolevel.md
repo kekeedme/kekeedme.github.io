@@ -3,7 +3,7 @@ layout: default
 ---
 
 ## 2-Level System (Oscillation forever) Part 1
-<div align="justify">
+
 In this section, we explore the dynamics of a 
 two-level quantum system. 
 Specifically, it consists of a system 
@@ -16,7 +16,7 @@ we need two basis states,
 which will span the entire 2-dimensional complex space in which our system “exists”. 
 Hence the wavefunction describing our system will 
 be a linear combination of these 
-two basis states.</div>
+two basis states.
 
 #### We begin by describing our basis states:
 
