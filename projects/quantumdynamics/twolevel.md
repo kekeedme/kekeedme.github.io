@@ -80,7 +80,7 @@ $$
 to be in a given basis state $\phi$ is given by $c(t)^*c(t)=|c|^2$.
 Hence it will be informative to obtain an expression for the coefficients.
 
--The time-dependent Schrödinger equation (TDSE) reads:
+-The time-dependent Schrödinger equation (TDSE) reads:  
 
 $$
 \begin{align}
