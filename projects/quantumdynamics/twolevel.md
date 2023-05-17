@@ -179,8 +179,9 @@ $$
 \end{align}
 $$
 
-To evaluate $c_1(t)$, we only need to take the inner product of $\langle \phi_1|$
-with $|\Psi(r,t)\rangle$. Thus, 
+To evaluate $c_1(t)$, 
+we only need to take the inner product of $\langle \phi_1|$ with $|\Psi(r,t)\rangle$.
+Thus, 
 
 $$
 \begin{align}
@@ -198,7 +199,7 @@ $$
 \end{align}
 $$
 
-and following a similar procedure for $|c_2|^2$, we obtain:
+following a similar procedure for $|c_2|^2$, we obtain:
 
 $$
 \begin{align}
