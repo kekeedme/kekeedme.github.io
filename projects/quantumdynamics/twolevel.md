@@ -199,7 +199,7 @@ $$
 \end{align}
 $$
 
-for $c_2$, we obtain:  
+for $|c_2|^2$, we obtain:  
 
 $$
 \begin{align}
@@ -213,3 +213,7 @@ and make animated plots of the probability ($|c_1|^2$ and $|c_2|^2$)
 that the system would be found in state $|\phi_1\rangle$ or $|\phi_2\rangle$ upon measurement.
 This is the point at which the original authors of the mathematica notebook stop, and also where I stop in [my python script](https://github.com/kekeedme/qdwtd/blob/main/two_levelsystem.py)
 When we make these plots, we see that the probability oscillates with time forever (see the graph below)
+
+{% figure caption:"Figure 1. Oscillation of the probability of measuring the system in state 1 (blue) or 2 (orange) as a function of time" %}
+    ![oscillating probabilities](/projects/quantumdynamics/images/representative_plot_2level.png)
+{% endfigure %}
