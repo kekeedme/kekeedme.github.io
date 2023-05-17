@@ -214,6 +214,9 @@ that the system would be found in state $|\phi_1\rangle$ or $|\phi_2\rangle$ upo
 This is the point at which the original authors of the mathematica notebook stop, and also where I stop in [my python script](https://github.com/kekeedme/qdwtd/blob/main/two_levelsystem.py)
 When we make these plots, we see that the probability oscillates with time forever (see the graph below)
 
-{% figure caption:"Figure 1. Oscillation of the probability of measuring the system in state 1 (blue) or 2 (orange) as a function of time" %}
-    ![oscillating probabilities](/projects/quantumdynamics/images/representative_plot_2level.png)
-{% endfigure %}
+<figure>
+    <img src="/projects/quantumdynamics/images/representative_plot_2Level.png" alt="A kitten">
+    <figcaption>Chesney the Kitten attempts a giant leap<figcaption>
+<figure>    
+
+
