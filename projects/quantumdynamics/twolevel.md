@@ -199,7 +199,8 @@ $$
 \end{align}
 $$
 
-for $|c_2|^2$, we obtain:  
+similarly with $|c_2|^2$, 
+we obtain:  
 
 $$
 \begin{align}
