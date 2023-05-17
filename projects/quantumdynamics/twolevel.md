@@ -150,3 +150,65 @@ with $\mathbf{c}(t)=\exp\left(\frac{-i}{\hbar} \mathbf{H}t\right)\mathbf{c}(0)$
 where $\mathbf{c}$ is a column vector and $\mathbf{H}$ a matrix.  
 We can see if there is no interaction energy between states ($V_{21}=V_{12}=0$), then the transition probability for a given state will be constant ($|c|^2=cst$), the state remains in a stationary state and does not oscillate (which would give us the non-interacting two-state system we started with). 
 
+## What is Needed for the Script and Plots
+We define our basis vectors, in this case we use the standard basis in two-dimensions:
+
+$$
+\begin{align}
+\tag{1.13}
+\phi_1=\begin{pmatrix}1\\\0\end{pmatrix} \quad and \quad 
+\phi_2=\begin{pmatrix}0\\\1\end{pmatrix}\end{align}
+$$
+
+Constructing $\Psi_0(r,t_0)$ as a linear combination of the basis states:
+
+$$
+\begin{align}
+\tag{1.14}
+\Psi_0(r,t_0)=\frac{1}{\sqrt{c_1^2+c_2^2}}\begin{pmatrix}c_1\\\ c_2\end{pmatrix}
+\end{align}
+$$
+
+where $\frac{1}{\sqrt{c_1^2+c_2^2}}$ is a normalizing constant.  
+Constructing $\Psi(r,t)$ from $\Psi_0(r,t_0)$, and our Hamiltonian defined in equation 1.11, we get:
+
+$$
+\begin{align}
+\tag{1.15}
+\Psi(r,t)=\exp\left(\frac{-i}{\hbar}Ht\right)\Psi_0(r,t_0)
+\end{align}
+$$
+
+To evaluate $c_1(t)$, we only need to take the inner product of $\langle \phi_1|$
+with $|\Psi(r,t)\rangle$. Thus, 
+
+$$
+\begin{align}
+\tag{1.16}
+c_1(t)=\langle \phi_1|\Psi(r,t)\rangle \quad and \quad c_1(t)^*=\langle \Psi(r,t) | \phi_1\rangle
+\end{align}
+$$
+
+This allows us to write:  
+
+$$
+\begin{align}
+\tag{1.17}
+|c_1|^2=\langle \phi_1|\Psi(r,t)\rangle \langle \Psi(r,t) | \phi_1\rangle
+\end{align}
+$$
+
+and following a similar procedure for $|c_2|^2$, we obtain:
+
+$$
+\begin{align}
+\tag{1.18}
+|c_2|^2=\langle \phi_2|\Psi(r,t)\rangle \langle \Psi(r,t) | \phi_2\rangle
+\end{align}
+$$
+
+Using expressions 1.13 to 1.18 is all that is needed to write a script 
+and make animated plots of the probability ($|c_1|^2$ and $|c_2|^2$)
+that the system would be found in state $|\phi_1\rangle$ or $|\phi_2\rangle$ upon measurement.
+This is the point at which the original authors of the mathematica notebook stop, and also where I stop in [my python script](https://github.com/kekeedme/qdwtd/blob/main/two_levelsystem.py)
+When we make these plots, we see that the probability oscillates with time forever (see the graph below)
