@@ -215,8 +215,8 @@ This is the point at which the original authors of the mathematica notebook stop
 When we make these plots, we see that the probability oscillates with time forever (see the graph below)
 
 <figure>
-    <img src="/projects/quantumdynamics/images/representative_plot_2Level.png" alt="A kitten">
-    <figcaption>Chesney the Kitten attempts a giant leap<figcaption>
+    <img src="/projects/quantumdynamics/images/2level_plot_nogap.png" alt="figure">
+    <figcaption>Figure 1. Oscillation of the probability of measuring the system in state 1 (blue) or 2 (orange) as a function of time<figcaption>
 <figure>    
 
 
