@@ -156,8 +156,8 @@ We define our basis vectors, in this case we use the standard basis in two-dimen
 $$
 \begin{align}
 \tag{1.13}
-\phi_1=\begin{pmatrix}1 \\\ 0\end{pmatrix} \quad and \quad 
-\phi_2=\begin{pmatrix}0 \\\ 1\end{pmatrix}\end{align}
+\phi_1=\begin{pmatrix}1\\\ 0\end{pmatrix} \quad and \quad 
+\phi_2=\begin{pmatrix}0\\\ 1\end{pmatrix}\end{align}
 $$
 
 Constructing $\Psi_0(r,t_0)$ as a linear combination of the basis states:
@@ -199,7 +199,7 @@ $$
 \end{align}
 $$
 
-following a similar procedure for $|c_2|^2$, we obtain:
+following a similar procedure for $|c_2|^2$, we obtain:  
 
 $$
 \begin{align}
