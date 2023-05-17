@@ -217,7 +217,19 @@ When we make these plots, we see that the probability oscillates with time forev
 
 <figure>
     <img src="/projects/quantumdynamics/images/2level_plot_nogap.png" alt="figure">
-    <figcaption>Figure 1. Oscillation of the probability of measuring the system in state 1 (blue) or 2 (orange) as a function of time</figcaption>
-</figure>    
-
+    <figcaption>Figure 1. Oscillation of the probability of measuring the system in state 1 (blue) or 2 (orange) as a function of time  </figcaption>
+</figure>      
+  
+Feel free to navigate to the link provided above if you want to 
+go through the python code, and copy or reproduce it to run
+on your computer.  
+Diagonalizing the hamiltonian which couples the two states
+is of great importance as it teaches us plenty about the physics
+of the system. I have done so in Part 2 [here](/projects/quantumdynamics/Quantum_dynamics_two_levelsystem.pdf)
+If you are interested in seeing the steps, do check out that document. 
+In addition, I have added some notes about the unitary evolution 
+operator in the document. I have also added some mathematical background (dirac notation, rotation operations) as 
+refresher should you be interested. The mathematical background part is not yet complete. 
+Lastly, I also have some discussion (and references) about the application of such concept in 
+chemistry.
 
