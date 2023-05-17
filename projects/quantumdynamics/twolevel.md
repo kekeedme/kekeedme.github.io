@@ -197,7 +197,7 @@ $$
 \tag{1.17}
 |c_1|^2=\langle \phi_1|\Psi(r,t)\rangle \langle \Psi(r,t) | \phi_1\rangle
 \end{align}
-$$
+$$  
 
 for $|c_2|^2$, we obtain:  
 
