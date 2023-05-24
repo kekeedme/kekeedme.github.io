@@ -2,6 +2,7 @@
 
 ## Unitary Transformation
 <div align ="justify">
+
 Within a given vector space, a unitary operation is an operation that preserves the inner product between vectors 
 in that space. For instance, consider a vector $|v_1\rangle$
 in a complex vector space, equipped with an inner product. The inner product within this space 
