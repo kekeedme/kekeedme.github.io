@@ -1,4 +1,7 @@
 # A Brief Discussion on Unitary Evolution
+
+## Unitary Transformation
+<div align ="justify">
 Within a given vector space, a unitary operation is an operation that preserves the inner product between vectors 
 in that space. For instance, consider a vector $|v_1\rangle$
 in a complex vector space, equipped with an inner product. The inner product within this space 
@@ -13,7 +16,7 @@ $$
 
 where, $\langle v_1| = |v_1\rangle^\*$, 
 with $|v_1\rangle^\*$ being the conjugate transpose of the vector $|v_1\rangle$.
-Let $\hat{U}$ be an operator that acts on the vectors of our vector space, 
+Let $\hat{U}$ be an operator that acts on the vectors of our vector space. 
 When we define basis vectors for our space, $\hat{U}$ is represented by a matrix.
 It acts on the vectors under matrix multiplication:
 
@@ -47,3 +50,5 @@ $$
 Equation 4 tell us that $\hat{U}^{\dagger}\hat{U}=\mathbf{1}$, where $\mathbf{1}$ is the identity matrix.
 From this consideration, 
 we learn that the conjugate transpose, $\hat{U}^{\dagger}$, is also equal to the inverse of $\hat{U}$.
+
+</div>
