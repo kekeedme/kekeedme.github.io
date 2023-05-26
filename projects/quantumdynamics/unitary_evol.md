@@ -15,7 +15,7 @@ $$
 \end{align}
 $$
 
-where, $\langle v_1| = |v_1\rangle^\*$, with $|v_1\rangle^*$ being the conjugate transpose of the vector $|v_1\rangle$.
+where, $\langle v_1| = |v_1\rangle^\*$, with $|v_1\rangle^\*$ being the conjugate transpose of the vector $|v_1\rangle$.
 Let $\hat{U}$ be an operator that acts on the vectors of our vector space. 
 When we define basis vectors for our space, $\hat{U}$ is represented by a matrix.
 It acts on the vectors under matrix multiplication:
@@ -74,7 +74,8 @@ $$
 
 ### Properties of the Evolution Operator: 
 
-  #### Unitarity 
+#### Unitarity 
+
 It preserves the norm of the wavefunction, and thus:
 
 $$
