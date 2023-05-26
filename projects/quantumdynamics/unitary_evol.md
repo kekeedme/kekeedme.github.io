@@ -153,6 +153,6 @@ $$
 $$
 
 The expression obtained in equation 13 is the same we obtained for the time-dependent coefficients
-in the equation 1.12 [here](/twolevel).
+in the equation 1.12 [here](/twolevel.md).
 We can thus use it to obtain an expression for the state $|\Psi(r,t)\rangle$ at all times from the initial state $|\Psi_0(r,t_0)\rangle$
 
