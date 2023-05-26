@@ -125,11 +125,11 @@ In order to do so, we will insert equation 5 into the TDSE:
 $$
 \begin{align}
 \tag{9}
-i\hbar\frac{\partial|\Psi(r,t)\rangle}{\partial t}=H(r,t)|\Psi(r,t)\rangle \\
+i\hbar\frac{\partial|\Psi(r,t)\rangle}{\partial t}&=H(r,t)|\Psi(r,t)\rangle \\
 \tag{10}
-i\hbar\frac{\partial\hat{U}(t)}{\partial t}|\Psi(r,t=0)\rangle=H(r,t)\hat{U}(t)|\Psi(r,t=0)\rangle \\
+i\hbar\frac{\partial\hat{U}(t)}{\partial t}|\Psi(r,t=0)\rangle&=H(r,t)\hat{U}(t)|\Psi(r,t=0)\rangle \\
 \tag{11}
-i\hbar\frac{\partial\hat{U}(t)}{\partial t}=H(r,t)\hat{U}(t)
+i\hbar\frac{\partial\hat{U}(t)}{\partial t}&=H(r,t)\hat{U}(t)
 \end{align}
 $$
 
@@ -153,6 +153,6 @@ $$
 $$
 
 The expression obtained in equation 13 is the same we obtained for the time-dependent coefficients
-in the equation 1.12 [here](projects/quantumdynamics/twolevel).
+in the equation 1.12 [here](/twolevel).
 We can thus use it to obtain an expression for the state $|\Psi(r,t)\rangle$ at all times from the initial state $|\Psi_0(r,t_0)\rangle$
 
