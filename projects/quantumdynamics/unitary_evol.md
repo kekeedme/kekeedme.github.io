@@ -172,6 +172,13 @@ One way to end the oscillation is through the presence of an energy dissipation 
  Recall from equations 12 and 13 that $\hat{U}(t)$ depends on $H(r,t)$. The Hamiltonian, $H(r,t)$,
  is represented by a hermitian matrix, meaning that it is a square matrix equal to its own conjugate transpose $\left(\hat{H}=\hat{H}^{\dagger}\right)$.
  In fact, every unitary matrix can be written as complex exponential of a hermitian matrix, that is: $\hat{U}=\exp{iH}$, where $H$ is a hermitian matrix.
- If we make the Hamiltonian non-hermitian, then $\hat{U}(t)$ will lose its unitary property. Indeed, by introducing a dissipation factor $-i\gamma$,
+ If we make the Hamiltonian non-hermitian, then $\hat{U}(t)$ will lose its unitary property. Indeed, by introducing a dissipation factor $-i\Gamma$,
  in the expression for the Hamiltonian in our two-level system, we can phenomenologically simulate the end of the oscillations (the $i$ makes the Hamiltonian non-hermitian). In the python code, 
- I introduced this term, following the example of the authors, on the diagonal of the Hamiltonian matrix as $E_2-i\gamma$, to show that the system loses some energy (proportional to $\gamma$) every time it reaches state $|\phi_2\rangle$. 
+ I introduced this term, following the example of the authors, on the diagonal of the Hamiltonian matrix as $E_2-i\Gamma$, to show that the system loses some energy (proportional to $\Gamma$) every time it reaches state $|\phi_2\rangle$. The dissipation term, can of course be simulating energy loss from state $|\phi_1\rangle$ instead.
+ The below figure shows a representative example where the system start in state $|\phi_2\rangle$. I encourage you to play with the simulation, either using
+ [my python](https://github.com/kekeedme/qdwtd/blob/main/two_levelsystem_withending.py) code or in the original [mathematica notebook](https://pubs.acs.org/doi/10.1021/acs.jchemed.5b00662).
+ 
+ <figure>
+    <img src="/projects/quantumdynamics/images/dynamics_dissipation.png" alt="figure">
+    <figcaption>Figure 1. Oscillation of the probability of measuring the system in state 1 (blue) or 2 (orange) as a function of time  </figcaption>
+</figure>   
