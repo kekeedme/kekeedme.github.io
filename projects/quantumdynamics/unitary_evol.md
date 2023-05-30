@@ -165,15 +165,19 @@ We can thus use it to obtain an expression for the state $|\Psi(r,t)\rangle$ at 
 
 As we have seen in the [two-level](/twolevel.md) dynamics, 
 the probability of finding the system in stationary states $|\phi_1\rangle$ or $|\phi_2\rangle$ oscillates indefinitely with time. 
-One way to end the oscillation is through the presence of an energy dissipation mechanism. Imagine every time the system transitions to
+One way to end the oscillation is through the presence of an energy dissipation mechanism.  
+
+Imagine every time the system transitions to
  state $|\phi_2\rangle$ it loses energy. We can simulate this by making the evolution operator non-unitary. As a result, the norm of the total 
  wavefunction will not be preserved. We can make it so the norm decreases with time, which would phenomenologically (without specifying the exact physical cause of the energy dissipation) simulate a decay in the dynamics of the two-level system, ending the oscillation. This method is what the orginal authors, 
- professors [Beratan](https://beratanlab.chem.duke.edu/) and [Polizzi](https://www.polizzilab.org/) showed in the [mathematica](https://pubs.acs.org/doi/10.1021/acs.jchemed.5b00662) notebook.  
+ professors [Beratan](https://beratanlab.chem.duke.edu/) and [Polizzi](https://www.polizzilab.org/) showed in the [mathematica](https://pubs.acs.org/doi/10.1021/acs.jchemed.5b00662) notebook.    
  Recall from equations 12 and 13 that $\hat{U}(t)$ depends on $H(r,t)$. The Hamiltonian, $H(r,t)$,
  is represented by a hermitian matrix, meaning that it is a square matrix equal to its own conjugate transpose $\left(\hat{H}=\hat{H}^{\dagger}\right)$.
  In fact, every unitary matrix can be written as complex exponential of a hermitian matrix, that is: $\hat{U}=\exp{iH}$, where $H$ is a hermitian matrix.
  If we make the Hamiltonian non-hermitian, then $\hat{U}(t)$ will lose its unitary property. Indeed, by introducing a dissipation factor $-i\Gamma$,
- in the expression for the Hamiltonian in our two-level system, we can phenomenologically simulate the end of the oscillations (the $i$ makes the Hamiltonian non-hermitian). In the python code, 
+ in the expression for the Hamiltonian in our two-level system, we can phenomenologically simulate the end of the oscillations (the $i$ makes the Hamiltonian non-hermitian).  
+ 
+ In the python code, 
  I introduced this term, following the example of the authors, on the diagonal of the Hamiltonian matrix as $E_2-i\Gamma$, to show that the system loses some energy (proportional to $\Gamma$) every time it reaches state $|\phi_2\rangle$. The dissipation term, can of course be simulating energy loss from state $|\phi_1\rangle$ instead.
  The below figure shows a representative example where the system start in state $|\phi_2\rangle$. I encourage you to play with the simulation, either using
  [my python](https://github.com/kekeedme/qdwtd/blob/main/two_levelsystem_withending.py) code or in the original [mathematica notebook](https://pubs.acs.org/doi/10.1021/acs.jchemed.5b00662).
