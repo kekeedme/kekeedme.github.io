@@ -50,10 +50,10 @@ $$
 Equation 4 tell us that $\hat{U}^{\dagger}\hat{U}=\mathbf{1}$, where $\mathbf{1}$ is the identity matrix.
 From this consideration, 
 we learn that the conjugate transpose, $\hat{U}^{\dagger}=\hat{U}^{-1}$.
-Matrices defined on real vector spaces (where the vectors are defined over the field of real numbers) 
-with the same properties  are
+Matrices defined on real vector spaces (where the vectors are defined over the field of real numbers, hence the matrix entries are real numbers) 
+with the same properties as $$\hat{U}$ are
 called orthogonal matrices, and are denoted $\mathbf{O}$. I have made a more detailed posts on orthogonal matrices
-on the math section of [this document](/projects/quantumdynamics/Quantum_dynamics_two_levelsystem.pdf)
+on the math section of [this document].(/projects/quantumdynamics/Quantum_dynamics_two_levelsystem.pdf)
 
 ## Unitary Evolution
 
@@ -127,7 +127,7 @@ $$
 \tag{9}
 i\hbar\frac{\partial|\Psi(r,t)\rangle}{\partial t}&=H(r,t)|\Psi(r,t)\rangle \\
 \tag{10}
-i\hbar\frac{\partial\hat{U}(t)}{\partial t}|\Psi(r,t=0)\rangle&=H(r,t)\hat{U}(t)|\Psi(r,t=0)\rangle \\
+i\hbar\frac{\partial\hat{U}(t)}{\partial t}|\Psi(r,t_0)\rangle&=H(r,t)\hat{U}(t)|\Psi(r,t_0)\rangle \\
 \tag{11}
 i\hbar\frac{\partial\hat{U}(t)}{\partial t}&=H(r,t)\hat{U}(t)
 \end{align}
@@ -142,6 +142,7 @@ $$
 \end{align}
 $$
 
+We can look at the particular case where, the Hamiltonian is not dependent on time.
 If $H(r,t)$ is time independent, it can be taken out of the integral, and the integral evaluates to $t$.
 Hence for a time-independent Hamiltonian, the unitary evolution operator is:
 
@@ -152,7 +153,11 @@ $$
 \end{align}
 $$
 
-The expression obtained in equation 13 is the same we obtained for the time-dependent coefficients
-in the equation 1.12 [here](/twolevel.md).
-We can thus use it to obtain an expression for the state $|\Psi(r,t)\rangle$ at all times from the initial state $|\Psi_0(r,t_0)\rangle$
+The expression obtained in equation 13 is the same as the exponential factor we obtained in the expression for the time-dependent coefficients
+in the equation 1.12 [here](/twolevel.md). As a result, in our [two level](/twolevel.md) system, 
+the evolution operator was evolving our total wavefunction in time, by acting on the time-dependent coefficients. 
+This observation is consistent with the system we studied. Recall that we were simulating the dynamics between two stationary states. That is, 
+states $|\phi_1\rangle$ and $|\phi_2\rangle$ were not changing with time. What was time-dependent, was their relative weight (i.e their coefficients)
+to the total wavefunction of the system. As such, the evolution operator dictated how the occupation of the states $|\phi_1\rangle$ and $|\phi_2\rangle$ changed with time.
+We can thus use it to obtain an expression for the state $|\Psi(r,t)\rangle$ at all times from the initial state $|\Psi_0(r,t_0)\rangle$.
 
