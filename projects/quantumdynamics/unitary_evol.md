@@ -53,7 +53,7 @@ we learn that the conjugate transpose, $\hat{U}^{\dagger}=\hat{U}^{-1}$.
 Matrices defined on real vector spaces (where the vectors are defined over the field of real numbers, hence the matrix entries are real numbers) 
 with the same properties as $$\hat{U}$ are
 called orthogonal matrices, and are denoted $\mathbf{O}$. I have made a more detailed posts on orthogonal matrices
-on the math section of [this document].(/projects/quantumdynamics/Quantum_dynamics_two_levelsystem.pdf)
+on the math section of [this document](/projects/quantumdynamics/Quantum_dynamics_two_levelsystem.pdf).
 
 ## Unitary Evolution
 
@@ -154,10 +154,24 @@ $$
 $$
 
 The expression obtained in equation 13 is the same as the exponential factor we obtained in the expression for the time-dependent coefficients
-in the equation 1.12 [here](/twolevel.md). As a result, in our [two level](/twolevel.md) system, 
+in the equation 1.12 [here](/twolevel.md). As a result, in our [two-level](/twolevel.md) system, 
 the evolution operator was evolving our total wavefunction in time, by acting on the time-dependent coefficients. 
 This observation is consistent with the system we studied. Recall that we were simulating the dynamics between two stationary states. That is, 
 states $|\phi_1\rangle$ and $|\phi_2\rangle$ were not changing with time. What was time-dependent, was their relative weight (i.e their coefficients)
 to the total wavefunction of the system. As such, the evolution operator dictated how the occupation of the states $|\phi_1\rangle$ and $|\phi_2\rangle$ changed with time.
 We can thus use it to obtain an expression for the state $|\Psi(r,t)\rangle$ at all times from the initial state $|\Psi_0(r,t_0)\rangle$.
 
+## The Link Between The Unitary Evolution and Ending the Oscillatory Dynamics
+
+As we have seen in the [two-level](/twolevel.md) dynamics, 
+the probability of finding the system in stationary states $|\phi_1\rangle$ or $|\phi_2\rangle$ oscillates indefinitely with time. 
+One way to end the oscillation is through the presence of an energy dissipation mechanism. Imagine every time the system transitions to
+ state $|\phi_2\rangle$ it loses energy. We can simulate this by making the evolution operator non-unitary. As a result, the norm of the total 
+ wavefunction will not be preserved. We can make it so the norm decreases with time, which would phenomenologically (without specifying the exact physical cause of the energy dissipation) simulate a decay in the dynamics of the two-level system, ending the oscillation. This method is what the orginal authors, 
+ professors [Beratan](https://beratanlab.chem.duke.edu/) and [Polizzi](https://www.polizzilab.org/) showed in the [mathematica](https://pubs.acs.org/doi/10.1021/acs.jchemed.5b00662) notebook.  
+ Recall from equations 12 and 13 that $\hat{U}(t)$ depends on $H(r,t)$. The Hamiltonian, $H(r,t)$,
+ is represented by a hermitian matrix, meaning that it is a square matrix equal to its own conjugate transpose $\left(\hat{H}=\hat{H}^{\dagger}\right)$.
+ In fact, every unitary matrix can be written as complex exponential of a hermitian matrix, that is: $\hat{U}=\exp{iH}$, where $H$ is a hermitian matrix.
+ If we make the Hamiltonian non-hermitian, then $\hat{U}(t)$ will lose its unitary property. Indeed, by introducing a dissipation factor $-i\gamma$,
+ in the expression for the Hamiltonian in our two-level system, we can phenomenologically simulate the end of the oscillations (the $i$ makes the Hamiltonian non-hermitian). In the python code, 
+ I introduced this term, following the example of the authors, on the diagonal of the Hamiltonian matrix as $E_2-i\gamma$, to show that the system loses some energy (proportional to $\gamma$) every time it reaches state $|\phi_2\rangle$. 
