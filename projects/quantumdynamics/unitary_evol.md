@@ -2,7 +2,7 @@
 
 I want to start with a brief discussion on unitary operation and evolution. I will then make the connection with the discussion of
 the two-level system dynamics 
-that we have been seen. In particular, how one can phenomenologically simulate the decay of the dynamics by modifying the evolution operator, thereby putting an end to the oscillatory 
+that we have seen. In particular, how one can phenomenologically simulate the decay of the dynamics by modifying the evolution operator, thereby putting an end to the oscillatory 
 behavior of the system.
 
 ## Unitary Transformation
