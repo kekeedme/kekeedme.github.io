@@ -220,6 +220,13 @@ When we make these plots, we see that the probability oscillates with time forev
     <figcaption>Figure 1. Oscillation of the probability of measuring the system in state 1 (blue) or 2 (orange) as a function of time  </figcaption>
 </figure>      
 
+### Here is an animation of it
+
+<figure>
+    <img src="/projects/quantumdynamics/images/twolevelanim.gif" alt="figure">
+    <figcaption>Figure 1. Oscillation of the probability of measuring the system in state 1 (blue) or 2 (orange) as a function of time  </figcaption>
+</figure> 
+
 ### Some concluding remarks  
 Feel free to navigate to the link provided above if you want to 
 go through the python code, and copy or reproduce it to run
