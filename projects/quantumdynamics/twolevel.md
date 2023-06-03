@@ -222,7 +222,8 @@ When we make these plots, we see that the probability oscillates with time forev
 
 #### [Here is an animation of it](https://github.com/kekeedme/kekeedme.github.io/assets/32274439/0f82f892-35d9-4c88-9874-cbceb83a5e23)
 
-where the system starts at state $|\phi_1\rangle$ : $c_1=1$ and $c_2 =0$ at $t=0$. The coupling strenght $V=1$ and the energy difference is zero.
+where the system starts at state $|\phi_1\rangle$ 
+: $c_1=1$ and $c_2 =0$ at $t=0$. The coupling strenght $V=1$ and the energy difference is zero.
 
 
 
