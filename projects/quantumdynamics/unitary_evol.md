@@ -147,6 +147,7 @@ $$
 \end{align}
 $$
 
+The expression obtained in equation 12 is not always valid. I invite you to read my friend Dr. Joshua Going's post on the [Magnus expansion](https://joshuagoings.com/2017/06/15/magnus/) to read about the general treatment of such differential equations involving matrices.
 We can look at the particular case where, the Hamiltonian is not dependent on time.
 If $\hat{H}(r,t)$ is time independent, it can be taken out of the integral, and the integral evaluates to $t$.
 Hence for a time-independent Hamiltonian, the unitary evolution operator is:
