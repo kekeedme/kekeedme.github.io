@@ -220,12 +220,13 @@ When we make these plots, we see that the probability oscillates with time forev
     <figcaption>Figure 1. Oscillation of the probability of measuring the system in state 1 (blue) or 2 (orange) as a function of time  </figcaption>
 </figure>      
 
-### Here is an animation of it
+#### [Here is an animation of it](https://github.com/kekeedme/kekeedme.github.io/assets/32274439/0f82f892-35d9-4c88-9874-cbceb83a5e23)
+where the system starts at state $|\phi_1\rangle$,
+with $c_1=1$ and $c_2 =0$ at $t=0$. The coupling strenght $V=1$ and the energy difference is zero.
 
-<figure>
-    <img src="/projects/quantumdynamics/images/twolevelanim.gif" alt="figure">
-    <figcaption>Figure 1. Oscillation of the probability of measuring the system in state 1 (blue) or 2 (orange) as a function of time  </figcaption>
-</figure> 
+
+
+
 
 ### Some concluding remarks  
 Feel free to navigate to the link provided above if you want to 
@@ -233,10 +234,15 @@ go through the python code, and copy or reproduce it to run
 on your computer.  
 Diagonalizing the hamiltonian which couples the two states
 is of great importance as it teaches us plenty about the physics
-of the system. I have done so in Part 2 [here](/projects/quantumdynamics/Quantum_dynamics_two_levelsystem.pdf)
+of the system. For instance, we have seen that the off-diagonal terms is what drives the dynamics, as it is the coupling term 
+by which the two states interact. However, it also controls the frequency of the oscillation between states. 
+This fact is apparent in the simulation, but it is not so clear with the expressions we have derived thus far. It becomes
+really clear when we perform the diagonalization of the Hamiltionian and obtain the eigenfunctions as functions of time and coupling strenght. 
+I have done so in Part 2 [here](/projects/quantumdynamics/Quantum_dynamics_two_levelsystem.pdf).
 If you are interested in seeing the steps, do check out that document. 
 In addition, I have added some notes about the unitary evolution 
-operator in the document. I have also added some mathematical background (dirac notation, rotation operations) as 
+operator in the document, but which can also be found on [this post](https://kekeedme.github.io/projects/quantumdynamics/unitary_evol). 
+I have also added some mathematical background in the document (dirac notation, rotation operations) as 
 refresher should you be interested. The mathematical background part is not yet complete. 
 Lastly, I also have some discussion (and references) about the application of such concept in 
 chemistry.
