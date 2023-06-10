@@ -11,7 +11,7 @@ between two states of the system
 This consideration means that for our problem,
 we need two basis states, 
 which will span the entire 2-dimensional complex space in which our system "exists". 
-Hence the wavefunction describing our system will 
+Hence, the wavefunction describing our system will 
 be a linear combination of these 
 two basis states.
 #### We begin by describing our basis states:
