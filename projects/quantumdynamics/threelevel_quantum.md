@@ -40,3 +40,9 @@ the electron is localized on the acceptor, and is $|\phi_3\rangle$ in our model.
 $|\phi_2\rangle$.
 
 ## The Dynamics
+
+Let us consider the case where the system starts entirely at state $\phi_1$, that is $c_1=1$ and $c_2=c_3=0$ at $t=0$.
+As stated in the introduction (equations 1.4-1.6), the states that are coupled are $\phi_1$ and $\phi_2$ , and  $\phi_2$ and $\phi_3$.
+Suppose we start with a minimum coupling valuae of $V=1$. At te beginning of the dynamics, population progressively transfers from state 
+$\phi_1$ to state $\phi_2$. The dynamics from the perspective of state $\phi_2$ are interesting because as this state gets populated, it transfers
+population back to states $\phi_1$ and to $\phi_3$, with the same coupling strength and the same energy difference
