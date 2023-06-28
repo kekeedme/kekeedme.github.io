@@ -72,3 +72,65 @@ $\phi_2$ and $\phi_1$ and between $\phi_2$ and $\phi_3$, the population will be 
 </figcaption>
 </figure>
 
+## Mathematics Needed for The Script and the Plots
+
+The mathematics we need to understand and model the system are not very different than what we have seen for the two-level case. Our total wavefunction
+exists in a space that is entirely spanned by the three-basis states (when all other degrees of freedom are ignored). This consideration implies that we are working with a 3-D state space. As a result, our basis states need to be 3 dimensional. Since the operators will be represented in the chosen three-state
+basis, we will obtain $3\times 3$ matrices. We define the basis states:  
+
+$$
+\begin{align}
+\tag{1.7}
+\phi_1=\begin{pmatrix}1\\\ 0\\\0\end{pmatrix} \quad and \quad 
+\phi_2=\begin{pmatrix}0\\\ 1\\\0\end{pmatrix} \quad and \quad 
+\phi_3=\begin{pmatrix}0\\\ 0\\\1\end{pmatrix}
+\end{align}
+$$
+
+Constructing $\Psi_0(r,t_0)$ as a linear combination of the basis states:
+
+$$
+\begin{align}
+\tag{1.8}
+\Psi_0(r,t_0)=\frac{1}{\sqrt{c_1^2+c_2^2+c_3^2}}\begin{pmatrix}c_1\\\ c_2\\\c_3\end{pmatrix}
+\end{align}
+$$
+
+where $\frac{1}{\sqrt{c_1^2+c_2^2+c_3^2}}$ is a normalizing constant.  
+Constructing $\Psi(r,t)$ from $\Psi_0(r,t_0)$, and the Hamiltonian, we get:
+
+$$
+\begin{align}
+\tag{1.9}
+\Psi(r,t)=\exp\left(\frac{-i}{\hbar}Ht\right)\Psi_0(r,t_0)
+\end{align}
+$$
+
+with the non-interacting Hamiltonian defined as: 
+
+$$
+\begin{align}
+\tag{1.10}
+H_0&=E|\phi_1\rangle \langle\phi_1|+E_2 |\phi_2\rangle \langle\phi_2|+E |\phi_3\rangle \langle\phi_3| \\
+H_0&=\begin{pmatrix}E_1 & 0 & 0 \\\ 0 & E_2 & 0 \\\0 & 0 & E \end{pmatrix}
+\end{align}
+$$
+
+In order to construct the interacting Hamiltonian, we add the coupling term $V$ using the equations 1.4-1.6, such that the interacting matrix is:
+
+$$
+\begin{align}
+\tag{1.10}
+H_I&=V_{12}|\phi_1\rangle \langle\phi_2|+V_{21} |\phi_2\rangle \langle\phi_1|+V_{23} |\phi_2\rangle \langle\phi_3|+V_{31} |\phi_3\rangle \langle\phi_2| \\
+H_I&=\begin{pmatrix}0 & V_{12} & 0 \\\ V_{21} & 0 & V_{23} \\\0 & V_{31} & 0 \end{pmatrix}
+\end{align}
+$$
+
+The total Hamiltonian is defined as $H=H_0+H_I$. We can also write a "difference" Hamiltonian, $H_{diff}$ , where we subtract $E \cdot \mathbf{1}$ from the total Hamiltonian, where $\mathbf{1}$ is the $3\times 3$ identity matrix. As such, $H_{diff}$ ,can be written as:
+
+$$
+\begin{align}
+\tag{1.11}
+H_{diff}&=\begin{pmatrix}0 & V_{12} & 0 \\\ V_{21} & \Delta & V_{23} \\\0 & V_{31} & 0 \end{pmatrix}
+\end{align}
+$$
