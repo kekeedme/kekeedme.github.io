@@ -53,4 +53,4 @@ $\phi_2$ and $\phi_3$, we also observe the "beating" oscillations on the populat
 Increasing the value of the coupling increases the number of oscillations in a given time interval.  
 
 It is informative to compare this system with the two-level system we have addressed previously. The dynamics of the three-level system approaches that of the 
-two-level system when $\frac{V}{\Delta}<<1$. However, in the two-level case, we do not observe "beating" on the population curve of any of the states because of the abscence of a third state 
+two-level system when $\frac{V}{\Delta}<<1$. However, in the two-level case, we do not observe "beating" on the population curve of any of the states because of the abscence of coupling to a third state. Hence the transition between the two states happens "smoothly".
