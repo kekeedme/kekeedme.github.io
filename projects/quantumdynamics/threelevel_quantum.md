@@ -134,3 +134,15 @@ $$
 H_{diff}&=\begin{pmatrix}0 & V_{12} & 0 \\\ V_{21} & \Delta & V_{23} \\\0 & V_{31} & 0 \end{pmatrix}
 \end{align}
 $$
+
+In order to evaluate the population of each state as a function of time, we determine the magnitude squared of each time-dependent coefficient, in the same minor
+as we have done for the two-level system:
+
+$$
+\begin{align}
+\tag{1.12}
+|c|^2&=\langle \phi|\Psi(r,t)\rangle \langle \Psi(r,t) | \phi\rangle
+\end{align}
+$$
+
+One final remark is that it is convenient to use $H_{diff}$ in constructing the total wavefunction (equation 1.9) because this allows us to directly manipulate the energy difference as a parameter in our simulations.
