@@ -121,7 +121,7 @@ In order to construct the interaction Hamiltonian, we add the coupling term $V$ 
 $$
 \begin{align}
 \tag{1.11}
-H_I&=|\phi_1\rangle V_{12} \langle\phi_2|+ |\phi_2\rangle V_{21} \langle\phi_1|+ |\phi_2\rangle V_{23} \langle\phi_3|+V_{31} |\phi_3\rangle \langle\phi_2| \\
+H_I&=|\phi_1\rangle V_{12} \langle\phi_2|+ |\phi_2\rangle V_{21} \langle\phi_1|+ |\phi_2\rangle V_{23} \langle\phi_3|+ |\phi_3\rangle V_{32} \langle\phi_2| \\
 H_I&=\begin{pmatrix}0 & V_{12} & 0 \\\ V_{21} & 0 & V_{23} \\0 & V_{32} & 0 \end{pmatrix}
 \end{align}
 $$
