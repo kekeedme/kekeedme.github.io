@@ -131,7 +131,7 @@ The total Hamiltonian is defined as $H=H_0+H_I$. We can also write a "difference
 $$
 \begin{align}
 \tag{1.11}
-H_{diff}&=\begin{pmatrix}0 & V_{12} & 0 \\\ V_{21} & \Delta & V_{23} \\\0 & V_{31} & 0 \end{pmatrix}
+H_{diff}&=\begin{pmatrix}0 & V_{12} & 0 \\\ V_{21} & \Delta & V_{23} \\\ 0 & V_{31} & 0 \end{pmatrix}
 \end{align}
 $$
 
