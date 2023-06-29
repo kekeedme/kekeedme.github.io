@@ -122,7 +122,7 @@ $$
 \begin{align}
 \tag{1.10}
 H_I&=V_{12}|\phi_1\rangle \langle\phi_2|+V_{21} |\phi_2\rangle \langle\phi_1|+V_{23} |\phi_2\rangle \langle\phi_3|+V_{31} |\phi_3\rangle \langle\phi_2| \\
-H_I&=\begin{pmatrix}0 & V_{12} & 0 \\\ V_{21} & 0 & V_{23} \\\0 & V_{31} & 0 \end{pmatrix}
+H_I&=\begin{pmatrix}0 & V_{12} & 0 \\\ V_{21} & 0 & V_{23} \\0 & V_{32} & 0 \end{pmatrix}
 \end{align}
 $$
 
