@@ -120,8 +120,8 @@ In order to construct the interaction Hamiltonian, we add the coupling term $V$ 
 
 $$
 \begin{align}
-\tag{1.10}
-H_I&=V_{12}|\phi_1\rangle \langle\phi_2|+V_{21} |\phi_2\rangle \langle\phi_1|+V_{23} |\phi_2\rangle \langle\phi_3|+V_{31} |\phi_3\rangle \langle\phi_2| \\
+\tag{1.11}
+H_I&=|\phi_1\rangle V_{12} \langle\phi_2|+ |\phi_2\rangle V_{21} \langle\phi_1|+ |\phi_2\rangle V_{23} \langle\phi_3|+V_{31} |\phi_3\rangle \langle\phi_2| \\
 H_I&=\begin{pmatrix}0 & V_{12} & 0 \\\ V_{21} & 0 & V_{23} \\0 & V_{32} & 0 \end{pmatrix}
 \end{align}
 $$
@@ -130,7 +130,7 @@ The total Hamiltonian is defined as $H=H_0+H_I$. We can also write a "difference
 
 $$
 \begin{align}
-\tag{1.11}
+\tag{1.12}
 H_{diff}&=\begin{pmatrix}0 & V_{12} & 0 \\\ V_{21} & \Delta & V_{23} \\\ 0 & V_{31} & 0 \end{pmatrix}
 \end{align}
 $$
@@ -140,7 +140,7 @@ as we have done for the two-level system:
 
 $$
 \begin{align}
-\tag{1.12}
+\tag{1.13}
 |c|^2&=\langle \phi|\Psi(r,t)\rangle \langle \Psi(r,t) | \phi\rangle
 \end{align}
 $$
