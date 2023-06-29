@@ -81,9 +81,9 @@ basis, we will obtain $3\times 3$ matrices. We define the basis states:
 $$
 \begin{align}
 \tag{1.7}
-\phi_1=\begin{pmatrix}1\\\ 0\\\0\end{pmatrix} \quad and \quad 
-\phi_2=\begin{pmatrix}0\\\ 1\\\0\end{pmatrix} \quad and \quad 
-\phi_3=\begin{pmatrix}0\\\ 0\\\1\end{pmatrix}
+\phi_1=\begin{pmatrix}1\\\ 0\\\ 0\end{pmatrix} \quad and \quad 
+\phi_2=\begin{pmatrix}0\\\ 1\\\ 0\end{pmatrix} \quad and \quad 
+\phi_3=\begin{pmatrix}0\\\ 0\\\ 1\end{pmatrix}
 \end{align}
 $$
 
