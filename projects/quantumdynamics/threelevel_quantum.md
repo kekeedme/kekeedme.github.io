@@ -116,7 +116,7 @@ H_0&=\begin{pmatrix}E_1 & 0 & 0 \\\ 0 & E_2 & 0 \\0 & 0 & E \end{pmatrix}
 \end{align}
 $$
 
-In order to construct the interacting Hamiltonian, we add the coupling term $V$ using the equations 1.4-1.6, such that the interacting matrix is:
+In order to construct the interaction Hamiltonian, we add the coupling term $V$ using the equations 1.4-1.6, such that the interacting matrix is:
 
 $$
 \begin{align}
