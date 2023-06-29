@@ -92,7 +92,7 @@ Constructing $\Psi_0(r,t_0)$ as a linear combination of the basis states:
 $$
 \begin{align}
 \tag{1.8}
-\Psi_0(r,t_0)=\frac{1}{\sqrt{c_1^2+c_2^2+c_3^2}}\begin{pmatrix}c_1\\\ c_2\\\c_3\end{pmatrix}
+\Psi_0(r,t_0)=\frac{1}{\sqrt{c_1^2+c_2^2+c_3^2}}\begin{pmatrix}c_1\\\ c_2\\c_3\end{pmatrix}
 \end{align}
 $$
 
@@ -112,7 +112,7 @@ $$
 \begin{align}
 \tag{1.10}
 H_0&=E|\phi_1\rangle \langle\phi_1|+E_2 |\phi_2\rangle \langle\phi_2|+E |\phi_3\rangle \langle\phi_3| \\
-H_0&=\begin{pmatrix}E_1 & 0 & 0 \\\ 0 & E_2 & 0 \\\0 & 0 & E \end{pmatrix}
+H_0&=\begin{pmatrix}E_1 & 0 & 0 \\\ 0 & E_2 & 0 \\0 & 0 & E \end{pmatrix}
 \end{align}
 $$
 
