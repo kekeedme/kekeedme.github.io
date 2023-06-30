@@ -135,7 +135,7 @@ H_{diff}&=\begin{pmatrix}0 & V_{12} & 0 \\\ V_{21} & \Delta & V_{23} \\\ 0 & V_{
 \end{align}
 $$
 
-In order to evaluate the population of each state as a function of time, we determine the magnitude squared of each time-dependent coefficient, in the same minor
+In order to evaluate the population of each state as a function of time, we determine the magnitude squared of each time-dependent coefficient, in the same manner
 as we have done for the two-level system:
 
 $$
