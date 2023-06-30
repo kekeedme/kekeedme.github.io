@@ -37,7 +37,7 @@ $$
 The authors of the original paper point out that a system such as the one we described, is an apt model for a three-level system with a donor-bridge-acceptor (D-B-A)
 molecular triad. In this case, the donor and acceptor are degenerate states. Specifically, the donor state corresponds to the triad being photoexcited, with the excitation
 localized on one of the molecules. This locally excited state corresponds to state $|\phi_1\rangle$ in our example. This state is degenerate with the charge-transfer state in which,
-the electron is localized on the acceptor, and is $|\phi_3\rangle$ in our model. Lastly, the state in which the electron is localized on the bridge corresponds to the higher energy state 
+the electron is localized on the acceptor, while the positive charge (the hole) is localized on the initially excited moiety; this is $|\phi_3\rangle$ in our model. Lastly, the state in which the electron is localized on the bridge, while the hole remains on the initially excited moiety corresponds to the higher energy state 
 $|\phi_2\rangle$.
 
 ## The Dynamics
@@ -92,7 +92,7 @@ Constructing $\Psi_0(r,t_0)$ as a linear combination of the basis states:
 $$
 \begin{align}
 \tag{1.8}
-\Psi_0(r,t_0)=\frac{1}{\sqrt{c_1^2+c_2^2+c_3^2}}\begin{pmatrix}c_1\\\ c_2\\c_3\end{pmatrix}
+\Psi_0(r,t_0)=\frac{1}{\sqrt{c_1^2+c_2^2+c_3^2}}\begin{pmatrix}c_1\\\ c_2\\\ c_3\end{pmatrix}
 \end{align}
 $$
 
@@ -112,7 +112,7 @@ $$
 \begin{align}
 \tag{1.10}
 H_0&=E|\phi_1\rangle \langle\phi_1|+E_2 |\phi_2\rangle \langle\phi_2|+E |\phi_3\rangle \langle\phi_3| \\
-H_0&=\begin{pmatrix}E_1 & 0 & 0 \\\ 0 & E_2 & 0 \\0 & 0 & E \end{pmatrix}
+H_0&=\begin{pmatrix}E & 0 & 0 \\\ 0 & E_2 & 0 \\\ 0 & 0 & E \end{pmatrix}
 \end{align}
 $$
 
@@ -122,7 +122,7 @@ $$
 \begin{align}
 \tag{1.11}
 H_I&=|\phi_1\rangle V_{12} \langle\phi_2|+ |\phi_2\rangle V_{21} \langle\phi_1|+ |\phi_2\rangle V_{23} \langle\phi_3|+ |\phi_3\rangle V_{32} \langle\phi_2| \\
-H_I&=\begin{pmatrix}0 & V_{12} & 0 \\\ V_{21} & 0 & V_{23} \\0 & V_{32} & 0 \end{pmatrix}
+H_I&=\begin{pmatrix}0 & V_{12} & 0 \\\ V_{21} & 0 & V_{23} \\\ 0 & V_{32} & 0 \end{pmatrix}
 \end{align}
 $$
 
