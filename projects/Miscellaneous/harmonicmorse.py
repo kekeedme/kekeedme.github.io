@@ -27,12 +27,12 @@ if __name__ =="__main__":
     # defining the values
     x_0=0
     xvals=np.linspace(-5,9,500)
-    D_e=2
+    D_e=3.5
     b=.9
-    k=5.4
+    k=5
     harmonicpotential=harmonicosc(k,x_0,xvals)
     morsepotential=morse(D_e,x_0,b,xvals)
-    asymptopt=[2 for _ in xvals] #to show the dissociation treshold
+    asymptopt=[3.5 for _ in xvals] #to show the dissociation treshold
 
     # creating figure object and subplot to add to the figure
     fig = plt.figure(figsize=(8, 8))
@@ -40,7 +40,7 @@ if __name__ =="__main__":
     ax.plot(xvals,harmonicpotential,"r",label="Harmonic potential")
     ax.plot(xvals,morsepotential,"b",label="Morse potential")
     ax.plot(xvals,asymptopt,"g-")
-    ax.set(xlim=[-1,7.5],ylim=[0,2.2])
+    ax.set(xlim=[-1.3,7.5],ylim=[0,3.8])
     ax.set_xlabel("displacement")
     ax.set_ylabel("Potential energy")
     ax.legend()
