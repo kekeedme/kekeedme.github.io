@@ -92,7 +92,11 @@ In the following three posts, we will discuss the quantum mechanical harmonic os
 -[Quantum harmonic oscillator: algebraic method]()  
 -[Quantum harmonic oscillator: numerical method]()  
 
-### Further Reading 
--Griffits  
--Gatti  
--Nitzan  
+### Further Reading on
+#### Quantum harmonic oscillator 
+- Griffits, D.J., Introduction to Quantum Mechanics, Second Edition. Pearson; pp.52
+
+#### Spin-boson models 
+
+- [Mendive-Tapia et.al, Multidimensional Quantum Mechanical Modeling of Electron Transfer and Electronic Coherence in Plant Cryptochromes: The Role of Initial Bath Conditions](https://pubs.acs.org/doi/10.1021/acs.jpcb.7b10412)  
+- Nitzan, A., Chemical Dynamics in Condensed Phases. Oxford University Press: New York, 2006, ch. 12
