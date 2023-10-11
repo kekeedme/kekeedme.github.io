@@ -43,7 +43,7 @@ m\frac{d^2x}{dt^2}=-kx\\
 \end{align}
 $$
 
-notice that we have set $\frac{k}{m}=\omega^2$, where $\omega$ is the frequency of oscillation. Solving the ordinary second order differential equation leads to oscillatory solutions of position as a function of time of the type: $x(t) = A\cos{\left(\omega t\right)}$, for an initial displacement $A$ at $t=0$. I have outlined the steps to solving this differential equation [here](/Classical_HO.synctex.pdf) for the interested reader.  
+notice that we have set $\frac{k}{m}=\omega^2$, where $\omega$ is the frequency of oscillation. Solving the ordinary second order differential equation leads to oscillatory solutions of position as a function of time of the type: $x(t) = A\cos{\left(\omega t\right)}$, for an initial displacement $A$ at $t=0$. I have outlined the steps to solving this differential equation [here](Classical_HO.synctex.pdf) for the interested reader.  
 
 Solving equation 4 is important because it allows us to obtain a quantitative description of the motion of the oscillator as a function of time. In addition, there is no damping, in this example (no friction), taking away energy from the system. As a result it will oscillate forever. However, it is also very important to understand the relation between the shape of the potential, and the force acting on the system.  
 
