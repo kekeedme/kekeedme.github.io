@@ -65,7 +65,7 @@ We have shown that the harmonic oscillator model does not, in practice, appropri
 $$
 \begin{align}
 \tag{5}
-V(x)= V(x_0)+\frac{dV(x_0)}{dx}(x-x_0)+\frac{1}{2}\frac{d^2V(x_0)}{dx^2}(x-x_0)^2+\mathcal{O}(3)...
+V(x)= V(x_0)+\frac{dV(x_0)}{dx}(x-x_0)+\frac{1}{2}\frac{d^2V(x_0)}{dx^2}(x-x_0)^2+\mathbf{O}(3)...
 \end{align}
 $$
 
