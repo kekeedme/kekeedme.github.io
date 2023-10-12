@@ -1,4 +1,4 @@
-# Three Flavors of the Quantum Harmonic Oscillator
+# Three Flavors of the Quantum Harmonic Oscillator (Introduction)
 ## Discussion of the Classical System
 A harmonic oscillator is a physical system in which, the force required to restore the system to its equilibrium 
 position is proportional to the displacement from equilibrium. Classically, the harmonic oscillator model is usually applied
