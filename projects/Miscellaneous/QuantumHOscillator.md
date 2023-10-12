@@ -89,8 +89,8 @@ Furthermore, in chemistry the quantum mechanical version of the model is a usefu
 In the following three posts, we will discuss the quantum mechanical harmonic oscillator model. We will go about doing this following three different methods. The first two methods are distinct mathematical approaches to treat the problem. They are typically taught in introductory quantum mechanics courses. They of course lead to the same results, but it is very useful to understand the two methods. The third method will consists of obtaining the allowed energies and eigenstates of the system numerically.
 
 -[Quantum harmonic oscillator: series method](seriesQHO.md)  
--[Quantum harmonic oscillator: algebraic method]()  
--[Quantum harmonic oscillator: numerical method]()  
+-[Quantum harmonic oscillator: algebraic method](comingsoon.md)  
+-[Quantum harmonic oscillator: numerical method](comingsoon.md)  
 
 ### Further Reading on
 #### Quantum harmonic oscillator 
