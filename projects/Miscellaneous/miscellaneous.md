@@ -18,5 +18,5 @@ Home. So I kept doing that for the rest of the slides.
 
 - [Quantum probability density, probability current and momentum operator](/projects/Miscellaneous/slides/Prob_densisty_current_momentum.pdf)  
 - [Linear first order differential equations- Applied to chemical kinetics](/projects/Miscellaneous/slides/L1st_ODE.pdf)  
-- [Three Flavors of the Quantum Harmonic Oscillator](projects/Miscellaneous/QuantumHOscillator.md)
+- [Three Flavors of the Quantum Harmonic Oscillator](QuantumHOscillator.md)
 - [My notes on the magnetic moment](/projects/Miscellaneous/magneticmoment)
