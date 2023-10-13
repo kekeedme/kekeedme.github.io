@@ -223,3 +223,11 @@ $$
 $$
 
 where we have used our initial definition of $\xi=\sqrt{\frac{m\omega}{\hbar}}x$ to write the wavefunctions in terms of $x$.
+
+### Further Reading on
+#### Quantum harmonic oscillator 
+- Griffits, D.J., Introduction to Quantum Mechanics, Second Edition. Pearson; pp.52
+#### Mathematics
+- There is an absolutely wonderful mathematical ressource built by professor [Paul Dawkins](http://www.math.lamar.edu/faculty/dawkins/dawkins.aspx) of Lamar University.  
+- This ressource can be found [on this link](https://tutorial.math.lamar.edu/)
+- Professor Dawkins'notes on using the series solution to solving differential equation can be found [on this link](https://tutorial.math.lamar.edu/Classes/DE/SeriesSolutions.aspx)
