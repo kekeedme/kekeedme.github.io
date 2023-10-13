@@ -159,6 +159,7 @@ $$
 
 Let us take a moment to understand the recursion relation. It tells us that we will get two sets of coefficients. Indeed, we will get a set from even values of $n$, and another set for odd values of $n$. This fact tells us that our function $f(\xi)$ is actually a sum of even solutions $f_ {even}(\xi)=a_o+a_2\xi^2+...$ and odd $f_ {odd}(\xi)=a_1\xi+a_3\xi^3+...$ solutions. **These solutions are independent from each other**. Morever, we would have to determine $a_0$ to generate all following sets of even-labeled coefficients, and $a_1$ to generate all odd-labeled coefficients using the recursion relation in equation 4.9.  
 
+### Obtaining the Allowed Energies (Eigenvalues)
 Our power series solution still has to be normalizable. This constraint means that the series must terminate. Hence, we could ask at which value of $n$ will the series terminate. Specifically, what maximum value of $n$ can we reach, such that $a_{n+2}=0$. The answer is that it is the value of $n$ that will make the prefactor in the numerator of 4.9 equal to zero. Hence we can solve:
 
 $$
