@@ -1,4 +1,4 @@
-# Series Method to the Quantum Mechanical Harmonic Oscillator
+# Series Method for the Quantum Mechanical Harmonic Oscillator
 In this section, we will use the series method to solve a second order differential equation of the type:
 
 $$
