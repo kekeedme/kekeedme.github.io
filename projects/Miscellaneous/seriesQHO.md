@@ -17,7 +17,8 @@ y = \sum_n^{\infty} a_n \left(x-x_0\right)^n
 \end{align}
 $$
 
-Our task is then to find the coefficients $a_n$ to completely describe $y$.  
+Our task is then to find the coefficients $a_n$ to completely describe $y$.
+###### _Please take a look at the great math ressource I link to below, if you would like to further work on and understand the series method to diff.eq_
 
 In the following, we will present the 1-dimensional time-independent Schrödinger equation (TISE) for a harmonic oscillator. We will see that we can obtain an equation in the form of equation 1 and proceed to solve it using the series method.
 
