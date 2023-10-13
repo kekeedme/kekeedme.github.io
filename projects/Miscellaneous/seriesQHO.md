@@ -182,6 +182,8 @@ $$
 Equation 5.1 is one of the most import results as it provides the allowed energies (eigenvalues) for the system. Hence we are halfway through what we set out to do.  
 Now we will determine the eigenstates, the wavefunction that describe the state of the oscillator for each of the energies given by equation 5.1
 
+### Obtaining the Wavefunctions (Eigenstates)
+
 In order to determine the eigenstates, we have to remember that the overall solutions are divided into an even and an odd set. Secondly, we have to use the allowed values for $\epsilon$ together with the recursion relation to obtain the appropriate coefficients. Let us look at a few examples.  
 
 Firstly, let us rearrange the recursion relation with the expression for $\epsilon$ found above (eq. 5):
