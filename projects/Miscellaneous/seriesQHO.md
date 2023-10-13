@@ -139,7 +139,7 @@ $$
 
 Notice that upon taking the first derivative, the series would start at $n=1$, but it is legal to start at $n=0$ since the first term would be zero, so it does not change the value of the series if we include it. Similary, for the second derivative, we would typically start at $n=2$, but the series evaluates to zero for $n=0$ and $n=1$, so it is acceptable to include these two first terms, as they too do not change the value of the series. It is important for the series that we obtain, as we attempt to solve differential equations, to start at the same index. This reason is why we choose to start all three series at $n=0$.    
 
-The second consideration with this approach is that we need all the series to be in terms of $\xi^n$. Notice how for the first derivative term, we do not need to make any adjustements because of the factor $d\xi$ in front. We only need to adjust the second derivative term. We thus shift the second series up by two untis, thereby turning: $n-1$ into $n+1$, and $n$ into $n+2$ and $a_n$ into $a_{n+2}$. Substituting the appropriate series into our equation 4.7, and factoring out $\xi$, we obtain:  
+The second consideration with this approach is that we need all the series to be in terms of $\xi^n$. Notice how for the first derivative term, we do not need to make any adjustements because of the factor $\xi$ in front. We only need to adjust the second derivative term. We thus shift the second series up by two units, thereby turning: $n-1$ into $n+1$, and $n$ into $n+2$ and $a_n$ into $a_{n+2}$. Substituting the appropriate series into our equation 4.7, and factoring out $\xi$, we obtain:  
 
 $$
 \begin{align}
