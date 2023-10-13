@@ -94,7 +94,7 @@ $$
 \end{align}
 $$
 
-Recall that any function $f(x)=e^{\pm x^2}$ as its first derivative equal to $\frac{df}{dx}=\pm 2x\cdot e^{\pm x^2}$ 
+- Recall that any function $f(x)=e^{\pm x^2}$ as its first derivative equal to $\frac{df}{dx}=\pm 2x\cdot e^{\pm x^2}$ 
 and second derivative equal to $\frac{d^2f}{dx^2}=+4x^2\cdot e^{\pm x^2}$. We observe then that suitable guesses for the solution of equation 4.4 are $\phi_1=e^{\frac{\xi^2}{2}}$ and $\phi_2=e^{-\frac{\xi^2}{2}}$. As a result, a linear combination of these two functions is also a solution.  
 The general solution is then:  
 
@@ -157,7 +157,7 @@ a_{n+2}=\frac{\left(2n+1-\epsilon\right)a_n}{\left(n+1\right)\left(n+2\right)}
 \end{align}
 $$
 
-Let us take a moment to understand the recursion relation. It tells us that we will get two sets of coefficients. Indeed, we will get a set from even values of $n$, and another set for odd values of $n$. This fact tells us that our function $f(\xi)$ is actually a sum of even solutions $f_ {even}(\xi)=a_o+a_2\xi^2+...$ and odd $f_ {odd}(\xi)=a_1\xi+a_3\xi^3+...$ solutions. Morever, we would have to determine $a_0$ to generate all following sets of even-labeled coefficients, and $a_1$ to generate all odd-labeled coefficients using the recursion relation in equation 4.9.  
+Let us take a moment to understand the recursion relation. It tells us that we will get two sets of coefficients. Indeed, we will get a set from even values of $n$, and another set for odd values of $n$. This fact tells us that our function $f(\xi)$ is actually a sum of even solutions $f_ {even}(\xi)=a_o+a_2\xi^2+...$ and odd $f_ {odd}(\xi)=a_1\xi+a_3\xi^3+...$ solutions. **These solutions are independent from each other**. Morever, we would have to determine $a_0$ to generate all following sets of even-labeled coefficients, and $a_1$ to generate all odd-labeled coefficients using the recursion relation in equation 4.9.  
 
 Our power series solution still has to be normalizable. This constraint means that the series must terminate. Hence, we could ask at which value of $n$ will the series terminate. Specifically, what maximum value of $n$ can we reach, such that $a_{n+2}=0$. The answer is that it is the value of $n$ that will make the prefactor in the numerator of 4.9 equal to zero. Hence we can solve:
 
@@ -174,6 +174,49 @@ Expression 5 gives us the allowed values of $\epsilon$ and consequently give us 
 $$
 \begin{align}
 \tag{5.1}
-E_n=\hbar\omega\left(n+\frac{1}{2}\right)
+E_n=\hbar\omega\left(n+\frac{1}{2}\right) ~\text{for $n=0,1,2$,...}
 \end{align}
 $$
+
+Equation 5.1 is one of the most import results as it provides the allowed energies (eigenvalues) for the system. Hence we are halfway through what we set out to do.  
+Now we will determine the eigenstates, the wavefunction that describe the state of the oscillator for each of the energies given by equation 5.1
+
+In order to determine the eigenstates, we have to remember that the overall solutions are divided into an even and an odd set. Secondly, we have to use the allowed values for $\epsilon$ together with the recursion relation to obtain the appropriate coefficients. Let us look at a few examples.  
+
+Firstly, let us rearrange the recursion relation with the expression for $\epsilon$ found above (eq. 5):
+
+$$
+\begin{align}
+\tag{5.2}
+a_{n+2}=\frac{-2\left(n_{allowed}-n\right)a_n}{\left(n+1\right)\left(n+2\right)}
+\end{align}
+$$
+
+- Now, let us say that the highest allowed value of $n_{allowed}=0$, then from equation 5.2, we see that the series will only have the coefficient $a_0$, and we choose $a_1=0$ to eliminate the odd part from this set, such that we only get the even solution. Hence our solution for $n=0$, is $\psi_0(\xi)=a_oe^{\frac{-xi^2}{2}}$. Our additional requirement that the wavefunction must be normalized, would allow us to find the value of $a_0$.  
+
+- Now consider that the highest allowed value of $n_{allowed}=1$. We have to calculate with the recursion twice, once for $n=0$, while keeping $n_{allowed}=1$, and once for $n=n_{allowed}=1$. In the first case, we have to choose $a_0=0$ such as to eliminate even solutions from the odd set. In the second case, we find $a_3=0$ because $n=n_{allowed}=1$. So our first odd solution will have one term, and is of the form $\psi_1(\xi)=a_1\xi e^{\frac{-\xi^2}{2}}$.
+
+- Let us now do this final example for $n_{allowed}=2$. We would have to do three calculations one for each value of $n=0,1,2$. But, in the process we will chose $a_1=0$ again to eliminate the odd set. Hence we already know for $n=1$ the result will be zero. For $n=0$, we find $a_2=-2a_0$. For $n=2$, we obtain $a_4=0$. Hence the wavefunction will have two terms, one with coefficient $a_2$, and another with coefficient $a_0$, but since we have already written $a_2$ in terms of $a_0$, our wavefunction is of the form, $\psi_2(\xi)=a_0\left(1-2\xi^2\right)e^{\frac{-\xi^2}{2}}$.
+
+
+In each of our solutions, we have seen that they are a product of an exponential function times a polynomial. The polynomial so obtained are Hermite polynomials, and we will denote them $H_n(\xi)$. So, we are practically done. The wavefunctions for the Harmonic oscillator of the form: $\psi_n(\xi)=AH_n(\xi)e^{\frac{-\xi^2}{2}}$.  
+
+The domaine of the harmonic oscillator wavefunctions is $]-\infty,\infty[$. We thus would have to normalize the wavefunctions by integrating $\psi_n(\xi)^*\psi_n(\xi)$ over this range. One additional information is that Hermite polynomials are orthogonal under the integral (or inner product):
+
+$$
+\begin{align}
+\tag{6}
+\int_{-\infty}^{\infty}{e^{\frac{-\xi^2}{2}}H_n(\xi)H_m(\xi)=\delta_{mn}} \quad \text{with $\delta_{mm}=1$ or 0 otherwise}
+\end{align}
+$$
+
+Equation 6 shows that the wavefunctions form an orthogonal set, as they should, since they are eigenfunctions of the Hamiltonian. As we have stated before, we can use the orthogonality condition to determine the normalization coefficients. To wrap it all up, the normalized wavefunctions of the harmonic oscillator are given by:
+
+$$
+\begin{align}
+\tag{7}
+\psi_n(x)=\left(\frac{m\omega}{\pi\hbar}\right)^{\frac{1}{4}}\frac{1}{\sqrt{2^nn!}}H_n\left(\sqrt{\frac{m\omega}{\hbar}}x\right)e^{\frac{-m\omega}{\hbar}x^2}
+\end{align}
+$$
+
+where we have used our initial definition of $\xi=\sqrt{\frac{m\omega}{\hbar}}x$ to write the wavefunctions in terms of $x$.
