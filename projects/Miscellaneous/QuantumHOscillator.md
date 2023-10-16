@@ -86,7 +86,17 @@ where we have defined the force constant as $k=\frac{d^2V(x_0)}{dx^2}$.
 This analysis shows that it is useful to study the harmonic oscillator model, as it can help us understand the oscillatory behavior of a system near an equilibrium point of a more complicated potential.   
 Furthermore, in chemistry the quantum mechanical version of the model is a useful tool to analyse the vibrational motion of molecules with energies much lower than the dissociation limit. It is also very useful in understanding the influence of the vibrational modes of solvent molecules or the lattice vibrations of a solid on a specific process such as electron transfer between donor and acceptor states. When applied to model systems in solution, for example, these so-called spin-boson models typically treat the electronic process as a [two-level system](projects/quantumdynamics/twolevel.md), that is coupled to harmonic oscillators constituted by the motion of the surrounding solvent molecules.  
 
-In the following three posts, we will discuss the quantum mechanical harmonic oscillator model. We will go about doing this following three different methods. The first two methods are distinct mathematical approaches to treat the problem. They are typically taught in introductory quantum mechanics courses. They of course lead to the same results, but it is very useful to understand the two methods. The third method will consists of obtaining the allowed energies and eigenstates of the system numerically.
+## The Different Methods of Solving the Quantum Harmonic Oscillator
+
+In the following three posts, we will discuss the quantum mechanical harmonic oscillator model. We will go about doing this following three different methods. The first two methods are distinct mathematical approaches to treat the problem. They are typically taught in introductory quantum mechanics courses. They of course lead to the same results, but it is very useful to understand the two methods. The third method will consists of obtaining the allowed energies and eigenstates of the system numerically.  
+Keep in mind that in these cases, we will always be solving the time-independent Schrödinger equation, $\hat{H}\psi=E\psi$, which is an eigenvalue equation. The domain of the functions will be from $-\infty$ to $\infty$. The $\psi(x)$ functions will be eigenvectors of the Hamiltonian $\hat{H}$, and as a result will form an orthogonal set. In addition, we will require them to be normalized. The last three statements can be summarized by the integral:
+
+$$
+\begin{align}
+\int_{-\infty}^{\infty}{\psi_n^{*}(x)\psi_m(x)~dx}= \delta _{mn}.\quad \text{~With $\delta _{mm}=1$ and $\delta _{nm}=0$, $\forall n,m~\in \mathbb{N}$.  
+$\psi_n(x)^{\*}$ is the complex conjugate of $\psi_n(x)$}
+\end{align}
+$$
 
 - [Quantum harmonic oscillator: series method](seriesQHO.md)  
 - [Quantum harmonic oscillator: algebraic method](comingsoon.md)  
