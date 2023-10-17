@@ -45,7 +45,7 @@ $$
 It turns out in quantum mechanics, the non-commutativity of certain operators is of significant consequences to the description of physical systems. They are related to the ties in measuring both observables. We will not develop this further in this post. We will dedicate a different post to the uncertainty principle. But we will determine how to calculate the commutator of certain operators.
 
 ## If the wavefunction is an Eigenvector of the Operators
-If we wish to compute the commutator between these two operators, we apply equation 3 onto a test function $|\psi\rangle$. Let us consider the case where $|\psi\rangle$ is an eigenvector of $\hat{A}$ with real eigenvalue $a$ and of $\hat{B}$ with real eigenvalue $b$: $\hat{A}|\psi\rangle=a|\psi\rangle$ and $\hat{B}|\psi\rangle=b|\psi\rangle$. Applying equation 3 onto $\psi\rangle$, we obtain:
+If we wish to compute the commutator between these two operators, we apply equation 3 onto a test function $|\psi\rangle$. Let us consider the case where $|\psi\rangle$ is an eigenvector of $\hat{A}$ with real eigenvalue $a$ and of $\hat{B}$ with real eigenvalue $b$: $\hat{A}|\psi\rangle=a|\psi\rangle$ and $\hat{B}|\psi\rangle=b|\psi\rangle$. Applying equation 3 onto $|\psi\rangle$, we obtain:
 
 $$
 \begin{align}
