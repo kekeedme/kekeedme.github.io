@@ -1,6 +1,6 @@
 # A Brief Discussion on Commutation in Quantum Mechanics
 In standard quantum mechanics, a physical system is represented by a state vector (wavefunction) $|\psi\rangle$ and physical observables are represented by linear operators $\hat{A}$ that act on the $|\psi\rangle$. The result of physical measurements are the eignevalues of the operator associated with the measurement. Since the results of a physical measurement are real, and the operators can be complex, they must be Hermitian (i.e equal to their conjugate transpose, $\hat{A}^{\dagger}=\hat{A}$) since Hermitian operators have real eigenvalues.  
-If we perform two subsequent measurements on a physical system, this operation would be described by two operators $\hat{A}$ and $\hat{B}$, each corresponding to one of the measurements, acting on the state vector $|\psi\rangle$. If, for instance, we perform the measurement corresponding to operator $\hat{A}$ first, and then performed the one corresponding to operator $\hat{B}$, we would write this as:  
+If we perform two subsequent measurements on a physical system, this operation would be described by two operators $\hat{A}$ and $\hat{B}$, each corresponding to one of the measurements, acting on the state vector $|\psi\rangle$. If, for instance, we perform the measurement corresponding to operator $\hat{A}$ first, and then performed the one corresponding to operator $\hat{B}$, we would write this as:
 
 $$
 \begin{align}
@@ -20,8 +20,8 @@ $$
 \end{align}
 $$
 
-Equation 2 would be satisfied if the wavefunction $|\psi\rangle$ is an eigenvector of $\hat{A}$ and $\hat{B}$, because the action of either operators on $|\psi\rangle$ would not change it. We would simply get some constant times the vector back again.
-The quantity inside the parentheses is called the commuator of the two operators. It is written as: 
+Equation 2 would be satisfied if the wavefunction $|\psi\rangle$ is an eigenvector of $\hat{A}$ and $\hat{B}$, because the action of either operators on $|\psi\rangle$ would not change it. We would simply get some constant times the vector back again.  
+The quantity inside the parentheses is called the commuator of the two operators. It is written as:
 
 $$
 \begin{align}
@@ -31,6 +31,7 @@ $$
 $$
 
 If the commutator of two operator yields zero, it implies that the order in which the operations (measurements) are performed does not matter, we would get the same result. In addition, it further implies that the two operators have the same set of eigenvectors (this is a general result in Algebra not just physics). If however, the commutator is non-zero, then the order of the operation matters, because the first operation changes the vector, such that the second operation is acting on a different vector than we started with.  
+
 - $\hat{B}\hat{A}|\psi\rangle=\hat{B}|\phi\rangle$ where $\hat{A}|\psi\rangle=|\phi\rangle$
 - $\hat{A}\hat{B}|\psi\rangle=\hat{B}|\Xi\rangle$ where $\hat{B}|\psi\rangle=|\Xi\rangle$
 
