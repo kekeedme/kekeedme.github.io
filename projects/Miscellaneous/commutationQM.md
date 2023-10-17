@@ -1,6 +1,6 @@
 # A Brief Discussion on Commutation in Quantum Mechanics
 In standard quantum mechanics, a physical system is represented by a state vector (wavefunction) $|\psi\rangle$ and physical observables are represented by linear operators $\hat{A}$ that act on the $|\psi\rangle$. The result of physical measurements are the eignevalues of the operator associated with the measurement. Since the results of a physical measurement are real, and the operators can be complex, they must be Hermitian (i.e equal to their conjugate transpose, $\hat{A}^{\dagger}=\hat{A}$) since Hermitian operators have real eigenvalues.  
-If we perform two subsequent measurements on a physical system, this operation would be described by two operators $\hat{A}$ and $\hat{B}$, each corresponding to one of the measurements, acting on the state vector $|\psi\rangle$. If, for instance, we perform the measurement corresponding to operator $\hat{A}$ first, and then performed the one corresponding to operator $\hat{B}$, we would write this as:
+If we perform two subsequent measurements on a physical system, this operation would be described by two operators $\hat{A}$ and $\hat{B}$, each corresponding to one of the measurements, acting on the state vector $|\psi\rangle$. If, for instance, we perform the measurement corresponding to operator $\hat{A}$ first, and then performed the one corresponding to operator $\hat{B}$, we would write this as:  
 
 $$
 \begin{align}
