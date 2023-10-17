@@ -9,7 +9,8 @@ $$
 \end{align}
 $$
 
-Similarly, if we performed the measurements in the reverse order, we would represent the two physical processes by the operation $\hat{A}\hat{B}|\psi\rangle$. We might be interested in knowing if the two orders in which we performed the measurement are equivalent, that is if they would yield the same answer. One way to check mathematically would be to substract the two operations, and if they are equivalent, we would obtain zero:
+Similarly, if we performed the measurements in the reverse order, we would represent the two physical processes by the operation $\hat{A}\hat{B}|\psi\rangle$. We might be interested in knowing if the two orders in which we performed the measurement are equivalent, that is if they would yield the same answer. 
+One way to check mathematically would be to substract the two operations, and if they are equivalent, we would obtain zero:
 
 $$
 \begin{align}
@@ -30,10 +31,10 @@ $$
 \end{align}
 $$
 
-If the commutator of two operator yields zero, it implies that the order in which the operations (measurements) are performed does not matter, we would get the same result. In addition, it further implies that the two operators have the same set of eigenvectors (this is a general result in Algebra not just physics). If however, the commutator is non-zero, then the order of the operation matters, because the first operation changes the vector, such that the second operation is acting on a different vector than we started with.  
+If the commutator of two operator yields zero, it implies that the order in which the operations (measurements) are performed does not matter, we would get the same result. In addition, it further implies that the two operators have the same set of eigenvectors (this is a general result in Algebra not just physics). If however, the commutator is non-zero, then the order of the operation matters, because the first operation changes the vector, such that the second operation is acting on a different vector than we started with.
 
-- $\hat{B}\hat{A}|\psi\rangle=\hat{B}|\phi\rangle$ where $\hat{A}|\psi\rangle=|\phi\rangle$
-- $\hat{A}\hat{B}|\psi\rangle=\hat{B}|\Xi\rangle$ where $\hat{B}|\psi\rangle=|\Xi\rangle$
+- $\hat{B}\hat{A}|\psi\rangle=\hat{B}|\phi\rangle$ where $\hat{A}|\psi\rangle=|\phi\rangle$.
+- $\hat{A}\hat{B}|\psi\rangle=\hat{B}|\Xi\rangle$ where $\hat{B}|\psi\rangle=|\Xi\rangle$.
 
 It turns out in quantum mechanics, the non-commutativity of certain operators is of significant consequences to the description of physical systems. They are related to the uncertainties in measuring both observables. We will not develop this further in this post. We will dedicate a different post to the uncertain principle. But we will determine how to calculate the commutator of certain operators.
 
