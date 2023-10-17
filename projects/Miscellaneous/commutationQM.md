@@ -34,8 +34,13 @@ $$
 If the commutator of two operator yields zero, it implies that the order in which the operations (measurements) are performed does not matter, we would get the same result. In addition, it further implies that the two operators have the same set of eigenvectors (this is a general result in Algebra not just physics). 
 If however, the commutator is non-zero, then the order of the operation matters, because the first operation changes the vector, such that the second operation is acting on a different vector than we started with. We can write this as:
 
--$\hat{B}\hat{A}|\psi\rangle=\hat{B}|\phi\rangle$ where $\hat{A}|\psi\rangle=|\phi\rangle$.
--$\hat{A}\hat{B}|\psi\rangle=\hat{B}|\Xi\rangle$ where $\hat{B}|\psi\rangle=|\Xi\rangle$.
+$$
+\begin{align}
+\tag{4}
+\hat{B}\hat{A}|\psi\rangle=\hat{B}|\phi\rangle \quad ~\text{where}~ \quad \hat{A}|\psi\rangle=|\phi\rangle\\
+\hat{A}\hat{B}|\psi\rangle=\hat{A}|\Xi\rangle \quad ~\text{where}~ \quad \hat{B}|\psi\rangle=|\Xi\rangle
+\end{align}
+$$
 
 It turns out in quantum mechanics, the non-commutativity of certain operators is of significant consequences to the description of physical systems. They are related to the uncertainties in measuring both observables. We will not develop this further in this post. We will dedicate a different post to the uncertain principle. But we will determine how to calculate the commutator of certain operators.
 
@@ -44,7 +49,7 @@ If we wish to compute the commutator between these two operators, we apply equat
 
 $$
 \begin{align}
-\tag{4}
+\tag{5}
 \left[\hat{A},\hat{B}\right]|\psi\rangle&= \left(\hat{A}\hat{B} -\hat{B}\hat{A}\right)|\psi\rangle\\
 &= ba|\psi\rangle -ab|\psi\rangle \\
 &=\left(ba-ab\right)|\psi\rangle=0
@@ -56,7 +61,7 @@ If the wavefunction is not an eigenvector of the operators, when the Let us look
 
 $$
 \begin{align}
-\tag{5}
+\tag{6}
 \left[\hat{x},\hat{p}\right]|\psi\rangle&= \left(\hat{x}\hat{p} -\hat{p}\hat{x}\right)|\psi\rangle\\
 &=\hat{x}\hat{p}|\psi\rangle -\hat{p}\hat{x}|\psi\rangle\\
 &=x\left(-i\hbar\frac{d}{dx}|\psi\rangle\right) +i\hbar\frac{d}{dx}\left(x|\psi\rangle\right)
@@ -67,7 +72,7 @@ Notice that in the first term, we take the derivative of the function $\psi\rang
 
 $$
 \begin{align}
-\tag{5.1}
+\tag{6.1}
 -i\hbar x\left(\frac{d}{dx}|\psi\rangle\right) +i\hbar\left(|\psi\rangle+x\frac{d}{dx}|\psi\rangle\right)=i\hbar |\psi\rangle
 \end{align}
 $$
@@ -76,7 +81,7 @@ Hence, we observe that 1-dimensional momentum and position operators do not comm
 
 $$
 \begin{align}
-\tag{6}
+\tag{7}
 \left[\hat{x},\hat{p}\right]=i\hbar
 \end{align}
 $$
@@ -85,7 +90,7 @@ Can you use what we have discussed here to show that the momentum along the y-di
 
 $$
 \begin{align}
-\tag{7}
+\tag{8}
 \left[\hat{x_i},\hat{p_j}\right]=i\hbar\delta_{ij}
 \end{align}
 $$
