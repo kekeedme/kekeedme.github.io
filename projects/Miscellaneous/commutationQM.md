@@ -32,7 +32,7 @@ $$
 $$
 
 If the commutator of two operator yields zero, it implies that the order in which the operations (measurements) are performed does not matter, we would get the same result. In addition, it further implies that the two operators have the same set of eigenvectors (this is a general result in Algebra not just physics). 
-If however, the commutator is non-zero, then the order of the operation matters, because the first operation changes the vector, such that the second operation is acting on a different vector than we started with.
+If however, the commutator is non-zero, then the order of the operation matters, because the first operation changes the vector, such that the second operation is acting on a different vector than we started with. We can write this as:
 
 - $\hat{B}\hat{A}|\psi\rangle=\hat{B}|\phi\rangle$ where $\hat{A}|\psi\rangle=|\phi\rangle$.
 - $\hat{A}\hat{B}|\psi\rangle=\hat{B}|\Xi\rangle$ where $\hat{B}|\psi\rangle=|\Xi\rangle$.
