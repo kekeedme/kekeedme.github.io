@@ -45,7 +45,7 @@ $$
 
 We perform a variable substitution that will give us a "neater" form of equation 4. We define the variable $\xi=\sqrt{\frac{m\omega}{\hbar}}x$. This definition allows us to write $x^2=\frac{\xi^2\hbar}{m\omega}$. We can rewrite the Hamiltonian in terms of $\xi$.  
 
-Note that i) $\xi$ is a dimensionless quantity, and ii) we could also treat it as an operator because it is the product of a constant times the position operator. What is interesting about realizing this, is that we could define a similar dimensionless operator using the momentum and use the two operators to solve the problem without any need to solve differential equations, as Dirac did. We will come back to this point later in the [second post](algebraicQHO.md). For now, we will continue with the series method.
+Note that i) $\xi$ is a dimensionless quantity, and ii) we could also treat it as an operator because it is the product of a constant times the position operator. What is interesting about realizing this, is that we could define a similar dimensionless operator using the momentum operator and use the two new operators to solve the problem without any need to solve differential equations, as Dirac did. We will come back to this point later in the [second post](algebraicQHO.md). For now, we will continue with the series method.
 
 - the potential part of the Hamiltonian will turn into:
 
