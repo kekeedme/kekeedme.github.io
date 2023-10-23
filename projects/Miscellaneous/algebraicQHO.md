@@ -71,11 +71,14 @@ $$
 \end{align}
 $$
 
-We thus see that the product $\hat{a}\hat{a}^{\dagger}=\frac{1}{\hbar\omega}\hat{H}+\frac{1}{2}$. This observation allows us to rewrite the Hamiltonian as: 
+We thus see that the product $\hat{a}\hat{a}^{\dagger}=\frac{1}{\hbar\omega}\hat{H}+\frac{1}{2}$. We could have easily explored the product $\hat{a}\hat{a}^{\dagger}$, and we would have obtained $\hat{a}\hat{a}^{\dagger}=\frac{1}{\hbar\omega}\hat{H}-\frac{1}{2}$. This observation allows us to rewrite the Hamiltonian as: 
 
 $$
 \begin{align}
 \tag{6}
-\hat{H}=\hbar\omega\left(\hat{a}\hat{a}^{\dagger}-\frac{1}{2}\right)
+\hat{H}&=\hbar\omega\left(\hat{a}\hat{a}^{\dagger}-\frac{1}{2}\right) \\ 
+&\text{or}\\
+\tag{6.1}
+\hat{H}&=\hbar\omega\left(\hat{a}^{\dagger}\hat{a}+\frac{1}{2}\right)
 \end{align}
 $$
