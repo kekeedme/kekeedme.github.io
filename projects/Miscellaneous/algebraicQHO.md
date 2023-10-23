@@ -8,8 +8,8 @@ The Hamiltonian, $\hat{H}$, of the system is defined as the sum of the kinetic e
 $$
 \begin{align}
 \tag{1}
-\hat{H} &= \frac{-\hbar^2}{2m}\frac{d^2}{dx^2}+\frac{1}{2}kx^2\\
-&=\frac{-\hbar^2}{2m}\frac{d^2}{dx^2}+\frac{m\omega^2x^2}{2}
+\hat{H} &= \frac{-\hbar^2}{2m}\frac{d^2}{dx^2}+\frac{1}{2}k\hat{x}^2\\
+&=\frac{-\hbar^2}{2m}\frac{d^2}{dx^2}+\frac{m\omega^2\hat{x}^2}{2}
 \end{align}
 $$
 
@@ -18,11 +18,11 @@ where we have used our result from [before](QuantumHOscillator.md), namely that 
 $$
 \begin{align}
 \tag{2}
-\frac{-\hbar^2}{2m}\frac{d^2\psi(x)}{dx^2}+\frac{m\omega^2x^2}{2}\psi(x)=E\psi(x)
+\frac{-\hbar^2}{2m}\frac{d^2\psi(x)}{dx^2}+\frac{m\omega^2\hat{x}^2}{2}\psi(x)=E\psi(x)
 \end{align}
 $$
 
-We need to recall that the momentum operator is $\hat{p}=\frac{\hbar}{i}\frac{d}{dx}$. In addition, much like it is done in classical mechanics, we can rewrite the Hamiltonian as $\hat{H}=\frac{\hat{p}^2}{2m}+\hat{V}$. Doing so allows us to rewrite the Schrödinger equation as:
+We need to recall that in 1-D the momentum operator is $\hat{p}=\frac{\hbar}{i}\frac{d}{dx}$, and the position operator $\hat{x}=x$. In addition, we can rewrite the Hamiltonian as $\hat{H}=\frac{\hat{p}^2}{2m}+\hat{V}$. Doing so allows us to rewrite the Schrödinger equation as:
 
 $$
 \begin{align}
@@ -31,11 +31,51 @@ $$
 \end{align}
 $$
 
-We now see that the Hamiltonian is of the form $a^2+b^2$ up to a constant factor. We can factor the sum of the squares as $\left(a+ib\right)\left(a-ib\right)$. This observation suggest that we could factor the Hamiltonian as:
+We now see that the Hamiltonian is of the form $a^2+b^2$ up to a constant factor. We can factor the sum of the squares as $\left(a+ib\right)\left(a-ib\right)$. This observation suggest that we should attempt to factor the Hamiltonian using these two factors:
 
 $$
 \begin{align}
 \tag{4}
-a_{\pm}=\frac{1}{\sqrt{2\hbar m\omega}}\left(m\omega x\mp ip\right)
+\hat{a}^{\dagger}=\frac{1}{\sqrt{2\hbar m\omega}}\left(m\omega x- i\hat{p}\right)\\
+\hat{a}=\frac{1}{\sqrt{2\hbar m\omega}}\left(m\omega x+ i\hat{p}\right)
+\end{align}
+$$
+
+The $\frac{1}{\sqrt{2}}$ factor is a result of factoring the $\frac{1}{2}$ of the Hamiltonian. The additional $\sqrt{m\omega\hbar}$ in the denominator help make the quantities $\hat{a}^{\dagger}$ and $\hat{a}$ dimensionless, and will greatly simply the expressions we will obtain later.  
+Notice that the operators $\hat{a}^{\dagger}$ and $\hat{a}$ are i) complex conjugate of one another, ii) are dimensionless iii) and are formed from operators which represent physical observables, (position and momentum), but do not represent physical observables themselves. Importantly, they do not [commute](commutationQM) with one another. Indeed:
+
+$$
+\begin{align}
+\tag{4.1}
+\left[\hat{a},\hat{a}^{\dagger}\right] = 1
+\end{align}
+$$
+
+Since our aim was to factor the Hamiltonian, we should examine the product of $\hat{a}$ and $\hat{a}^{\dagger}$:
+
+$$
+\begin{align}
+\tag{5}
+\hat{a}\hat{a}^{\dagger} &= \frac{1}{2m\omega\hbar} \left(m\omega x+i\hat{p}\right) \left(m\omega x-i\hat{p}\right)\\
+&=\frac{1}{2m\omega\hbar} \left[\hat{p}^2+\left(m\omega x\right)^2-im\omega \left(x\hat{p}-\hat{p}x\right)\right]
+\end{align}
+$$
+
+Notice that $\left(x\hat{p}-\hat{p}x\right)$ is the [commutator](commutationQM.md) between the position and momentum operator, and recall that the commutator is $\left[\hat{x},\hat{p}\right]=i\hbar$. We rewrite our product as: 
+
+$$
+\begin{align}
+\tag{5.1}
+\hat{a}\hat{a}^{\dagger}&=\frac{1}{2m\omega\hbar} \left[\hat{p}^2+\left(m\omega x\right)^2-im\omega \left[\hat{x},\hat{p}\right]\right]\\
+&=\frac{1}{2m\omega\hbar} \left[\hat{p}^2+\left(m\omega x\right)^2+\right]\frac{1}{2}
+\end{align}
+$$
+
+We thus see that the product $\hat{a}\hat{a}^{\dagger}=\frac{1}{\hbar\omega}\hat{H}+\frac{1}{2}$. This observation allows us to rewrite the Hamiltonian as: 
+
+$$
+\begin{align}
+\tag{6}
+\hat{H}=\hbar\omega\left(\hat{a}\hat{a}^{\dagger}-\frac{1}{2}\right)
 \end{align}
 $$
