@@ -1,4 +1,6 @@
 # Three Flavors of the Quantum Harmonic Oscillator (Introduction)
+This post presents the classical harmonic oscillator, discusses some of its features: outlining what the approximations are and when it can be useful as a model. We then discuss the quantum mechanical analogue of this system in three-different posts. If you wish to skip directly to the posts on the quantum mechanical analogue, feel free to scroll down to the bottom of this page, and click on the link of your choosing.
+
 ## Discussion of the Classical System
 A harmonic oscillator is a physical system in which, the force required to restore the system to its equilibrium 
 position is proportional to the displacement from equilibrium. Classically, the harmonic oscillator model is usually applied
@@ -94,7 +96,7 @@ Keep in mind that in these cases, we will always be solving the time-independent
 $$
 \begin{align}
 \int_{-\infty}^{\infty}{\psi_n^{*}(x)\psi_m(x)~dx}= \delta _{mn}.\quad \text{~With $\delta _{mm}=1$ and $\delta _{nm}=0$, $\forall n,m~\in \mathbb{N}$.  
-$\psi_n(x)^{\*}$ is the complex conjugate of $\psi_n(x)$}
+$\psi_n(x)^{ *}$ is the complex conjugate of $\psi_n(x)$}
 \end{align}
 $$
 
