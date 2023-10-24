@@ -83,4 +83,19 @@ $$
 \end{align}
 $$
 
-We have ontain the Hamiltonian in terms of the ladder operators, but we may wonder about the benefits of having done so. Let us rewrite the Schrödinger equation in terms of the ladder operators, in addition, let us consider that the $\psi(x)$ are already eingenstate of the Hamiltonian. Notice that it looks like the [beginning](#the-harmonic-oscillator-hamiltonian-and-the-schrödinger-equation)
+We have obtain the Hamiltonian in terms of the ladder operators, but we may wonder about the benefits of having done so. However, before doing so, I would like to take small detour. If you wish to continue on with solving the problem, do skip this next section, and [continue](#obtaining-the-energies)
+
+## Number Operator
+We know, from the [series method](seriesQHO.md) post that the allowed energies of the harmonic oscillator are given by the expression:
+
+$$
+\begin{align}
+\tag{A}
+E_n=\hbar\omega\left(n+\frac{1}{2}\right)
+\end{align}
+$$
+
+If we compare this expression with what we have obtained for the Hamiltonian in equation 6.1, we can draw an intereting parallel. Indeed, we know that the energies are eigenvalues of the Hamiltonian, and are given by a number $n=0,1,2...$ plus $\frac{1}{2}$. In addition, we have managed to write the Hamiltonian as a sum of an operator, the produt $\hat{a}^{\dagger}\hat{a}$, plus $\frac{1}{2}$. Therefore, we see that the integers $n$ are eigenvalues of the operator $\hat{a}^{\dagger}\hat{a}$. We can thus define $\hat{a}^{\dagger}\hat{a}=\hat{N}$, we call it the number operator. This observation is interesting because we recall that $n$ keeps track of the oscillator state or mode $\left(\psi_n(x)\right)$ we are in, and allows to calculate the energy of this mode using expression A. As a result, we can label each state or mode with the eigenvalues of $\hat{N}$. If we use Dirac notation, $|\psi_0(x)\rangle$, $|\psi_1(x)\rangle$... $|\psi_n(x)\rangle=$  $|0\rangle$, $|1\rangle$... $|n\rangle$.
+
+## Obtaining the Energies
+Let us rewrite the Schrödinger equation in terms of the ladder operators, in addition, let us consider that the $\psi(x)$ are already eingenstates of the Hamiltonian:
