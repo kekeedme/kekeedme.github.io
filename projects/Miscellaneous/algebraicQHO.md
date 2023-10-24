@@ -1,5 +1,5 @@
 # Algebraic Method for the Quantum Mechanical Harmonic Oscillator
-In this section, we will use an algebraic method to obtain the quantum mechanical harmonic oscillator eigenstates and energies. In doing so, we will define the so-called ladder operators. These operators have a nice property: namely, by operating on one harmonic oscillator eigenstate, they can generate another. Obtaining the ladder operators can be considered as a result in itself, because understanding how they work on one quantum state to generate another, we begin to get a small glimpse at the "mechanics" of a different formalism of quantum mechanics called second quantization. Second quantization is beyond the scope of this post, but, if you learn it, you will see that similarly to how the ladder operators allow us to obtain one quantum state from anoter, so do creating and anhilation operators in second quantization.  
+In this section, we will use an algebraic method to obtain the quantum mechanical harmonic oscillator eigenstates and energies. In doing so, we will define the so-called ladder (or in some context, creation and annihilation) operators. These operators have a nice property: namely, by operating on one harmonic oscillator eigenstate, they can generate another. Obtaining the ladder operators can be considered as an interesting result in itself, because understanding how they work on one quantum state to generate another, we begin to get a small glimpse at the "mechanics" of a different formalism of quantum mechanics called second quantization. Second quantization is beyond the scope of this post, but, if you learn it, you will see that similarly to how the ladder operators allow us to obtain one quantum state from anoter, so do creating and anhilation operators in second quantization.  
 In the following, we will present the 1-dimensional time-independent Schrödinger equation (TISE) for a harmonic oscillator. We will see how we can attempt to factor the Hamiltonian and from there, define the ladder operators and use them to obtain the eingstate and energies we seek.
 
 ## The Harmonic Oscillator Hamiltonian and the Schrödinger Equation 
@@ -22,7 +22,7 @@ $$
 \end{align}
 $$
 
-We need to recall that in 1-D the momentum operator is $\hat{p}=\frac{\hbar}{i}\frac{d}{dx}$, and the position operator $\hat{x}=x$. In addition, we can rewrite the Hamiltonian as $\hat{H}=\frac{\hat{p}^2}{2m}+\hat{V}$. Doing so allows us to rewrite the Schrödinger equation as:
+We need to recall that in 1-D the momentum operator is $\hat{p}=\frac{\hbar}{i}\frac{d}{dx}$, and the position operator $\hat{x}=x$. We can rewrite the Hamiltonian as $\hat{H}=\frac{\hat{p}^2}{2m}+\hat{V}$. Doing so allows us to rewrite the Schrödinger equation as:
 
 $$
 \begin{align}
@@ -42,7 +42,7 @@ $$
 $$
 
 The $\frac{1}{\sqrt{2}}$ factor is a result of factoring the $\frac{1}{2}$ of the Hamiltonian. The additional $\sqrt{m\omega\hbar}$ in the denominator help make the quantities $\hat{a}^{\dagger}$ and $\hat{a}$ dimensionless, and will greatly simply the expressions we will obtain later.  
-Notice that the operators $\hat{a}^{\dagger}$ and $\hat{a}$ are i) complex conjugate of one another, ii) are dimensionless iii) and are formed from operators which represent physical observables, (position and momentum), but do not represent physical observables themselves. Importantly, they do not [commute](commutationQM) with one another. Indeed:
+Notice that the operators $\hat{a}^{\dagger}$ and $\hat{a}$ are i) complex conjugate of one another, ii) are dimensionless iii) and are formed from operators which represent physical observables, (position and momentum), but do not represent physical observables themselves. They are referred to as ladder operators. Importantly, they do not [commute](commutationQM) with one another. Indeed:
 
 $$
 \begin{align}
@@ -51,7 +51,7 @@ $$
 \end{align}
 $$
 
-Since our aim was to factor the Hamiltonian, we should examine the product of $\hat{a}$ and $\hat{a}^{\dagger}$:
+Since our aim was to factor the Hamiltonian, we should explore the product of $\hat{a}$ and $\hat{a}^{\dagger}$:
 
 $$
 \begin{align}
@@ -82,3 +82,5 @@ $$
 \hat{H}&=\hbar\omega\left(\hat{a}^{\dagger}\hat{a}+\frac{1}{2}\right)
 \end{align}
 $$
+
+We have ontain the Hamiltonian in terms of the ladder operators, but we may wonder about the benefits of having done so. Let us rewrite the Schrödinger equation in terms of the ladder operators, in addition, let us consider that the $\psi(x)$ are already eingenstate of the Hamiltonian. Notice that it looks like the [beginning](#the-harmonic-oscillator-hamiltonian-and-the-schrödinger-equation)
