@@ -158,9 +158,9 @@ where $A$ is the normalizing factor, which we can obtain from:
 $$
 \begin{align}
 \tag{9.1}
-|A|^2\int_{-\infty}^{\infty}{e^{-\frac{m\omega x^2}{\hbar}}dx}=1\\
-|A|^2\sqrt{\frac{\pi\hbar}{m\omega}}=1\Rightarrow A=\left(\frac{m\omega}{\pi\hbar}\right)^{\left(\frac{1}{4}\right)}\\
-\psi_0(x)=\left(\frac{m\omega}{\pi\hbar}\right)^{\left(\frac{1}{4}\right)}e^{-\frac{m\omega x^2}{2\hbar}}
+&|A|^2\int_{-\infty}^{\infty}{e^{-\frac{m\omega x^2}{\hbar}}dx}=1\\
+&|A|^2\sqrt{\frac{\pi\hbar}{m\omega}}=1\Rightarrow A=\left(\frac{m\omega}{\pi\hbar}\right)^{\left(\frac{1}{4}\right)}\\
+&\psi_0(x)=\left(\frac{m\omega}{\pi\hbar}\right)^{\left(\frac{1}{4}\right)}e^{-\frac{m\omega x^2}{2\hbar}}
 \end{align}
 $$
 
@@ -177,3 +177,6 @@ $$
 
 As a final note, the fact that the energy of the ground state $\psi_0(x)$ is non-zero is interesting and specific to quantum mechanics. I will dedicate a post specifically to it so that this post is not too long. If you would like to read about it click on [this link](comingsoon.md)
 
+### Further Reading on
+#### Quantum harmonic oscillator 
+- Griffits, D.J., Introduction to Quantum Mechanics, Second Edition. Pearson; pp.52
