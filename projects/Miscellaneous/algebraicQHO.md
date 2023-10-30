@@ -175,3 +175,5 @@ $$
 \end{align}
 $$
 
+As a final note, the fact that the energy of the ground state $\psi_0(x)$ is non-zero is interesting and specific to quantum mechanics. I will dedicate a post specifically to it so that this post is not too long. If you would like to read about it click on [this link](comingsoon.md)
+
