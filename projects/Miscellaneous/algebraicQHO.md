@@ -114,7 +114,7 @@ $$
 \end{align}
 $$
 
-We recall that when an operator acts on a wavefunction, it yields a new function (provided the function is not an eigenvector of the operator). Suppose we have a set $`\{ \psi(x)\}`$ of eigenfunctions of the harmonic oscillator, and we apply the lowering operator to one of the eigenstates and so we get the function $\hat{a}\psi$. We ask, is the new function $\hat{a}\psi$ also an eigenstate of the Hamiltonian written in 7 ? 
+We recall that when an operator acts on a wavefunction, it yields a new function (provided the function is not an eigenvector of the operator). Suppose we have a set $\psi(x)$ of eigenfunctions of the harmonic oscillator, and we apply the lowering operator to one of the eigenstates and so we get the function $\hat{a}\psi$. We ask, is the new function $\hat{a}\psi$ also an eigenstate of the Hamiltonian written in 7 ? 
 
 $$
 \begin{align}
