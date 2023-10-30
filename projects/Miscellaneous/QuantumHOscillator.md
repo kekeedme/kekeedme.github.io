@@ -101,7 +101,7 @@ $\psi_n(x)^{ *}$ is the complex conjugate of $\psi_n(x)$}
 $$
 
 - [Quantum harmonic oscillator: series method](seriesQHO.md)  
-- [Quantum harmonic oscillator: algebraic method](comingsoon.md)  
+- [Quantum harmonic oscillator: algebraic method](algebraicQHO.md)  
 - [Quantum harmonic oscillator: numerical method](comingsoon.md)  
 
 ### Further Reading on
