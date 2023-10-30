@@ -22,7 +22,7 @@ $$
 \end{align}
 $$
 
-We need to recall that in 1-D the momentum operator is $\hat{p}=\frac{\hbar}{i}\frac{d}{dx}$, and the position operator $\hat{x}=x$. We can rewrite the Hamiltonian as $\hat{H}=\frac{\hat{p}^2}{2m}+\hat{V}$. Doing so allows us to rewrite the Schrödinger equation as:
+We need to recall that in 1-D the momentum operator is $\hat{p}=\frac{\hbar}{i}\frac{d}{dx}$, and the position operator $\hat{x}=x$. We can rewrite the Hamiltonian as $\hat{H}=\frac{\hat{p}^2}{2m}+\hat{V}(x)$. Doing so allows us to rewrite the Schrödinger equation as:
 
 $$
 \begin{align}
@@ -71,7 +71,7 @@ $$
 \end{align}
 $$
 
-We thus see that the product $\hat{a}\hat{a}^{\dagger}=\frac{1}{\hbar\omega}\hat{H}+\frac{1}{2}$. We could have easily explored the product $\hat{a}\hat{a}^{\dagger}$, and we would have obtained $\hat{a}\hat{a}^{\dagger}=\frac{1}{\hbar\omega}\hat{H}-\frac{1}{2}$. This observation allows us to rewrite the Hamiltonian as: 
+We thus see that the product $\hat{a}\hat{a}^{\dagger}=\frac{1}{\hbar\omega}\hat{H}+\frac{1}{2}$. We could have also explored the product $\hat{a}\hat{a}^{\dagger}$, and we would have obtained $\hat{a}\hat{a}^{\dagger}=\frac{1}{\hbar\omega}\hat{H}-\frac{1}{2}$. This observation allows us to rewrite the Hamiltonian as: 
 
 $$
 \begin{align}
@@ -83,7 +83,7 @@ $$
 \end{align}
 $$
 
-We have obtain the Hamiltonian in terms of the ladder operators, but we may wonder about the benefits of having done so. However, before doing so, I would like to take small detour. If you wish to continue on with solving the problem, do skip this next section, and [continue](#obtaining-the-energies)
+We have obtain the Hamiltonian in terms of the ladder operators, but we may wonder about the benefits of having done so. However, before doing so, I would like to take small detour. If you wish to continue on with solving the problem, do skip this next section, and [continue](#obtaining-the-energies).
 
 ## Number Operator
 We know, from the [series method](seriesQHO.md) post that the allowed energies of the harmonic oscillator are given by the expression:
@@ -95,10 +95,11 @@ E_n=\hbar\omega\left(n+\frac{1}{2}\right)
 \end{align}
 $$
 
- If we compare this expression with what we have obtained for the Hamiltonian in equation 6.1, we can draw an intereting parallel.   
- Indeed, we know that the energies are eigenvalues of the Hamiltonian, and are given by a number $n=0,1,2...$ plus $\frac{1}{2}$, times $\hbar\omega$. In addition, we have managed to write the Hamiltonian as a sum of an operator, the produt $\hat{a}^{\dagger}\hat{a}$, plus $\frac{1}{2}$, times $\hbar\omega$. Therefore, we see that the integers $n$ are eigenvalues of the operator $\hat{a}^{\dagger}\hat{a}$. We can thus define $\hat{a}^{\dagger}\hat{a}=\hat{N}$, we call it the number operator. This observation is interesting because we recall that $n$ keeps track of the oscillator state or mode $\left(\psi_n(x)\right)$ we are in, and allows to calculate the energy of this mode using expression A. As a result, we can label each state or mode with the eigenvalues of $\hat{N}$. If we use Dirac notation, $|\psi_0(x)\rangle$, $|\psi_1(x)\rangle$... $|\psi_n(x)\rangle=$  $|0\rangle$, $|1\rangle$... $|n\rangle$. This procedure allows us to specify which state (mode) our system occupies (in the simple case of a single-particle system). In a many-particle system, the number operator will be able to "count" the occupancy of each state composing the system, or equivalently specify which eingstates constitute the many-particle wavefunction. Such an analysis is used in second quantization.  
+ If we compare this expression with what we have obtained for the Hamiltonian in equation 6.1, we can draw an interesting parallel.   
+ Indeed, we know that the energies are eigenvalues of the Hamiltonian, and are given by a number $n=0,1,2...$ plus $\frac{1}{2}$, times $\hbar\omega$. In addition, we have managed to write the Hamiltonian as a sum of an operator, the produt $\hat{a}^{\dagger}\hat{a}$, plus $\frac{1}{2}$, times $\hbar\omega$. Therefore, we see that the integers $n$ are eigenvalues of the operator $\hat{a}^{\dagger}\hat{a}$. We can thus define $\hat{a}^{\dagger}\hat{a}=\hat{N}$, where $\hat{N}\psi(x)=n\psi(x)$.   
+ We call $\hat{N}$ the number operator. This observation is interesting because we recall that $n$ keeps track of the oscillator state or mode $\left(\psi_n(x)\right)$ we are in, and allows to calculate the energy of this mode using expression A. As a result, we can label each state or mode with the eigenvalues of $\hat{N}$. If we use Dirac notation, $|\psi_0(x)\rangle$, $|\psi_1(x)\rangle$... $|\psi_n(x)\rangle=$  $|0\rangle$, $|1\rangle$... $|n\rangle$. This procedure allows us to specify which state (mode) our system occupies (in the simple case of a single-particle system). In a many-particle system, the number operator will be able to "count" the occupancy of each state composing the system, or equivalently specify which eingstates constitute the many-particle wavefunction. Such an analysis is used in second quantization.  
 
-Although second quantization is not the subject of this post, I wanted to highlight that simply by learning the algebraic method of the quantum harmonic oscillator, we can slowly start to build an intuition for the formalism of second quantization. In addition, numerous authors choose to teach the quantization of the electromagnetic field by reviewing the quantum harmonic oscillator through the algebraic method, and extract useful operators from there such as the number operator, and the creation and annihiliation operators. As a result, I thought it interesting to point out some of the aforementioned features in this post.
+Although second quantization is not the subject of this post, I wanted to highlight that simply by learning the algebraic method of the quantum harmonic oscillator, we can slowly start to build an intuition for the formalism of second quantization. In addition, numerous authors choose to teach the quantization of the electromagnetic field by reviewing the quantum harmonic oscillator through the algebraic method, and extract useful operators from there such as the the creation and annihiliation operators, and the number operator. As a result, I thought it interesting to point out some of the aforementioned features in this post.
 
 ## Obtaining the Energies
 Let us rewrite the Schrödinger equation in terms of the ladder operators, in addition, let us consider that the $\psi(x)$ are already eingenstates of the Hamiltonian:
