@@ -1,4 +1,4 @@
-# On the Non-Zero Energy of the Ground State of the Quantum Harmonic Oscillator
+# On the Zero-Point Energy of the Ground State of the Quantum Harmonic Oscillator
 In the classical harmonic oscillator, we know that when the oscillator is at rest, that is it's momentum $p=0$, and 
 it is at the equilibrium position $x=x_0$, its total energy is zero since its kitenic and potential energies are zero. This state corresponds
 to the lowest energy state the oscillator can have. We know for the quantum mechanical oscillator, the lowest energy state, the ground state,
