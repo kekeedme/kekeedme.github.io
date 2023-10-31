@@ -40,7 +40,8 @@ $$
 $$
 
 
-We observe that equation 1.2 also provides a way to calculate square of the norm (square modulus) of the vector $|v\rangle$.
+We observe that equation 1.2 also provides a way to calculate square of 
+the norm (square modulus) of the vector $|v\rangle$.
 
 Recall that operators a represented by matrices once a proper basis is defined, and they, in general, act on vectors to produce other vectors.
 Let $\hat{O}$ be the matrix representation of an operator in our complex vector space. Let us have $\hat{O}$ act on $|v_1\rangle$ to produce a new vector $|v_2\rangle$.
@@ -63,3 +64,5 @@ $$
 \langle e|\hat{O}|e\rangle &= e
 \end{align}
 $$
+
+
