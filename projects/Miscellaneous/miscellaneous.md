@@ -17,7 +17,7 @@ Home. So I kept doing that for the rest of the slides.
 ### Currently Available Slides or Posts
 
 - [A Brief Discussion on Commutators](commutationQM.md)
-- [A Brief Discussion on Unitary Evolution](/images/unitary_evol.md)
+- [A Brief Discussion on Unitary Evolution](projects/quantumdynamics/unitary_evol.md)
 - [On the Zero-Point Energy](ZPE.md)
 - [Quantum probability density, probability current and momentum operator](/projects/Miscellaneous/slides/Prob_densisty_current_momentum.pdf)  
 - [Linear first order differential equations- Applied to chemical kinetics](/projects/Miscellaneous/slides/L1st_ODE.pdf)  
