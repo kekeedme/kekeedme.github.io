@@ -65,7 +65,7 @@ $$
 \end{align}
 $$
 
-## Calculating Expectaction Value of Operators
+## Calculating Expectaction Value of Operators and Variance
 In quantum mechanics, physical observables are represented by Hermitian matrices. We can obtain the expectation value, the average we would obtain if we performed the experiment multiple times, of a given operator. Let $\hat{A}$ be an Hermitian matrix representing a given physical observable, and let the set $\psi_n(r)$ be normalized state functions of a given system.
 The expectation value of $\hat{A}$ is given by:
 
@@ -91,3 +91,16 @@ $$
 \langle \psi_n(r)|\hat{A}|\psi_n(r)\rangle&=\delta_ {mn}
 \end{align}
 $$
+
+Since the experiment outcomes are expectaction values, we may want to determine the variance, $\sigma_\alpha^2$, associated with a given observable $\alpha$. The variance is given by: 
+
+$$
+\begin{align}
+\tag{2.5}
+\sigma_\alpha^2=\langle \alpha^2\rangle - \langle \alpha\rangle ^2
+\end{align}
+$$
+
+In other words, the variance is the difference between the average of the square of the observables and the square of the expectation value.
+
+
