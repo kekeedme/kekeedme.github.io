@@ -74,6 +74,7 @@ $$
 \tag{2.1}
 \int_{all space}{\psi^*_n(r)\hat{A}\psi_n(r)}dr \\
 \text{in Dirac notation} \\
+\tag{2.2}
 \langle \psi_n(r)|\hat{A}|\psi_n(r)\rangle
 \end{align}
 $$
