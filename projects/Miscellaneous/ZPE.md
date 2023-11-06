@@ -43,7 +43,7 @@ $$
 We observe that equation 1.2 also provides a way to calculate square of 
 the norm (square modulus) of the vector $|v\rangle$.
 
-Recall that operators a represented by matrices once a proper basis is defined, and they, in general, act on vectors to produce other vectors.
+Recall that operators are represented by matrices once a proper basis is defined, and they, in general, act on vectors to produce other vectors.
 Let $\hat{O}$ be the matrix representation of an operator in our complex vector space. Let us have $\hat{O}$ act on $|v_1\rangle$ to produce a new vector $|v_2\rangle$.
 We simply write
 
@@ -65,4 +65,15 @@ $$
 \end{align}
 $$
 
+## Calculating Expectaction Value of Operators
+In quantum mechanics, physical observables are represented by Hermitian matrices. We can obtain the expectation value, the average we would obtain if we performed the experiment multiple times, of a given operator. Let $\hat{A}$ be an Hermitian matrix representing a given physical observable, and let the set $\psi_n(r)$ be normalized state functions of a given system.
+The expectation value of $\hat{A}$ is given by:
 
+$$
+\begin{align}
+\tag{2.1}
+\int_{all space}{\psi^*_n(r)\hat{A}\psi_n(r)}dr \\
+\text{in Dirac notation} \\
+\langle \psi_n(r)|\hat{A}|\psi_n(r)\rangle
+\end{align}
+$$
