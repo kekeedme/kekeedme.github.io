@@ -72,9 +72,22 @@ The expectation value of $\hat{A}$ is given by:
 $$
 \begin{align}
 \tag{2.1}
-\int_{all space}{\psi^*_n(r)\hat{A}\psi_n(r)}dr \\
+&\langle \hat{A}\rangle=\int_{all space}{\psi^*_n(r)\hat{A}\psi_n(r)}dr \\
 \text{in Dirac notation} \\
 \tag{2.2}
-\langle \psi_n(r)|\hat{A}|\psi_n(r)\rangle
+&\langle \hat{A}\rangle=\langle \psi_n(r)|\hat{A}|\psi_n(r)\rangle
+\end{align}
+$$
+
+In equation 2.1, I have written *all space* as the limit of integration because the physics of the problem will determine the specific limits of integration to be used. For example, in the case of the particle in the box, the limits of integration would be the boundaries of the box, while for the Harmonic Oscillator, the limits would be $\pm \infty$. Note, however, that in the case of the Dirac equation, the notation is the same regardless of the limits of integration. We only need to worry about them when we perform the actual calculation. We can make a similar observation for the normalization of the wavefunctions, that is: 
+
+$$
+\begin{align}
+\tag{2.3}
+\int_{all space}{\psi_m(r)\hat{A}\psi_n(r)}dr&=\delta_ {mn}, \quad
+\text{with $\delta_{mn}=1$ for m=n or $\delta_{mn}=0$ otherwise}\\
+&\text{in Dirac notation}\\
+\tag{2.4}
+\langle \psi_n(r)|\hat{A}|\psi_n(r)\rangle&=\delta_ {mn}
 \end{align}
 $$
