@@ -101,6 +101,6 @@ $$
 \end{align}
 $$
 
-In other words, the variance is the difference between the average of the square of the observables and the square of the expectation value.
+In other words, the variance is the difference between the expectation value of the square of the observable and the square of the expectation value.
 
 
