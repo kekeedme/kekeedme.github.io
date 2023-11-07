@@ -8,7 +8,7 @@ In order to carry on with the analysis, we will review a few definitions first a
 
 ## Review of Dirac Notation 
 We will perform a quick overview of Dirac notation in this section to facilitate notation for what we want to achieve in this post. 
-Let $\mathbf{v}$ be a vector with two complex components $a$ and $b$ and $\mathbf{v}^{*}$ be its conjugate transpose in a $l^2$-normed vector space 
+Let $\mathbf{v}$ be a vector with two complex components $a$ and $b$ and $\mathbf{v}^{\dagger}$ be its conjugate transpose in a $l^2$-normed vector space 
 (one in which we can compute the lenght of the vectors using the Euclidean norm). In Dirac notation,
 the vectors are written as:
 
@@ -21,7 +21,7 @@ a \\
 b
 \end{pmatrix}
 = |v\rangle \\
-\mathbf{v}^{*}=
+\mathbf{v}^{\dagger}=
 \begin{pmatrix}
 a^ * b^ *
 \end{pmatrix}
@@ -62,6 +62,28 @@ $$
 \hat{O}|e\rangle &= e|e\rangle \\  
 &\text{and} \\
 \langle e|\hat{O}|e\rangle &= e
+\end{align}
+$$
+
+Lastly, from equation 1.1 we have that $\left(|v\rangle\right)^{\dagger} = \langle v|$. The Hermitian conjugate, $\hat{O}^{\dagger}$, of an operator $\hat{O}$ is defined such that: 
+
+$$
+\begin{align}
+\tag{1.5}
+\left(\hat{O}|v\rangle\right)^{\dagger} = \langle v|\hat{O}^{\dagger}
+\end{align}
+$$
+
+Equation 1.5 tells us when $\hat{O}$ operates on *ket* $|v\rangle$, the complex conjugate of the answer we obtain is equal the result of the hermitian conjugate $\hat{O}^{\dagger}$ acting on the *bra* $\langle v|$. 
+In particular, if $|v\rangle$ is an eigenvector of $\hat{O}$ with a **real** eigenvalue $\lambda$, then:
+
+$$
+\begin{align}
+\tag{1.6}
+\left(\hat{O}|v\rangle\right)^{\dagger} =\lambda^{*}=\lambda \\
+\tag{1.7}
+\langle v|\hat{O}^{\dagger}= \lambda^{ *}=\lambda\\
+\therefore \hat{O}|v\rangle=\langle v|\hat{O}^{\dagger}
 \end{align}
 $$
 
@@ -134,9 +156,20 @@ is not a problem because we know the results we will get at the end will be cons
 
 $$
 \begin{align}
-\tag{3.3}
+\tag{3.5}
 \hat{x}=\frac{1}{\sqrt{2}}\left(\hat{a}+\hat{a^{\dagger}}\right)\\
-\tag{3.4}
+\tag{3.6}
 \hat{p}=\frac{-i}{\sqrt{2}}\left(\hat{a}-\hat{a^{\dagger}}\right)
 \end{align}
 $$
+
+## Calculating the Expectaction Values in Position and Momentum
+The expectation value, $\langle \hat{x}\rangle$, of position in the ground state of the Harmonic Oscillator in Dirac notation is given by: 
+
+$$
+\begin{align}
+\tag{3.7}
+\langle \hat{x}\rangle=\frac{1}{\sqrt{2}}\langle \psi_0|\hat{a}+\hat{a}^{\dagger}|\psi_0\rangle
+\end{align}
+$$
+
