@@ -73,7 +73,7 @@ $$
 \begin{align}
 \tag{2.1}
 &\langle \hat{A}\rangle=\int_{all space}{\psi^*_n(r)\hat{A}\psi_n(r)}dr \\
-\text{in Dirac notation} \\
+&\text{in Dirac notation} \\
 \tag{2.2}
 &\langle \hat{A}\rangle=\langle \psi_n(r)|\hat{A}|\psi_n(r)\rangle
 \end{align}
@@ -103,4 +103,28 @@ $$
 
 In other words, the variance is the difference between the expectation value of the square of the observable and the square of the expectation value.
 
+## Determining the Variance in Position and Momentum for the Ground State of the Harmonic Oscillator
+What we want to do now is to determine the average position and momentum when the oscillator is in the ground state $\psi_0(x)$. In order to do this we will calculate the expectation values of the position and momentum operator using equation 2.1. We will, however, express the position and momentum operators using the creation and annihilation operators we defined [previously](algebraicQHO.md). Rewriting the operators in this way and using Dirac notation will allow us to calculate these expectation values much faster without having to explicitly compute the integrals.
 
+### Position and Momentum Operators in Terms of Creation and Annihilation Operators
+We recall that the creation $\hat{a}^{\dagger}$ and annihilation $\hat{a}$ operators are defined as:
+
+$$
+\begin{align}
+\tag{3.1}
+\hat{a}^{\dagger}=\frac{1}{\sqrt{2\hbar m\omega}}\left(m\omega x- i\hat{p}\right)\\
+\tag{3.2}
+\hat{a}=\frac{1}{\sqrt{2\hbar m\omega}}\left(m\omega x+ i\hat{p}\right)
+\end{align}
+$$
+
+From 3.1 and 3.2 we can express the position and momentum operators as: 
+
+$$
+\begin{align}
+\tag{3.3}
+\hat{x}=\frac{\hbar}{\sqrt{2\hbar m\omega}}\left(\hat{a}+\hat{a^{\dagger}}\right)\\
+\tag{3.4}
+\hat{p}=\frac{-i\hbar m\omega}{\sqrt{2\hbar m\omega}}\left(\hat{a}-\hat{a^{\dagger}}\right)
+\end{align}
+$$
