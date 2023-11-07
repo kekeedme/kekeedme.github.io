@@ -128,3 +128,15 @@ $$
 \hat{p}=\frac{-i\hbar m\omega}{\sqrt{2\hbar m\omega}}\left(\hat{a}-\hat{a^{\dagger}}\right)
 \end{align}
 $$
+
+For simplicity, we can look at the special case where $\hbar=m=\omega=1$. Looking at this makes our manipulations simpler, but
+is not a problem because we know the results we will get at the end will be constant multiples of the coefficients we have in 3.3 and 3.4 for the position and momentum respectively. When we use this simplification, we can rewrite 3.3 and 3.4 as:
+
+$$
+\begin{align}
+\tag{3.3}
+\hat{x}=\frac{1}{\sqrt{2}}\left(\hat{a}+\hat{a^{\dagger}}\right)\\
+\tag{3.4}
+\hat{p}=\frac{-i}{\sqrt{2}}\left(\hat{a}-\hat{a^{\dagger}}\right)
+\end{align}
+$$
