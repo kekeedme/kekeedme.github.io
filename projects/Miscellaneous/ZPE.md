@@ -145,9 +145,9 @@ From 3.1 and 3.2 we can express the position and momentum operators as:
 $$
 \begin{align}
 \tag{3.3}
-\hat{x}=\frac{\hbar}{\sqrt{2\hbar m\omega}}\left(\hat{a}+\hat{a^{\dagger}}\right)\\
+\hat{x}=\frac{\hbar}{\sqrt{2\hbar m\omega}}\left(\hat{a}^{\dagger}+\hat{a}\right)\\
 \tag{3.4}
-\hat{p}=\frac{-i\hbar m\omega}{\sqrt{2\hbar m\omega}}\left(\hat{a}-\hat{a^{\dagger}}\right)
+\hat{p}=\frac{-i\hbar m\omega}{\sqrt{2\hbar m\omega}}\left(\hat{a}-\hat{a}^{\dagger}\right)
 \end{align}
 $$
 
@@ -157,19 +157,82 @@ is not a problem because we know the results we will get at the end will be cons
 $$
 \begin{align}
 \tag{3.5}
-\hat{x}=\frac{1}{\sqrt{2}}\left(\hat{a}+\hat{a^{\dagger}}\right)\\
+\hat{x}=\frac{1}{\sqrt{2}}\left(\hat{a}^{\dagger}+\hat{a}\right)\\
 \tag{3.6}
-\hat{p}=\frac{-i}{\sqrt{2}}\left(\hat{a}-\hat{a^{\dagger}}\right)
+\hat{p}=\frac{-i}{\sqrt{2}}\left(\hat{a}-\hat{a}^{\dagger}\right)
 \end{align}
 $$
 
 ## Calculating the Expectaction Values in Position and Momentum
-The expectation value, $\langle \hat{x}\rangle$, of position in the ground state of the Harmonic Oscillator in Dirac notation is given by: 
+The expectation values, $\langle \hat{x}\rangle$, of position and momentum in the ground state of the Harmonic Oscillator in Dirac notation are given by: 
 
 $$
 \begin{align}
 \tag{3.7}
-\langle \hat{x}\rangle=\frac{1}{\sqrt{2}}\langle \psi_0|\hat{a}+\hat{a}^{\dagger}|\psi_0\rangle
+\langle \hat{x}\rangle=\frac{1}{\sqrt{2}}\langle \psi_0|\left(\hat{a}^{\dagger}+\hat{a}\right)|\psi_0\rangle\\
+\tag{3.8}
+\langle\hat{p}\rangle=\frac{-i}{\sqrt{2}}\langle\psi_0|\left(\hat{a}-\hat{a}^{\dagger}\right)|\psi_0\rangle
 \end{align}
 $$
 
+When we distribute in the parentheses, we observe in both cases, that we will obtain a $\hat{a}|\psi_0\rangle$ term, which is equal to zero since it is the annihilation operator acting on the ground state wavefunction. In addition, we will also obtain the complex conjugate of that term in the form of $\langle\psi_0|\hat{a}^{\dagger}$ which will also equal zero as we have seen from equations 1.5-1.7 (since $0^{\dagger}=0$). Therefore the average position and momentum in the ground state $\psi_0$ are both zero, $\langle \hat{x}\rangle=\langle \hat{p}\rangle=0$.  
+
+Remember, however, that we calculated average values. We can ask if there is a spread around these values, that is, are these values the center of some distribution of position and momentum values. In order to answer this we need to calculate the variance. Hence, as indicated by equation 2.5, we need to determine $\langle x^2\rangle$ and $\langle \hat{p}^2\rangle$.
+
+The expectation value of the square of the position and momentum are given by:
+
+$$
+\begin{align}
+\tag{3.7}
+\langle \hat{x}^2\rangle=\frac{1}{2}\langle \psi_0|\left(\hat{a}^{\dagger}+\hat{a}\right)^2|\psi_0\rangle\\
+\tag{3.8}
+\langle\hat{p}^2\rangle=\frac{1}{2}\langle\psi_0|\left(\hat{a}-\hat{a}^{\dagger}\right)^2|\psi_0\rangle
+\end{align}
+$$
+
+We need to expand the parentheses carefully, as $\hat{a}$ and $\hat{a}^{\dagger}$ do not [commute](algebraicQHO.md), hence the order in which these operators appear in the cross terms matter. When we expand the parentheses for equation 3.7, we obtain: 
+
+$$
+\begin{align}
+\tag{3.9}
+\left(\hat{a}^{\dagger}+\hat{a}\right)^2=\left(\hat{a}^{\dagger 2}+\hat{a}^{\dagger}\hat{a}+\hat{a}\hat{a}^{\dagger}+\hat{a}^2\right)
+\end{align}
+$$
+
+When we substitute this expansion back into equation 3.7, we observe that the term $\hat{a}^{\dagger 2}$ will give zero, when acting on the *bra*, as we have found before. The $\hat{a}^2$ and $\hat{a}^{\dagger}\hat{a}$ terms will yield zero when they act on the *ket*. We are left with the $\hat{a}\hat{a}^{\dagger}$ term. In order to evaluate this term, we need to perform a **reordering**. Where we will make so as to have $\hat{a}$ acting on the *ket*. In order to do so, we use the fact that $\left[\hat{a},\hat{a}^{\dagger}\right]=1$, which we have defined [before](algebraicQHO.md). As a result, we can substitute $\hat{a}\hat{a}^{\dagger}$ with $1+\hat{a}^{\dagger}\hat{a}$.
+When we use this to evaluate the final term, we obtain: 
+
+$$
+\begin{align}
+\tag{3.9.1}
+\langle \hat{x}^2\rangle=\frac{1}{2}\langle \psi_0|1+\hat{a}^{\dagger}\hat{a}|\psi_0\rangle\\
+\langle \hat{x}^2\rangle=\frac{1}{2}\langle \psi_0|1|\psi_0\rangle=\frac{1}{2}
+\end{align}
+$$
+
+Following the same procedure for $\langle \hat{p}^2\rangle$ we obtain $\frac{1}{2}$. We have obtained these results for the simple case where $\hbar=\omega=m=1$. But we can easily write the more general results as:
+
+$$
+\begin{align}
+\tag{3.9.2}
+\langle \hat{x}^2\rangle=\frac{\hbar}{2m\omega}\\
+\tag{3.9.3}
+\langle \hat{p}^2\rangle=\frac{\hbar m\omega}{2}\\
+\tag{3.9.4}
+\therefore \sigma_x^2=\langle \hat{x}^2\rangle-\left(\langle \hat{x}\rangle\right)^2 = \frac{\hbar}{2m\omega}\\
+\tag{3.9.5}
+\therefore \sigma_p^2=\langle \hat{p}^2\rangle-\left(\langle \hat{p}\rangle\right)^2 = \frac{\hbar m\omega}{2}
+\end{align}
+$$
+
+We observe then that the variances are non-zero! Which tells us there is a fluctuation in the position and momentum values (around the average value of zero) in the ground state of the oscillator. These fluctuations tells us that even in the ground state, there is some kinetic energy (flucutations in momentum) and potential energy (fluctuations in position), which explains this quantum of energy $E=\frac{\hbar\omega}{2}$ in the ground state.  
+
+One final point is that we can calculate the standard deviation in position and momentum by taking the square root of the variances, and multiply them by one another. When we do this we obtain:
+
+$$
+\begin{align}\tag{3.9.6}
+\sigma_x\sigma_p= \frac{\hbar}{2}\\
+\end{align}
+$$
+
+The Heisenberg dispersion relation tells us that the product calculated in equation 3.9.6 is greater than or equal to $\frac{\hbar}{2}$. Hence, when the harmonic oscillator is its ground state, it exhibits the smallest fluctuations allowed by the dispersion relation.
