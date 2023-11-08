@@ -9,7 +9,7 @@ $$
 \begin{align}
 \tag{1}
 \hat{H} &= \frac{-\hbar^2}{2m}\frac{d^2}{dx^2}+\frac{1}{2}k\hat{x}^2\\
-&=\frac{-\hbar^2}{2m}\frac{d^2}{dx^2}+\frac{m\omega^2\hat{x}^2}{2}
+\hat{H}&=\frac{-\hbar^2}{2m}\frac{d^2}{dx^2}+\frac{m\omega^2\hat{x}^2}{2}
 \end{align}
 $$
 
@@ -57,7 +57,7 @@ $$
 \begin{align}
 \tag{5}
 \hat{a}\hat{a}^{\dagger} &= \frac{1}{2m\omega\hbar} \left(m\omega x+i\hat{p}\right) \left(m\omega x-i\hat{p}\right)\\
-&=\frac{1}{2m\omega\hbar} \left[\hat{p}^2+\left(m\omega x\right)^2-im\omega \left(x\hat{p}-\hat{p}x\right)\right]
+\hat{a}\hat{a}^{\dagger}&=\frac{1}{2m\omega\hbar} \left[\hat{p}^2+\left(m\omega x\right)^2-im\omega \left(x\hat{p}-\hat{p}x\right)\right]
 \end{align}
 $$
 
@@ -67,7 +67,7 @@ $$
 \begin{align}
 \tag{5.1}
 \hat{a}\hat{a}^{\dagger}&=\frac{1}{2m\omega\hbar} \left[\hat{p}^2+\left(m\omega x\right)^2-im\omega \left[\hat{x},\hat{p}\right]\right]\\
-&=\frac{1}{2m\omega\hbar} \left[\hat{p}^2+\left(m\omega x\right)^2+\right]\frac{1}{2}
+\hat{a}\hat{a}^{\dagger}&=\frac{1}{2m\omega\hbar} \left[\hat{p}^2+\left(m\omega x\right)^2+\right]\frac{1}{2}
 \end{align}
 $$
 
