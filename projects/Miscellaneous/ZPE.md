@@ -239,4 +239,4 @@ $$
 \end{align}
 $$
 
-The Heisenberg dispersion relation tells us that the product calculated in equation 3.9.6 is greater than or equal to $\frac{\hbar}{2}$. Hence, when the harmonic oscillator is its ground state, it exhibits the smallest fluctuations allowed by the dispersion relation.
+The Heisenberg dispersion relation tells us that the product calculated in equation 3.9.6 is greater than or equal to $\frac{\hbar}{2}$. Hence, when the harmonic oscillator is in the ground state, it exhibits the smallest fluctuations allowed by the dispersion relation.
