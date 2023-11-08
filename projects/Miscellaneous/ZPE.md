@@ -65,7 +65,8 @@ $$
 \end{align}
 $$
 
-Lastly, from equation 1.1 we have that $\left(|v\rangle\right)^{\dagger} = \langle v|$. The Hermitian conjugate, $\hat{O}^{\dagger}$, of an operator $\hat{O}$ is defined such that: 
+Lastly, from equation 1.1 we have that $\left(|v\rangle\right)^{\dagger} = \langle v|$. 
+The Hermitian conjugate, $\hat{O}^{\dagger}$, of an operator $\hat{O}$ is defined such that: 
 
 $$
 \begin{align}
@@ -75,7 +76,8 @@ $$
 $$
 
 Equation 1.5 tells us when $\hat{O}$ operates on *ket* $|v\rangle$, the complex conjugate of the answer we obtain is equal the result of the hermitian conjugate $\hat{O}^{\dagger}$ acting on the *bra* $\langle v|$. 
-In particular, if $|v\rangle$ is an eigenvector of $\hat{O}$ with a **real** eigenvalue $\lambda$, then:
+In particular, if $|v\rangle$ is an eigenvector of $\hat{O}$ with a **real** eigenvalue $\lambda$, 
+then:
 
 $$
 \begin{align}
