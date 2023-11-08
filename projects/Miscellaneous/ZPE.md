@@ -219,13 +219,13 @@ Following the same procedure for $\langle \hat{p}^2\rangle$ we obtain $\frac{1}{
 $$
 \begin{align}
 \tag{3.9.2}
-\langle \hat{x}^2\rangle=\frac{\hbar}{2m\omega}\\
+&\langle \hat{x}^2\rangle=\frac{\hbar}{2m\omega}\\
 \tag{3.9.3}
-\langle \hat{p}^2\rangle=\frac{\hbar m\omega}{2}\\
+&\langle \hat{p}^2\rangle=\frac{\hbar m\omega}{2}\\
 \tag{3.9.4}
-\therefore \sigma_x^2=\langle \hat{x}^2\rangle-\left(\langle \hat{x}\rangle\right)^2 = \frac{\hbar}{2m\omega}\\
+&\therefore \sigma_x^2=\langle \hat{x}^2\rangle-\left(\langle \hat{x}\rangle\right)^2 = \frac{\hbar}{2m\omega}\\
 \tag{3.9.5}
-\therefore \sigma_p^2=\langle \hat{p}^2\rangle-\left(\langle \hat{p}\rangle\right)^2 = \frac{\hbar m\omega}{2}
+&\therefore \sigma_p^2=\langle \hat{p}^2\rangle-\left(\langle \hat{p}\rangle\right)^2 = \frac{\hbar m\omega}{2}
 \end{align}
 $$
 
