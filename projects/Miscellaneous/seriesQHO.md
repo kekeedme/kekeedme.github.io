@@ -30,7 +30,7 @@ $$
 \begin{align}
 \tag{3}
 \hat{H} &= \frac{-\hbar^2}{2m}\frac{d^2}{dx^2}+\frac{1}{2}kx^2\\
-&=\frac{-\hbar^2}{2m}\frac{d^2}{dx^2}+\frac{m\omega^2x^2}{2}
+\hat{H}&=\frac{-\hbar^2}{2m}\frac{d^2}{dx^2}+\frac{m\omega^2x^2}{2}
 \end{align}
 $$
 
