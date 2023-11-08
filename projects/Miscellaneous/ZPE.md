@@ -177,7 +177,9 @@ $$
 \end{align}
 $$
 
-When we distribute in the parentheses, we observe in both cases, that we will obtain a $\hat{a}|\psi_0\rangle$ term, which is equal to zero since it is the annihilation operator acting on the ground state wavefunction. In addition, we will also obtain the complex conjugate of that term in the form of $\langle\psi_0|\hat{a}^{\dagger}$ which will also equal zero as we have seen from equations 1.5-1.7 (since $0^{\dagger}=0$). Therefore the average position and momentum in the ground state $\psi_0$ are both zero, $\langle \hat{x}\rangle=\langle \hat{p}\rangle=0$.  
+When we distribute in the parentheses, we observe in both cases, that we will obtain a $\hat{a}|\psi_0\rangle$ term, which is equal to zero since it is the annihilation operator acting on the ground state wavefunction.
+In addition, we will also obtain the complex conjugate of that term in the form of $\langle\psi_0|\hat{a}^{\dagger}$ which will also equal zero as we have seen from equations 1.5-1.7 (since $0^{\dagger}=0$).
+Therefore the average position and momentum in the ground state $\psi_0$ are both zero, $\langle \hat{x}\rangle=\langle \hat{p}\rangle=0$.  
 
 Remember, however, that we calculated average values. We can ask if there is a spread around these values, that is, are these values the center of some distribution of position and momentum values. In order to answer this we need to calculate the variance. Hence, as indicated by equation 2.5, we need to determine $\langle x^2\rangle$ and $\langle \hat{p}^2\rangle$.
 
