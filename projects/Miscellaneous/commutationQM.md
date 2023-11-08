@@ -51,10 +51,12 @@ $$
 \begin{align}
 \tag{5}
 \left[\hat{A},\hat{B}\right]|\psi\rangle&= \left(\hat{A}\hat{B} -\hat{B}\hat{A}\right)|\psi\rangle\\
-&= ba|\psi\rangle -ab|\psi\rangle \\
-&=\left(ba-ab\right)|\psi\rangle=0
+\left[\hat{A},\hat{B}\right]|\psi\rangle&= ba|\psi\rangle -ab|\psi\rangle \\
+\left[\hat{A},\hat{B}\right]|\psi\rangle&=\left(ba-ab\right)|\psi\rangle=0
 \end{align}
 $$ 
+
+Equation 5 proves that when two operators commute, they have the same eigenfunctions.
 
 ## If the Wavefunction is not an Eigenvector of the Operators
 If the wavefunction is not an eigenvector of the operators, when the Let us look at the example between the 1-dimensional position $\hat{x}=x$ and momentum operators $\hat{p}=-i\hbar\frac{d}{dx}$. :
@@ -63,8 +65,8 @@ $$
 \begin{align}
 \tag{6}
 \left[\hat{x},\hat{p}\right]|\psi\rangle&= \left(\hat{x}\hat{p} -\hat{p}\hat{x}\right)|\psi\rangle\\
-&=\hat{x}\hat{p}|\psi\rangle -\hat{p}\hat{x}|\psi\rangle\\
-&=x\left(-i\hbar\frac{d}{dx}|\psi\rangle\right) +i\hbar\frac{d}{dx}\left(x|\psi\rangle\right)
+\left[\hat{x},\hat{p}\right]|\psi\rangle&=\hat{x}\hat{p}|\psi\rangle -\hat{p}\hat{x}|\psi\rangle\\
+\left[\hat{x},\hat{p}\right]|\psi\rangle&=x\left(-i\hbar\frac{d}{dx}|\psi\rangle\right) +i\hbar\frac{d}{dx}\left(x|\psi\rangle\right)
 \end{align}
 $$
 
