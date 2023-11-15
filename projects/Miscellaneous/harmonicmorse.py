@@ -29,7 +29,7 @@ if __name__ =="__main__":
     xvals=np.linspace(-5,9,500)
     D_e=3.5
     b=.9
-    k=5
+    k=6.3 #obtained from the Taylor expansion of the Morse potential around zero
     harmonicpotential=harmonicosc(k,x_0,xvals)
     morsepotential=morse(D_e,x_0,b,xvals)
     asymptopt=[3.5 for _ in xvals] #to show the dissociation treshold
