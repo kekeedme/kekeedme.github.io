@@ -55,7 +55,7 @@ In the following figure we display a so-called Morse potential, and a harmonic o
 
 
 <figure>
-    <img src="harmonic-morse.png" alt="figure">
+    <img src="harmonic_vs_morse.png" alt="figure">
     <figcaption>Figure 1. Harmonic oscillator potential energy curve (red) superimposed over the Morse potential energy curve (blue) as a function of displacement. The dissociation treshold for the Morse curve (green). The harmonic oscillator approximates the Morse potential at small displacement about the equilibrium point.   
 </figcaption>
 </figure>           
