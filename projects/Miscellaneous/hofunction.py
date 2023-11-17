@@ -23,5 +23,5 @@ def momentum(function,position:list,stepsize):
     param: the stepsixe"""
     return -1j* constant.hbar* nderivative(function,1,position,stepsize)
 
-def creationop(function,position:list,omega,mass, stepsize):
+def raisingop(function,position:list,omega,mass, stepsize):
     return (1/(np.sqrt(2*constant.hbar*omega*mass)))*(mass*omega*position-1j*momentum(function,position,stepsize))
