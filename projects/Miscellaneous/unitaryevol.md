@@ -6,7 +6,7 @@ that we have seen. In particular, how one can phenomenologically simulate the de
 behavior of the system.
 
 ## Unitary Transformation
-
+ 
 
 Within a given vector space, a unitary operation is an operation that preserves the inner product between vectors 
 in that space. For instance, consider a vector $|v_1\rangle$
