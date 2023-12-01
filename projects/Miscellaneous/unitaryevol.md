@@ -160,7 +160,7 @@ $$
 $$
 
 The expression obtained in equation 13 is the same as the exponential factor we obtained in the expression for the time-dependent coefficients
-in the equation 1.12 [here](/twolevel.md). As a result, in our [two-level](/twolevel.md) system, 
+in the equation 1.12 [here](/twolvl.md). As a result, in our [two-level](/twolvl.md) system, 
 the evolution operator was evolving our total wavefunction in time, by acting on the time-dependent coefficients. 
 This observation is consistent with the system we studied. Recall that we were simulating the dynamics between two stationary states. That is, 
 states $|\phi_1\rangle$ and $|\phi_2\rangle$ were not changing with time. What was time-dependent, was their relative weight (i.e their coefficients)
@@ -169,7 +169,7 @@ We can thus use it to obtain an expression for the state $|\Psi(r,t)\rangle$ at 
 
 ## The Link Between The Unitary Evolution and Ending the Oscillatory Dynamics
 
-As we have seen in the [two-level](/twolevel.md) dynamics, 
+As we have seen in the [two-level](/twolvl.md) dynamics, 
 the probability of finding the system in stationary states $|\phi_1\rangle$ or $|\phi_2\rangle$ oscillates indefinitely with time. 
 One way to end the oscillation is through the presence of an energy dissipation mechanism.  
 
