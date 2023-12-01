@@ -65,7 +65,7 @@ on the math section of [this document](Quantum_dynamics_two_levelsystem.pdf).
 The wavefunction in the Schrodinger equation is a complex quantity. The equation itself is linear. 
 The wavefunction can be viewed as a complex vector defined on a complex vector space equipped with an inner product (which gives us
 the norm of the wavefunction i.e the probability density associated with the wavefunction). 
-In addition, the wavefunction is a time-evolving quantity. Suppose the wavefunction,$|\Psi(r,t)\rangle$, 
+In addition, the wavefunction is a time-evolving quantity. Suppose the wavefunction $|\Psi(r,t)\rangle$ 
 has a given norm at $t=0$ on the entire
 subspace over which it is defined. Then it must retain the same norm at a later time $t$.(I have a demonstration of this [here](../Miscellaneous/slides/Prob_densisty_current_momentum.pdf))
 We can define an operator, $\hat{U}(t,t_0)$, which acts on the wavefunction at $t_0$, and returns the wavefunction at a later time $t$:
@@ -90,7 +90,7 @@ $$
 \end{align}
 $$
 
-Where we again observe the property that $\hat{U}(t,t_0)^{\dagger}\hat{U}(t,t_0)=\mathbf{1}$.
+Where we again observe the property that $\hat{U}^{\dagger}(t,t_0)\hat{U}(t,t_0)=\mathbf{1}$.
 
 #### Continuity
 
