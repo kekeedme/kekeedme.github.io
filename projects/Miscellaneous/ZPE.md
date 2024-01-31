@@ -108,7 +108,7 @@ In equation 2.1, I have written *all space* as the limit of integration because 
 $$
 \begin{align}
 \tag{2.3}
-\int_{all space}{\psi_m(r)\psi_n(r)}dr&=\delta_ {mn}, \quad
+\int_{all space}{\psi_m(r)^*\psi_n(r)}dr&=\delta_ {mn}, \quad
 \text{with $\delta_{mn}=1$ for m=n or $\delta_{mn}=0$ otherwise}\\
 &\text{in Dirac notation}\\
 \tag{2.4}
