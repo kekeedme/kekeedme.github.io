@@ -22,7 +22,7 @@ $$
 
 Recall that the coefficients are of physical importance
 because $|c_n|^2$ is the probability of measuring the energy $E_n$ corresponding to eigenstate $\psi_n$. When determine the $c_n$ by 
-exploiting the [orthogonality](projects/Miscellaneous/ZPE.md#Calculating-Expectaction-Value-of-Operators-and-Variance) of the eingstates. Indeed we obtain:
+exploiting the [orthogonality](projects/Miscellaneous/ZPE.md/#Calculating-Expectaction-Value-of-Operators-and-Variance) of the eingstates. Indeed we obtain:
 
 $$
 \begin{align}
