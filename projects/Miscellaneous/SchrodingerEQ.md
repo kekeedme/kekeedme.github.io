@@ -1,15 +1,15 @@
 # The Schrödinger Equation
 
 The Schrödinger equation is a linear partial differential equation, which describes the stationary and time-evolving states of non-relativistic (traveling at velocities
-much smaller than the speed of light) particles. The variable in the this differential equation is the complex, time-dependent
-quantity known as the wavefunction, typically denoted $\Psi(r,t)$. The Schrödinger equation for a single-particle system takes is given by: 
+much smaller than the speed of light) particles. The variable in this differential equation is the complex, time-dependent
+quantity known as the wavefunction, typically denoted $\Psi(r,t)$. The Schrödinger equation for a single-particle system in 3 dimensions is given by: 
 
 $$
 \begin{align}
 \tag{1}
 i\hbar\frac{\partial \Psi(r,t)}{\partial t} &= \frac{-\hbar}{2m}\nabla^2 \Psi(r,t) + \hat{V}(r,t) \Psi(r,t)\\
-&\text{with $\nabla$ the Laplace operator}\\
-\nabla&=\left(\frac{\partial^2}{\partial x^2}+\frac{\partial^2}{\partial y^2}+\frac{\partial^2}{\partial z^2}\right)
+&\text{with $\nabla^2$ the Laplace operator}\\
+\nabla^2&=\left(\frac{\partial^2}{\partial x^2}+\frac{\partial^2}{\partial y^2}+\frac{\partial^2}{\partial z^2}\right)
 \end{align}
 $$
 
@@ -21,19 +21,28 @@ the symbol $\hat{H}$. Using this notation, the Schrödinger equation can be writ
 $$
 \begin{align}
 \tag{2}
-i\hbar\frac{\partial \Psi(r,t)}{\partial t} = \hat{H}(r,t)) \Psi(r,t)
+i\hbar\frac{\partial \Psi(r,t)}{\partial t} = \hat{H}(r,t) \Psi(r,t)
 \end{align}
 $$
+
+The wavefunction has a few properties we should highlight:
+ - $\Psi(r,t)$, and its derivative must be a continous over its domain.
+ - $\Psi(r,t)\rightarrow 0$ as $r\rightarrow \pm\infty$.
+ -  $\Psi(r,t)$ must be square integrable (this follows from condition 2), namely the integral of the absolute square of $\Psi(r,t)$ over any interval $\[a,b]\$ of its domaine must be a finite number: $\int_{a}^{b} |\Psi(r,t)|^2 d\tau = A$.  
+   Where $|\Psi(r,t)|^2 = \Psi(r,t)^* \Psi(r,t)$, (with $\Psi(r,t)^*$ being the complex conjugate of $\Psi(r,t)$ ) . This particular condition is due to the statistical interpretation of the wavefunction
+also known as the Born rule, namely that the probability of finding the particle in the interval $\[a,b]\$ at time $t$ is given by $\int_{a}^{b} |\Psi(r,t)|^2 d\tau$. This condition tells us that $|\Psi(r,t)|^2$ is a *probability density*.
+- $\Psi(r,t)$ must be normalized over its domaine: $\int_{D} |\Psi(r,t)|^2 d\tau = 1$ since the particle has to be somewhere. The
+domain is determined by the physics of the system.
 
 When we want to study a system (single or many-body) in quantum mechanics, we typically have to write the Hamiltonian of the system, 
 and solve equation 1 with appropriate boundary conditions. This procedure is not trivial, and the ease or difficulty in solving the equation is 
 heavily dependent on the potential term $\hat{V}(r,t)$.
 In addition, a great number of problems of interests are not soluble analytically. Hence it is necessary to develop efficient numerical methods
 to solve the equation.  
-One of the initial steps in studying a quantum system is to differentiate wether we are analyzing a dynamic process 
+One of the initial steps in studying a quantum system is to differentiate wether we are analyzing a dynamical process 
 (i.e time-evolving) or a time-independent process. If the process is time-independent, which explicitly means that the potential (and thus the Hamiltonian)
-does not depend on time, we work with a different form of the Schrödinger equation. Morever, even when studying dynamic processes, 
-it is sometimes possible to study the stationary states of the system first, and then treat the dynamic interaction as perturbation 
+does not depend on time, we work with a different form of the Schrödinger equation, which posseses time-independent solutions (stationary states). Morever, even when studying dynamical processes, 
+it is sometimes possible to study the stationary states of the system first, and then treat the dynamical interactions as perturbations 
 that will drive the system from one stationary state to another.  
 How, then do we get from equation 1 to the time-independent Schrödinger equation?
 
@@ -100,9 +109,8 @@ label them $\psi_n(r)$, where $n$ is an integer. It is important to note that ea
 
 
 ## Properties of The Eigenfunctions
-The eigenfunctions of an operator are orthogonal to one another under the inner product (their inner product yields zero). In addition, in quantum mechanics, we typically 
-normalize the eigenfunctions (the inner product of an eigenfunction with itself yields one) because this ensures that the total probability that a system is in a quantum state is $1$. We write the orthonormality
-condition as: 
+The eigenfunctions of an operator are orthogonal to one another under the inner product (the inner product of two distinct eigenfunction yields zero). In addition, we typically 
+normalize the eigenfunctions (the inner product of an eigenfunction with itself yields one) because this ensures that the total probability that a system is in a quantum state (say $\psi_n(r)$) is $1$. The orthogonality of the functions, in addition to them being normalized make them orthonormal functions. We write the orthonormality condition as: 
 
 $$
 \begin{align}
