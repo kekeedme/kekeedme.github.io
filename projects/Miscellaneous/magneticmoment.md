@@ -107,7 +107,9 @@ $$
 This torque will cause a change in angular momentum $\Delta l$ that is perpendicular to the 
 angular momentum of the electron. 
 This change in momentum will cause the electron to precess about the magnetic field. 
-This precession is known as Larmor Precession. We can write the following expressions:
+This precession is known as Larmor Precession. Noting $\theta$ the precession angle, $l$ the magnitude
+of the initial angular momentum vector, and $\phi$ the rotation angle, we get that the change in angular momentum is the arc length
+given by $\Delta l = l\sin{\theta} \Delta \phi$. We can thus write:
 
 $$
 \begin{align}
