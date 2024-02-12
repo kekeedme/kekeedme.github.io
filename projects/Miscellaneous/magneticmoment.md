@@ -136,7 +136,7 @@ $$
 \tag{11}
     \vec{\mu_{s}}=\frac{-g_{s}\mu_{B}\vec{S}}{\hbar}\\
     \\
-    \mu_{s_{z}}=-g_{s}\mu_{B}m_{s}
+    \mu_{s_{z}}=g_{s}\mu_{B}m_{s}
 \end{align}
 $$
 
