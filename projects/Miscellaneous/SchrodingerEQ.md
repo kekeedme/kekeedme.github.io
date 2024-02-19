@@ -154,8 +154,19 @@ The expansion coefficients are related to a physical fact. Namely, their absolut
 
 ## The Solution to the Time-Dependent Schrödinger Equation for a Time-Independent Hamiltonian
 
-The wavefunction in equation 10 is also part of our solution to the Schrödinger equation for a time-independent Hamiltonian. Recall that we guessed the product $\phi(t)\psi(r)$ as a solution.
+The wavefunction in equation 10 is also part of our solution to the Schrödinger equation for a time-independent Hamiltonian. Indeed, due to the fact that the Schrödinger equation is a linear equation, if one of the eigenfunctions ($\psi_n(r)$) is solution to the time-independent equation, so is a linear combination of the eigenfunctions. This observation is referred to as the *superposition principal*. This is the more general state in which the quantum system could be (before measuring it). This fact is the reason why we do not a priori know which eigenvalue we will measure, but can only know the probability ($|c_n|^2$) of measuring the eigenvalue $E_n$, unless of course, the system was prepared in the $\psi_n(r)$ to begin with, the we know with certainty that a measurement will return $E_n$.
+
+Now, to construct the time-dependent solution, we need to recall that we guessed the product $\phi(t)\psi(r)$ as a solution. All we need to do is to multiply each eigenfunction in equation 10 by the appropriate $\phi(t)_n$ where each $\phi(t)_n$ obtains the index because of the eigenvalues $E_n$. As such equation equation 7 becomes: $\phi(t)_n = e^{\frac{-iE_n}{\hbar}t}$. The solution to the time-dependent Schrödinger for the time-independent Hamiltonian is thus:
+
+$$
+\begin{align}
+\tag{12}
+\Psi(r,t)=\sum_n^{\infty} c_n e^{\frac{-iE_n}{\hbar}t}\psi_n (r)
+\end{align}
+$$
 
 There are lots of problems in which we are only interested in determining the eigenstates (time-independent problems) of the system. For instance
 quantum chemists do this all the time to determine the electronic structure of atoms and molecules. Indeed, the familiar orbitals of the hydrogen atom consists of solutions 
 to eq.6 for the spherically symmetric Coulomb potential.
+
+Time-dependent processes, where the potential term, $\hat{V}$, in the Hamiltonian is explicitely time-dependent are studied using various methods. As mentioned, it is possible sometimes to treat the time-dependent potential as an interaction that will perturb the system from one stationary state to another, and in some other cases, oter non-perturbative methods have to be used or developped. 
