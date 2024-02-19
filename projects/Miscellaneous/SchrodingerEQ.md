@@ -150,9 +150,11 @@ c_m&=\int_D{\psi_m^ * (r)\Psi(r)dr}
 \end{align}
 $$
 
-## The Solution to the Time-Dependent Schrödninger Equation for a Time-Independent Hamiltonian
+The expansion coefficients are related to a physical fact. Namely, their absolute square $|c_n|^2$ gives the propability of obtaining the eigenvalue $E_n$ associated to the eigenfunction $\psi_n(r)$ upon a measurement.
 
-The wavefunction in equation 10 is also part of our solution to the Schrödinger equation for a time-independent Hamiltonian. Recall that we guessed the 
+## The Solution to the Time-Dependent Schrödinger Equation for a Time-Independent Hamiltonian
+
+The wavefunction in equation 10 is also part of our solution to the Schrödinger equation for a time-independent Hamiltonian. Recall that we guessed the product $\phi(t)\psi(r)$ as a solution.
 
 There are lots of problems in which we are only interested in determining the eigenstates (time-independent problems) of the system. For instance
 quantum chemists do this all the time to determine the electronic structure of atoms and molecules. Indeed, the familiar orbitals of the hydrogen atom consists of solutions 
