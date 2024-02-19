@@ -28,7 +28,8 @@ $$
 The wavefunction has a few properties we should highlight:
  - $\Psi(r,t)$, and its derivative must be a continous over its domain.
  - $\Psi(r,t)\rightarrow 0$ as $r\rightarrow \pm\infty$.
- - $\Psi(r,t)$ must be square integrable (this follows from condition 2), namely the integral of the absolute square of $\Psi(r,t)$ over any interval $\[a,b]\$ of its domaine must be a finite number: $\int_{a}^{b} |\Psi(r,t)|^2 d\tau = A$.
+ - $\Psi(r,t)$ must be square integrable (this follows from condition 2),
+namely the integral of the absolute square of $\Psi(r,t)$ over any interval $\[a,b]\$ of its domaine must be a finite number: $\int_{a}^{b} |\Psi(r,t)|^2 d\tau = A$.
 Where $|\Psi(r,t)|^2 = \Psi(r,t)^* \Psi(r,t)$, (with $\Psi(r,t)^*$ being the complex conjugate of $\Psi(r,t)$ ).
 This particular condition is due to the statistical interpretation of the wavefunction also known as the Born rule, namely that the probability of finding the particle in the interval $\[a,b]\$ at time $t$ is given by $\int_{a}^{b} |\Psi(r,t)|^2 d\tau$.
 This condition tells us that $|\Psi(r,t)|^2$ is a *probability density*.
