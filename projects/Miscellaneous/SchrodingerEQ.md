@@ -1,6 +1,6 @@
 # The Schrödinger Equation
 
-The Schrödinger equation is a linear partial differential equation, which describes the stationary and time-evolving states of non-relativistic (traveling at velocities
+The Schrödinger equation is a linear partial differential equation, which describes the time-evolving states of non-relativistic (traveling at velocities
 much smaller than the speed of light) particles. The variable in this differential equation is the complex, time-dependent
 quantity known as the wavefunction, typically denoted $\Psi(r,t)$. The Schrödinger equation for a single-particle system in 3 dimensions is given by: 
 
