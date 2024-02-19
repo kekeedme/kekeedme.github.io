@@ -103,7 +103,7 @@ $$
 We do not yet know the solutions to eq.6. As we have stated, they are dependent on the potential term. However, eq.6 is an eigenvalue equation,
 an equation in which an operator acting on a function yields a constant times the function. The functions are known as eigenfunctions[^1]. It is 
 generally the case that an operator possesses more than one eigenfunction. As a result, even if we do not know what they are for now, we can
-label them $\psi_n(r)$, where $n$ is an integer. It is important to note that each $\psi_n(r)$ has a corresponding $E_n$. 
+label them $\psi_n(r)$, where $n$ is an integer. It is important to note that each $\psi_n(r)$ has a corresponding $E_n$ (each eigenfunction its eigenvalue). It is also possible for two eigenfunctions $\psi_n(r)$ and $\psi_m(r)$ to have the same eigenvalue $E_n$. Such eigenfunctions are said to be *degenerate*. 
 
 [^1]: we also use the term eigenvectors (linear algebra) and or eigenstates (in quantum mechanics)
 
@@ -114,14 +114,45 @@ normalize the eigenfunctions (the inner product of an eigenfunction with itself 
 
 $$
 \begin{align}
-\tag{2.3}
+\tag{8}
 \int_{all space}{\psi_m(r)^*\psi_n(r)}dr&=\delta_ {mn} \quad
 \text{with $\delta_{mn}=1$ for m=n or $\delta_{mn}=0$ otherwise}
 \end{align}
 $$
 
-This property implies that they form a set of linearly independent functions (basis functions), and further means that we can use a linear combination of the
-eigenfunctions to describe any other function in the space spanned by these basis functions.  
+This property implies that they form a set of linearly independent functions (basis functions), which we can use to describe any other function in the vector space spanned by these basis functions, through an appropriate linear combination. As a perhaps familiar example, this fact is akin to using the set of orthogonal unit vectors $\left(\hat{i},\hat{j},\hat{k}\right)$ to describe any vector in real 3-D space. For instance:
+
+$$
+\begin{align}
+\tag{9}
+\vec{v}=\begin{pmatrix} 3\\ 
+4\\ 
+6 \end{pmatrix} = \left(3\hat{i}+4\hat{j}+6\hat{k}\right)
+\end{align}
+$$
+
+The main differences with the aobve example is that the vector spaces spanned by the eigenfunctions are complex vector spaces, and are infinite dimensional (meaning that we need an infinite amount of basis functions to span the entire space). They are a type of *Hilbert space*. From this consideration, we can say that any state function $|\Psi(r)$ in the Hilbert space can be written as a linear combination of the basis eigenfunctions as:
+
+$$
+\begin{align}
+\tag{10}
+\Psi(r)=\sum_n^{\infty} c_n \psi_n (r)
+\end{align}
+$$
+
+Equation 10 is knowns as the *completeness relation*, and the $c_n$ are expansion coefficients. Since the eigenfunctions are orthonormal, we can obtain the value of any $c_m$ by taking the inner product of the basis function $\psi_m(r)$ with the total wavefunction in 10, and exploting the ortnornamility property (equation 8) to kill the sum:
+
+$$
+\begin{align}
+\tag{11}
+\int_D{\psi_m^* (r)\Psi(r)}dr&=\sum_n^{\infty} c_n \int_D{\psi_m(r)^*\psi_n (r)}dr=c_m\\
+c_m&=\int_D{\psi_m^ * (r)\Psi(r)dr}
+\end{align}
+$$
+
+## The Solution to the Time-Dependent Schrödninger Equation for a Time-Independent Hamiltonian
+
+The wavefunction in equation 10 is also part of our solution to the Schrödinger equation for a time-independent Hamiltonian. Recall that we guessed the 
 
 There are lots of problems in which we are only interested in determining the eigenstates (time-independent problems) of the system. For instance
 quantum chemists do this all the time to determine the electronic structure of atoms and molecules. Indeed, the familiar orbitals of the hydrogen atom consists of solutions 
