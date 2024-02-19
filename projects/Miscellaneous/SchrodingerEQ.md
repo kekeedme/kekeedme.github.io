@@ -132,7 +132,8 @@ $$
 \end{align}
 $$
 
-The main differences with the aobve example is that the vector spaces spanned by the eigenfunctions are complex vector spaces, and are infinite dimensional (meaning that we need an infinite amount of basis functions to span the entire space). They are a type of Hilbert space. From this consideration, we can say that any state function $|\Psi(r)$ in the Hilbert space can be written as a linear combination of the basis eigenfunctions as:
+The main differences with the above example is that the vector spaces spanned by the eigenfunctions are complex vector spaces, and are infinite dimensional (meaning that we need an infinite amount of basis functions to span the entire space).
+They are a type of Hilbert space. From this consideration, we can say that any state function $|\Psi(r)$ in the Hilbert space can be written as a linear combination of the basis eigenfunctions as:
 
 $$
 \begin{align}
