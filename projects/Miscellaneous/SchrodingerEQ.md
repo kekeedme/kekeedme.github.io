@@ -153,7 +153,8 @@ c_m&=\int_D{\psi_m^ * (r)\Psi(r)dr}
 \end{align}
 $$
 
-The expansion coefficients are related to a physical fact. Namely, their absolute square $|c_n|^2$ gives the propability of obtaining the eigenvalue $E_n$ associated to the eigenfunction $\psi_n(r)$ upon a measurement.
+The expansion coefficients are related to a physical fact.
+Namely, their absolute square $|c_n|^2$ gives the propability of obtaining the eigenvalue $E_n$ associated to the eigenfunction $\psi_n(r)$ upon performing a measurement.
 
 ## The Solution to the Time-Dependent Schrödinger Equation for a Time-Independent Hamiltonian
 
