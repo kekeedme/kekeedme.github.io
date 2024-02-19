@@ -106,7 +106,7 @@ $$
 We do not yet know the solutions to eq.6. As we have stated, they are dependent on the potential term. However, eq.6 is an eigenvalue equation,
 an equation in which an operator acting on a function yields a constant times the function. The functions are known as eigenfunctions[^1]. It is 
 generally the case that an operator possesses more than one eigenfunction. As a result, even if we do not know what they are for now, we can
-label them $\psi_n(r)$, where $n$ is an integer. It is important to note that each $\psi_n(r)$ has a corresponding $E_n$ (each eigenfunction its eigenvalue). It is also possible for two eigenfunctions $\psi_n(r)$ and $\psi_m(r)$ to have the same eigenvalue $E_n$. Such eigenfunctions are said to be *degenerate*. 
+label them $\psi_n(r)$, where $n$ is an integer. It is important to note that each $\psi_n(r)$ has a corresponding $E_n$ (each eigenfunction its eigenvalue). It is also possible for two eigenfunctions $\psi_n(r)$ and $\psi_m(r)$ to have the same eigenvalue $E_n$. Such eigenfunctions are said to be **degenerate**. 
 
 [^1]: we also use the term eigenvectors (linear algebra) and or eigenstates (in quantum mechanics)
 
@@ -135,7 +135,7 @@ $$
 $$
 
 The main differences with the above example is that the vector spaces spanned by the eigenfunctions are complex vector spaces, and are infinite dimensional (meaning that we need an infinite amount of basis functions to span the entire space).
-They are a type of Hilbert space. From this consideration, we can say that any state function $|\Psi(r)$ in the Hilbert space can be written as a linear combination of the basis eigenfunctions as:
+They are a type of **Hilbert space**. From this consideration, we can say that any state function $\Psi(r)$ in the Hilbert space can be written as a linear combination of the basis eigenfunctions as:
 
 $$
 \begin{align}
@@ -160,7 +160,7 @@ Namely, their absolute square $|c_n|^2$ gives the propability of obtaining the e
 ## The Solution to the Time-Dependent Schrödinger Equation for a Time-Independent Hamiltonian
 
 The wavefunction in equation 10 is also part of our solution to the Schrödinger equation for a time-independent Hamiltonian. Indeed, due to the fact that the Schrödinger equation is a linear equation, if one of the eigenfunctions ($\psi_n(r)$) is solution to the time-independent equation, so is a linear combination of the eigenfunctions.
-This observation is referred to as the *superposition principal*. 
+This observation is referred to as the **superposition principle**. 
 Equation 10 is the more general state in which the quantum system could be (before measuring it). This fact is the reason why we do not a priori know which eigenvalue we will measure, but can only know the probability ($|c_n|^2$) of measuring the eigenvalue $E_n$, unless of course, the system was prepared in the $\psi_n(r)$ to begin with, the we know with certainty that a measurement will return $E_n$.
 
 Now, to construct the time-dependent solution, we need to recall that we guessed the product $\phi(t)\psi(r)$ as a solution. All we need to do is to multiply each eigenfunction in equation 10 by the appropriate $\phi(t)_n$ where each $\phi(t)_n$ obtains the index because of the eigenvalues $E_n$. As such equation equation 7 becomes: $\phi(t)_n = e^{\frac{-iE_n}{\hbar}t}$. The solution to the time-dependent Schrödinger for the time-independent Hamiltonian is thus:
