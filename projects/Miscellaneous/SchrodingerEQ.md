@@ -184,7 +184,7 @@ $$
 \end{align}
 $$
 
-where we have used the fact that $\phi_n^*(t)\phi_n(t)=e^{\frac{iE_n-iE_n}{\hbar}t}=1$, and the last equal sign is just to show that the time-dependence of the state drops when we take the absolute square of the wavefunction for that state.
+where we have used the fact that $\phi_n^*(t)\phi_n(t)=e^{\frac{iE_n-iE_n}{\hbar}t}=1$, and the last equal sign is just to show that the time-dependence of the state drops when we take the absolute square of the wavefunction for that state.  
 One way we could think about the wavefunction in equation 13 is like a vector rotating in Hilbert space as a function of time (because of $\phi(t)$ ), but its length does not change. As such the $\phi_n(t)$ functions act as [unitary operators](unitaryevol.md) that merely change the phase of the $\Psi_n(r,t)$ as a function of time.  
 
 There are lots of problems in which we are only interested in determining the eigenstates (time-independent problems) of the system. For instance
