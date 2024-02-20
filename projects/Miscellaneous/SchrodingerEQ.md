@@ -172,6 +172,21 @@ $$
 \end{align}
 $$
 
+We have highlighted that this method of finding a general solution to the Schrödinger equation is for the particular case of a time-independent process, yet, from equation 12, we see that the wavefunction does have a time-dependence through $\phi_n(t)$. The key is that, the general solution to the Schrödinger equation is **not** time-independent, only the individual stationary states $\phi_n(t)\psi_n(r)$ are. One could ask how are the stationary states independent of time, if they possess the time-dependent complex phase $\phi(t)$? The reason is because the probability density of these states, as well as the [expectation values](ZPE.md) calculated from them do not vary in time.
+
+Consider a system prepared in the following state $\Psi_n(r,t)=\phi_n(t)\psi_n(r)$, and we want to determine its probability density.
+
+$$
+\begin{align}
+\tag{13}
+\Psi_n(r,t)^* \Psi_n(r,t)&=\phi_n^* (t)\phi_n(t)\psi_n^* (r)\psi_n(r)\\
+|\Psi_n(r,t)|^2&=|\psi_n^2(r)|=|\Psi_n(r)|^2
+\end{align}
+$$
+
+where we have used the fact that $\phi_n^*(t)\phi_n(t)=e^{\frac{-iE_n+iE_n}{\hbar}t}=1$, and the last equal sign is just to show that the time-dependence of the state drops when we take the absolute square of the wavefunction for that state.
+One way we could think about the wavefunction in equation 13 is like a vector rotating in Hilbert space as a function of time (because of $\phi(t)$ ), but its length does not change. As such the $\phi_n(t)$ functions act as [unitary operators](unitaryevol.md) that merely change the phase of the $\Psi_n(r,t)$ as a function of time.  
+
 There are lots of problems in which we are only interested in determining the eigenstates (time-independent problems) of the system. For instance
 quantum chemists do this all the time to determine the electronic structure of atoms and molecules. Indeed, the familiar orbitals of the hydrogen atom consists of solutions 
 to eq.6 for the spherically symmetric Coulomb potential.
