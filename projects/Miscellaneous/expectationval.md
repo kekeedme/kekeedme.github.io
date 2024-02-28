@@ -79,3 +79,32 @@ $$
 As a result, the diagonal entries of a hermitian matrix are **real** and the off-diagonal entries are **complex conjugate** of one another.
 
 ## Calculating Expectation Value
+Given a wavefunction $\Psi(r,t)$ describing the state of a system, and the operator $\hat{A}$ describing a physical observable of interest, 
+the expectation value, $\langle \hat{A}\rangle$, of the observable is given by:
+
+$$
+\begin{align}
+\tag{5}
+\langle \hat{A}\rangle=\frac{\int_{D}{\Psi(r,t)^ *\hat{A}\Psi(r,t) dr}}{\int_{D}{\Psi(r,t)^ *\Psi(r,t) dr}}
+\end{align}
+$$
+
+where the denominator equation 5 is the normalization condition, therefore, if $\Psi(r,t)$ is already normalized then the denominator is $1$.  
+We can take the example of
+the wavefunction prepared in the normalized state $\Psi(r,t)=\phi_n(t)\psi_n(r)$ (thus $c_n=1$ ),  and we wish to find the expectation value of the energy. Using equation 5, we obtain:
+
+$$
+\begin{align}
+\tag{6}
+\langle \hat{H}\rangle&=\int_{D}{\phi_n ^ * (t)\psi_n ^ * (r) \hat{H}\phi_n(t)\psi_n(r) dr}\\
+\tag{6.1}
+\langle \hat{H}\rangle&=E_n\int_{D}{\phi_n ^ * (t)\psi_n ^ * (r)\phi_n(t)\psi_n(r) dr}\\
+\tag{6.2}
+\langle \hat{H}\rangle&=E_n\int_{D}{\psi_n ^ * (r)\psi_n(r) dr}\\
+\tag{6.3}
+\langle \hat{H}\rangle&=E_n
+\end{align}
+$$
+
+In equation 6.1 we evaluated the hamiltonian on its eigenstate $\psi_n$ to obtain the energy $E_n$. Then we took advantage in 6.2 of the fact that $\phi_n^ *(t)\phi_n=1$, as we have [seen](SchrodingerEQ.md). Finally we tokk advantage of the fact that the eigenstates are normalized, which means that the integral also evalulates to $1$.  
+The result we obtain tells us (i) that if the system is prepared in the state $\psi_n$ then we are sure to measure energy $E_n$ and (ii) that the energy of stationary states are constant as we lose the time-dependennce of the total wavefunction when we multiplied by the complex conjugate.
