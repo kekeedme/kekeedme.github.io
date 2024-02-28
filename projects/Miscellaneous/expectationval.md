@@ -75,3 +75,7 @@ b^ * & d
 \end{pmatrix}
 \end{align}
 $$
+
+As a result, the diagonal entries of a hermitian matrix are **real** and the off-diagonal entries are **complex conjugate** of one another.
+
+## Calculating Expectation Value
