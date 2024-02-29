@@ -180,7 +180,7 @@ $$
 \end{align}
 $$
 
-We have highlighted that this method of finding a general solution to the Schrödinger equation is for the particular case of a time-independent process, yet, from equation 12, we see that the wavefunction does have a time-dependence through $\phi_n(t)$. The key is that, the general solution to the Schrödinger equation is **not** time-independent, only the individual stationary states $\phi_n(t)\psi_n(r)$ are. One could ask how are the stationary states independent of time, if they possess the time-dependent complex phase $\phi(t)$? The reason is because the probability density of these states, as well as the [expectation values](ZPE.md) calculated from them do not vary in time.
+We have highlighted that this method of finding a general solution to the Schrödinger equation is for the particular case of a time-independent process, yet, from equation 12, we see that the wavefunction does have a time-dependence through $\phi_n(t)$. The key is that, the general solution to the Schrödinger equation is **not** time-independent, only the individual stationary states $\phi_n(t)\psi_n(r)$ are. One could ask how are the stationary states independent of time, if they possess the time-dependent complex phase $\phi(t)$? The reason is because the probability density of these states, as well as the [expectation values](expectationval.md) calculated from them do not vary in time.
 
 Consider a system prepared in the following state $\Psi_n(r,t)=\phi_n(t)\psi_n(r)$, and we want to determine its probability density.
 
