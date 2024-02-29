@@ -17,6 +17,7 @@ Home. So I kept doing that for the rest of the slides.
 ### Currently Available Slides or Posts
 
 - [Introduction to the Schrödinger Equation](SchrodingerEQ.md)
+- [Expectation Values and Hermitian Operators](expectationval.md)
 - [A Brief Discussion on Commutators](commutationQM.md)
 - [A Brief Discussion on Unitary Evolution](unitaryevol.md)
 - [On the Zero-Point Energy](ZPE.md)
