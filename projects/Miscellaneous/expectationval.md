@@ -85,13 +85,13 @@ the expectation value, $\langle \hat{A}\rangle$, of the observable is given by:
 $$
 \begin{align}
 \tag{5}
-\langle \hat{A}\rangle=\frac{\int_{D}{\Psi(r,t)^ *\hat{A}\Psi(r,t) dr}}{\int_{D}{\Psi(r,t)^ *\Psi(r,t) dr}}
+\langle \hat{A}\rangle=\frac{\int_{D}{\Psi^ *(r,t)\hat{A}\Psi(r,t) dr}}{\int_{D}{\Psi^ * (r,t)\Psi(r,t) dr}}
 \end{align}
 $$
 
 where the denominator equation 5 is the normalization condition, therefore, if $\Psi(r,t)$ is already normalized then the denominator is $1$.  
 We can take the example of
-the wavefunction prepared in the normalized state $\Psi(r,t)=\phi_n(t)\psi_n(r)$ (thus $c_n=1$ ),  and we wish to find the expectation value of the energy. Using equation 5, we obtain:
+the wavefunction prepared in the normalized state $\Psi_n(r,t)=\phi_n(t)\psi_n(r)$ (thus $c_n=1$ ),  and we wish to find the expectation value of the energy. Using equation 5, we obtain:
 
 $$
 \begin{align}
@@ -106,5 +106,17 @@ $$
 \end{align}
 $$
 
-In equation 6.1 we evaluated the hamiltonian on its eigenstate $\psi_n$ to obtain the energy $E_n$. Then we took advantage in 6.2 of the fact that $\phi_n^ *(t)\phi_n=1$, as we have [seen](SchrodingerEQ.md). Finally we tokk advantage of the fact that the eigenstates are normalized, which means that the integral also evalulates to $1$.  
-The result we obtain tells us (i) that if the system is prepared in the state $\psi_n$ then we are sure to measure energy $E_n$ and (ii) that the energy of stationary states are constant as we lose the time-dependennce of the total wavefunction when we multiplied by the complex conjugate.
+In equation 6.1 we evaluated the hamiltonian on its eigenstate $\psi_n$ to obtain the energy $E_n$. Then we took advantage in 6.2 of the fact that $\phi_n^ *(t)\phi_n=1$, as we have [seen](SchrodingerEQ.md). Finally we used of the fact that the eigenstates are normalized, which means that the integral also evalulates to $1$.  
+The result we obtain tells us (i) that if the system is prepared in the state $\psi_n$ then we are sure to measure energy $E_n$ and (ii) that the energy of stationary states are constant as we lose the time-dependence of the total wavefunction when we multiplied by the complex conjugate. To reiterate, if the system was in a superposition of states, we would only be able to report on the probability ( $|c_n|^2$ of measuring a particular $E_n$, since when in the superposition, the system does not have a definite energy. 
+
+## Variance
+Since the experiment outcomes are expectaction values, we may want to determine the variance, $\sigma_\alpha^2$, associated with a given observable $\alpha$. The variance is given by: 
+
+$$
+\begin{align}
+\tag{7}
+\sigma_\alpha^2=\langle \alpha^2\rangle - \langle \alpha\rangle ^2
+\end{align}
+$$
+
+In other words, the variance is the difference between the expectation value of the square of the observable and the square of the expectation value.
