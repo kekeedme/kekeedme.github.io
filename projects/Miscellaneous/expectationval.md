@@ -3,7 +3,7 @@
 When we introduced the [Schrodinger equation](SchrodingerEQ.md) we saw that, when the system was prepared in the superposition of states, i.e $\Psi(r,t)$,
 the expansion coefficients $c_n$ were related to the probability of measuring a particular 
 eigenvalue (in this case the energy of the stationary state $\psi_n$) that we denoted $E_n$. Therefore, every time we prepare a system in
-state $\Psi(r,t)$, we can only predict the probability of measuring a certain energy $E_n$.  
+state $\Psi(r,t)$, we can only predict the probability of measuring a certain energy $E_n$, by calculating $|c_n|^2$.   
 Let us consider that we performed a measurement on $\Psi(r,t)$, and
 measured the energy $E_n$. If we perform a subsequent measurement on the same system, we will again measure $E_n$. This observation
 tells us that the first measurement "*collapsed*" the initial superposition of states to a definite state $\psi_n$, 
