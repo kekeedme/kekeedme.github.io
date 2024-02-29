@@ -156,6 +156,14 @@ $$
 
 The expansion coefficients are related to a physical fact.
 Namely, their absolute square $|c_n|^2$ gives the propability of obtaining the eigenvalue $E_n$ associated to the eigenfunction $\psi_n(r)$ upon performing a measurement.
+We can calculate the absolute square as:
+
+$$
+\begin{align}
+\tag{12}
+|c_m|^2&=c_m^ * c_m\\
+|c_m|^2&=\left(\int_D{\Psi^ *(r,t) \psi_m(r)dr}\right)\left(\int_D{\psi_m^ *(r) \Psi(r,t)dr}\right)\end{align}
+$$
 
 ## The Solution to the Time-Dependent Schrödinger Equation for a Time-Independent Hamiltonian
 
@@ -167,7 +175,7 @@ Now, to construct the time-dependent solution, we need to recall that we guessed
 
 $$
 \begin{align}
-\tag{12}
+\tag{13}
 \Psi(r,t)=\sum_n^{\infty} c_n e^{\frac{-iE_n}{\hbar}t}\psi_n (r)
 \end{align}
 $$
@@ -178,7 +186,7 @@ Consider a system prepared in the following state $\Psi_n(r,t)=\phi_n(t)\psi_n(r
 
 $$
 \begin{align}
-\tag{13}
+\tag{14}
 \Psi_n(r,t)^* \Psi_n(r,t)&=\phi_n^* (t)\phi_n(t)\psi_n^* (r)\psi_n(r)\\
 |\Psi_n(r,t)|^2&=|\psi_n^2(r)|=|\Psi_n(r)|^2
 \end{align}
