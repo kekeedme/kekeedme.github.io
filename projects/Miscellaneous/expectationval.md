@@ -107,7 +107,7 @@ $$
 $$
 
 In equation 6.1 we evaluated the hamiltonian on its eigenstate $\psi_n$ to obtain the energy $E_n$. Then we took advantage in 6.2 of the fact that $\phi_n^ *(t)\phi_n=1$, as we have [seen](SchrodingerEQ.md). Finally we used of the fact that the eigenstates are normalized, which means that the integral also evalulates to $1$.  
-The result we obtain tells us (i) that if the system is prepared in the state $\psi_n$ then we are sure to measure energy $E_n$ and (ii) that the energy of stationary states are constant as we lose the time-dependence of the total wavefunction when we multiplied by the complex conjugate. To reiterate, if the system was in a superposition of states, we would only be able to report on the probability ( $|c_n|^2$ of measuring a particular $E_n$, since when in the superposition, the system does not have a definite energy. 
+The result we obtain tells us (i) that if the system is prepared in the state $\psi_n$ then we are sure to measure energy $E_n$ and (ii) that the energy of stationary states are constant as we lose the time-dependence of the total wavefunction when we multiplied by the complex conjugate. To reiterate, if the system was in a superposition of states, we would only be able to report on the probability ( $|c_n|^2$ of measuring a particular $E_n$, since when in the superposition, the system does not have a definite energy. The average will would obtain upon performing multiple measurements would be the weighed average of the stationary state energies, weighed by the coefficients.
 
 ## Variance
 Since the experiment outcomes are expectaction values, we may want to determine the variance, $\sigma_\alpha^2$, associated with a given observable $\alpha$. The variance is given by: 
@@ -120,3 +120,26 @@ $$
 $$
 
 In other words, the variance is the difference between the expectation value of the square of the observable and the square of the expectation value.
+
+For the case where the system is in the state $\Psi_n(r,t)=\phi_n(t)\psi_n(r)$, we can determine the variance in energy by determining the expectation value of the square of the energy $\langle \hat{H}^2\rangle$ and then the square of the expectation value $E_n^2$.
+We obtain:
+
+$$
+\begin{align}
+\tag{8}
+\sigma_\hat{H}^2&=\langle \hat{H}^2\rangle - \langle \hat{H}\rangle ^2\\
+\tag{8.1}
+\sigma_\hat{H}^2&=\int_{D}{\psi_n ^ * (r) \hat{H^2}\psi_n(r) dr}-E_n^2\\
+\tag{8.2}
+\sigma_\hat{H}^2&=E_n\int_{D}{\psi_n ^ * (r) \hat{H}\psi_n(r) dr}-E_n^2\\
+\tag{8.3}
+\sigma_\hat{H}^2&=E_n^2\int_{D}{\psi_n ^ * (r)\psi_n(r) dr}-E_n^2\\
+\tag{8.4}
+\sigma_\hat{H}^2&=E_n^2-E_n^2=0
+\end{align}
+$$
+
+where from 8 to 8.1 we have again used the fact that $\phi_n^ *(t)\phi_n=1$. From 8.2 to 8.3, we exploit that $\hat{H^2}$ consists of applying the operator $\hat{H}$ twice. Secondly, we used the fact that the $\psi_n$ are normalized functions in going to 8.4.  
+As expected, since we prepared the system in state $\Psi_n(r,t)=\phi_n(t)\psi_n(r)$, we should obtain the energy $E_n$ with certainty. Thus, there should not be any spread in the measured in energy value for this initial condition.  
+
+Calculating the spread in the expectation value of observables can teach us a lot about quantum systems, and quantum mechanics in itself. For instance, we can see in the case of an harmonic oscillator there is a an uncertainty in both the position and the momentum of the oscillator even in its lowest energy state. The consequence is that the lowest energy state cannot be zero, since the system is always fluctuating. This fact is strongly related to the dispersion principle of Heinsenberg. I disuss this in more details [on this post](QuantumHOscillator.md)
