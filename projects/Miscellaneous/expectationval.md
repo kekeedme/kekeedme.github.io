@@ -139,7 +139,7 @@ $$
 \end{align}
 $$
 
-where from 8 to 8.1 we have again used the fact that $\phi_n^ *(t)\phi_n=1$. From 8.2 to 8.3, we exploit that $\hat{H^2}$ consists of applying the operator $\hat{H}$ twice. Secondly, we used the fact that the $\psi_n$ are normalized functions in going to 8.4.  
+where from 8 to 8.1 we have again used the fact that $\phi_n^ *(t)\phi_n=1$. From 8.2 to 8.3, we exploited that $\hat{H^2}$ consists of applying the operator $\hat{H}$ twice. Secondly, we used the fact that the $\psi_n$ are normalized functions in going to 8.4.  
 As expected, since we prepared the system in state $\Psi_n(r,t)=\phi_n(t)\psi_n(r)$, we should obtain the energy $E_n$ with certainty. Thus, there should not be any spread in the measured in energy value for this initial condition.  
 
 Calculating the spread in the expectation value of observables can teach us a lot about quantum systems, and quantum mechanics in itself. For instance, we can see in the case of an harmonic oscillator there is a an uncertainty in both the position and the momentum of the oscillator even in its lowest energy state. The consequence is that the lowest energy state cannot be zero, since the system is always fluctuating. This fact is strongly related to the dispersion principle of Heinsenberg. I disuss this in more details [on this post](QuantumHOscillator.md)
