@@ -64,7 +64,8 @@ i\hbar\sum_n \psi_n(r) \left[\dot{c_n}(t)e^{\frac{-iE_n t}{\hbar}}+\left(\frac{-
 \tag{3.3}
 \sum_n \psi_n(r) \left[i\hbar\dot{c_n}(t)e^{\frac{-iE_n t}{\hbar}}\right]&=\sum_n\left[c_n(t)V(t)\psi_n(r)e^{\frac{-iE_nt}{\hbar}}\right]\\
 \\
-\text{multiplying by $\psi^*_ m$ and integrating}\\
+\text{multiplying}  &\text{by $\psi^*_ m$ and integrating}\\
+\\
 \tag{3.4}
 i\hbar\sum_n\dot{c_n}(t)e^{\frac{-iE_n t}{\hbar}} \int_D{\psi^ *_ m(r)\psi_n(r)dr}&=\sum_n c_n(t)e^{\frac{-iE_nt}{\hbar}}\int_D{\psi^ *_ m(r)V(t)\psi_n(r) dr}\\
 \tag{3.5}
