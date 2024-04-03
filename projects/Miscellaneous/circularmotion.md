@@ -13,7 +13,7 @@ $$
 $$
 
 
-## Attraction Under No Tangential Velocity (Linear Motion)
+## Attraction in the Absence of Tangential Velocity (Linear Motion)
 
 Let us consider one of the particles as the *source* particle, as it generates the field, and the second particle the *test* particle, 
 which comes to interact with the source. Let us first suppose the *test* particle does not have an initial velocity, but starts off at an 
@@ -39,3 +39,12 @@ where $m$ is the mass of the *test* particle, and $\vec{p}$ is the linear moment
 </figure>
 
 ## Attraction in the Presence of Tangential Velocity (Circular Motion)
+
+Let us now consisder the same two particles interacting through the same potential. However, in this scenario, the *test* particle 
+has an initial velocity $\vec{v}_1$ oriented as shown in figure 2. The attractive force $\vec{F} from the *source* particle will cause the velocity of the *test* particle to change in a given time interval ($\Delta t$ ). Since this change in velocity ( $\Delta \vec{v}$ ) is proportional to the force, the two vectors will be colinear and their norms will be multiples of one another ($F=m\frac{\Delta v}{\Delta t}$). Hence we can geometrically obtain the new velocity vector $\Delta \vec{v}_2$ at the later time $\Delta t$ by adding $\Delta \vec{v}$ to $\vec{v}_1$ (the operation $\vec{v}_2-\vec{v}_1=\Delta \vec{v}$ is shown on figure 2, left panel). After this initial change, the particle has velocity $\vec{v}_2$ oriented as shown. Since the force still acts on the particle, it will generate a change in $\vec{v}_2$. That change will always be colinear with $\vec{F}$ (dashed green arrow), and we will generate a new vector $\vec{v}_3$ and so on. As such an influence is exerted on the *test* particle, the net result will be a circular motion around the *source* particle.
+
+<figure>
+    <img src="/projects/figures/circular_motion.png" alt="figure" width=300 height=200>
+    <figcaption>Figure 2. Source particle (blue) sets up an attractive potential, which attracts a test particle (red) with initial velocitiy. The force exerted on the test particle causes a velocity change, which changes the direction of the particle. The net result is a circular motion around the source particle.
+    towards the center</figcaption>
+</figure>
