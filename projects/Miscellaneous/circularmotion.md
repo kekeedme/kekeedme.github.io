@@ -1,6 +1,7 @@
 # Circular Motion
 Suppose two point-like particles are interacting through an attractive interaction potential $V(r)$ which permeates space,the potential could be gravitational
-due to the mass of the particles, or electric if the particles are oppositely charged. It does not really matter in this case, because we will not need the explicit expression for the potential. The interaction potential sets up a force between the two particles, given by:
+due to the mass of the particles, or electric if the particles are oppositely charged. It does not really matter in this case, because we will not need the explicit expression for the potential. 
+The interaction potential sets up a force between the two particles, given by:
 
 $$
 \begin{align}
@@ -31,7 +32,7 @@ where $m$ is the mass of the *test* particle, and $\vec{p}$ is the linear moment
 
 <figure>
     <img src="/projects/figures/two_particle_attraction.png" alt="figure" width=250 height=200>
-    <figcaption>Figure 1. Source particle (blue) sets up an attractive potential, which attracts a test particle (red) with no tangential velocitiy. The test particle is simply accelerated towards the source with a linear acceleration equal proportional to the velocity oriented
+    <figcaption>Figure 1. Source particle (blue) sets up an attractive potential, which attracts a test particle (red) with no tangential velocitiy. The test particle is simply accelerated towards the source with a linear acceleration proportional to the velocity oriented
     towards the center</figcaption>
 </figure>
 
