@@ -15,8 +15,8 @@ Home. So I kept doing that for the rest of the slides.
 </div>
 
 ### Classical Corner
-- [Circular motion](circularmotion.md)
 - [Dimensional Analysis](comingsoon.md)
+- [Circular motion](circularmotion.md)
   
 ### Quantum Corner
 
