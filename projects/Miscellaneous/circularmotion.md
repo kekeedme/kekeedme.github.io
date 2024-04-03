@@ -50,7 +50,7 @@ has an initial velocity $\vec{v}_1$ oriented as shown in figure 2. The attractiv
 </figure>
 
 ## Centripetal Acceleration and Force
-In the picture of circular motion described above, we see that the force acts as to attract the particle towards the center of the circle. For this reason we call it a **centripetal** ("center seeking") force. The associated acceleration ($\frac{\Delta \vec{v}}{\Delta t}$) is the **centripetal** acceleration. There are a many ways to derive the expression for the centripetal acceleration and force, here we will use do it by considering the geometry of isoceles and congruent triangles, and arc length. Later, we will do it with calculus.   
+In the picture of circular motion described above, we see that the force acts as to attract the particle towards the center of the circle. For this reason we call it a **centripetal** ("center seeking") force. The associated acceleration ($\frac{\Delta \vec{v}}{\Delta t}$) is the **centripetal** acceleration. There are a many ways to derive the expression for the centripetal acceleration and force, here we will do it by considering the geometry of isoceles and congruent triangles, and arc length. Later, we will do it with calculus.   
 
 <figure>
     <img src="/projects/figures/triangles.png" alt="figure" width=300 height=200>
