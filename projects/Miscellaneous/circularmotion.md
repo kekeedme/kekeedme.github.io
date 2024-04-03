@@ -6,10 +6,11 @@ The interaction potential sets up a force between the two particles given by:
 $$
 \begin{align}
 \tag{1}
-\vec{F} &= \nabla V(r)\\
-\text{with}~ \nabla &= \left(\frac{\partial{}}{{\partial x}}\vec{i}+\frac{\partial{}}{{\partial y}}\vec{j}+\frac{\partial{}}{{\partial z}}\vec{k}\right)
+\vec{F} &= \vec{\nabla} V(r)\\
+\text{with}~ \vec{\nabla} &= \left(\frac{\partial{}}{{\partial x}}\vec{i}+\frac{\partial{}}{{\partial y}}\vec{j}+\frac{\partial{}}{{\partial z}}\vec{k}\right)
 \end{align}
 $$
+s
 
 ## Attraction Under No Tangential Velocity (Linear Motion)
 
