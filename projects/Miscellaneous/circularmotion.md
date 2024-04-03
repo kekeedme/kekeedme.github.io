@@ -58,7 +58,7 @@ In the picture of circular motion described above, we see that the force acts as
     towards the center</figcaption>
 </figure>
 
-Consider the triangles in figure 3. They are taken from the exact same situation as in figure 2. On the left panel, we have an isoceles triangle with sides $r$, $\Delta s$, the arc length. Recall that the arc length is the radius times the angle swept by the arc (with $\theta$ in radians), this means that $theta$ is:
+Consider the triangles in figure 3. They are taken from the exact same situation as in figure 2. On the left panel, we have an isoceles triangle with sides $r$, $\Delta s$, the arc length. Recall that the arc length is the radius times the angle swept by the arc (with $\theta$ in radians), this means that $\theta$ is:
 
 $$
 \begin{align}
@@ -67,7 +67,7 @@ $$
 \end{align}
 $$
 
-Secondly, consider the triangle in the right panel. This triangle is constructed from the two velocity vectors $\vec{v}_1$ and $\vec{v}_2$ and the base $Delta \vec{v}$. Note that the angle $\theta$ is the same as before because it is the angle by which $\vec{v}_1$ rotates to become $\vec{v}_2$. Since $\vec{v}_1$ and $\vec{v}_2$ have the same norm, the triangle is also an isoceles triangle.  
+Secondly, consider the triangle in the right panel. This triangle is constructed from the two velocity vectors $\vec{v}_1$ and $\vec{v}_2$ and the base $\Delta \vec{v}$. Note that the angle $\theta$ is the same as before because it is the angle by which $\vec{v}_1$ rotates to become $\vec{v}_2$. Since $\vec{v}_1$ and $\vec{v}_2$ have the same norm, the triangle is also an isoceles triangle.  
 
 The last consideration is that, if we take the time interval to be small enough, then the arc length will also be small, and in that limit
 it becomes equal to the distance $\Delta s = v\Delta t=\Delta r$. In addition since the isoceles triangles are similar the ratio of their bases to their sides are equal. Hence, if we put all this together, we get the following expressions: 
