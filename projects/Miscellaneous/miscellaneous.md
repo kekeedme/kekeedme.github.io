@@ -14,7 +14,11 @@ Home. So I kept doing that for the rest of the slides.
 
 </div>
 
-### Currently Available Slides or Posts
+### Classical Corner
+- [Circular motion](circularmotion.md)
+- [Dimensional Analysis](comingsoon.md)
+  
+### Quantum Corner
 
 - [Introduction to the Schrödinger Equation](SchrodingerEQ.md)
 - [Expectation Values and Hermitian Operators](expectationval.md)
