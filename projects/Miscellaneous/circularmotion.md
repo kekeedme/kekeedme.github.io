@@ -48,3 +48,57 @@ has an initial velocity $\vec{v}_1$ oriented as shown in figure 2. The attractiv
     <figcaption>Figure 2. Source particle (blue) sets up an attractive potential, which attracts a test particle (red) with initial velocitiy. The force exerted on the test particle causes a velocity change, which changes the direction of the particle. The net result is a circular motion around the source particle.
     towards the center</figcaption>
 </figure>
+
+## Centripetal Acceleration and Force
+In the picture of circular motion described above, we see that the force acts as to attract the particle towards the center of the circle. For this reason we call it a **centripetal** ("center seeking") force. The associated acceleration ($\frac{\Delta \vec{v}}{\Delta t}$) is the **centripetal** acceleration. There are a many ways to derive the expression for the centripetal acceleration and force, here we will use do it by considering the geometry of isoceles and congruent triangles, and arc length. Later, we will do it with calculus.   
+
+<figure>
+    <img src="/projects/figures/triangles.png" alt="figure" width=300 height=200>
+    <figcaption>Figure 3. Isoceles triangle formed from the radius of the circular orbit and the arc length (left panel). Isoceles triangle for from the velocity vectors and the change in velocity. Both triangles are similar.
+    towards the center</figcaption>
+</figure>
+
+Consider the triangles in figure 3. They are taken from the exact same situation as in figure 2. On the left panel, we have an isoceles triangle with sides $r$, $\Delta s$, the arc length. Recall that the arc length is the radius times the angle swept by the arc (with $\theta$ in radians), this means that $theta$ is:
+
+$$
+\begin{align}
+\tag{3}
+\theta = \frac{\Delta s}{r}
+\end{align}
+$$
+
+Secondly, consider the triangle in the right panel. This triangle is constructed from the two velocity vectors $\vec{v}_1$ and $\vec{v}_2$ and the base $Delta \vec{v}$. Note that the angle $\theta$ is the same as before because it is the angle by which $\vec{v}_1$ rotates to become $\vec{v}_2$. Since $\vec{v}_1$ and $\vec{v}_2$ have the same norm, the triangle is also an isoceles triangle.  
+
+The last consideration is that, if we take the time interval to be small enough, then the arc length will also be small, and in that limit
+it becomes equal to the distance $\Delta s = v\Delta t=\Delta r$. In addition since the isoceles triangles are similar the ratio of their bases to their sides are equal. Hence, if we put all this together, we get the following expressions: 
+
+$$
+\begin{align}
+\tag{4}
+\frac{\Delta s}{r} =\frac{\Delta r}{r}= \frac{\Delta v}{v}\\
+\tag{4.1}
+\Delta v=v\frac{\Delta r}{r}
+\end{align}
+$$
+
+The expression in equation 4.1 can be used for $\Delta v$ in Newton's equation to express the norm of the force as:
+
+$$
+\begin{align}
+\tag{5}
+F=mv\frac{\Delta r}{r\Delta t}\\
+\tag{5.1}
+F=m\frac{v^2}{r}
+\end{align}
+$$
+
+In equation 5.1, we have used the fact that we are performing our analysis for a very small time interval (as $\Delta t\rightarrow 0$) in that limit we obtain $\lim_{\Delta t \rightarrow 0}\frac{\Delta r}{\Delta t}=v$. Hence the norm of the centripetal acceleration is:
+
+$$
+\begin{align}
+\tag{6}
+a_c=\frac{v^2}{r}
+\end{align}
+$$
+
+## Angular Momentum 
