@@ -9,8 +9,7 @@ $$
 \tag{1}
 \vec{F} &= \vec{\nabla} V(r)\\
 &\text{with $\vec{\nabla}$ given by the expression}\\
-\vec{\nabla} &= \left(\frac{\partial}{{\partial x}}\vec{i}+\frac{\partial}{{\partial y}}\vec{j}+\frac{\partial}{{\partial z}}\vec{k}\right)
-\end{align}
+\nabla^2&=\left(\frac{\partial^2}{\partial x^2}+\frac{\partial^2}{\partial y^2}+\frac{\partial^2}{\partial z^2}\right)\end{align}
 $$
 
 
