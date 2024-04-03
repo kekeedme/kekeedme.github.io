@@ -28,6 +28,11 @@ $$
 \end{align}
 $$
 
-where $m$ being the mass of the *test* particle, and $vec{p}$ is the linear momentum of the particle.
+where $m$ is the mass of the *test* particle, and $\vec{p}$ is the linear momentum of the particle.
+
+<figure>
+    <img src="/projects/figures/two_particle_attraction.png" alt="figure" width=250 height=200>
+    <figcaption>Figure 1. *Source* particle (blue) sets up an attractive potential, which attracts a *test* particle (red) with no tangential velocitiy $\vec{v}_t=0$ . The *test* particle is simply accelerated towards the *source*  </figcaption>
+</figure>
 
 ## Attraction in the Presence of Tangential Velocity (Circular Motion)
