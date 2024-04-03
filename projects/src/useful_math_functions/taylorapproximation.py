@@ -25,3 +25,4 @@ def taylorapprox(function, argument, a_value, maxorder, stepsize):
             * (argument - a_value) ** order
         ) / fact(order)
     return approximation
+
