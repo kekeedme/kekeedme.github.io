@@ -2,12 +2,13 @@
 
 Suppose two point-like particles are interacting through an attractive interaction potential $V(r)$ which permeates space. The potential could be gravitational
 due to the mass of the particles, or electric if the particles are oppositely charged. It does not really matter in this case, because we will not need the explicit expression for the potential. 
-The interaction potential sets up a force between the two particles given by
+The interaction potential sets up a force between the two particles given by:
 
 $$
 \begin{align}
 \tag{1}
 \vec{F} &= \vec{\nabla} V(r)\\
+\vec{\nabla} &= \left(\frac{\partial}{{\partial x}}\vec{i}+\frac{\partial}{{\partial y}}\vec{j}+\frac{\partial}{{\partial z}}\vec{k}\right)
 \end{align}
 $$
 
