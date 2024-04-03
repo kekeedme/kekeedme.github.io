@@ -10,6 +10,7 @@ $$
 \text{with}~ \vec{\nabla} &= \left(\frac{\partial{}}{{\partial x}}\vec{i}+\frac{\partial{}}{{\partial y}}\vec{j}+\frac{\partial{}}{{\partial z}}\vec{k}\right)
 \end{align}
 $$
+
 s
 
 ## Attraction Under No Tangential Velocity (Linear Motion)
