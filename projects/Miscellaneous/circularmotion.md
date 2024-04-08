@@ -109,3 +109,30 @@ a_c=\frac{v^2}{r}
 $$
 
 ## Angular Momentum 
+In linear motion, momentum can be conceptualized as the *quantity of motion* that an object possesses. We know that the inertia of an object is its tendency to resit a change in motion. As a result, the mass of the object is a good parameter to help quantify its inertia. But if the object is in motion, we consider that its mass, coupled to its velocity have to be taken into account if we want to change its motion and, say, bring it to rest. This combination of mass and velocity is the object's momentum. For this reason, some authors refer to momentum as *inertia in motion*. Mathematically, the linear momentum of an object is given by $\vec{p}=m\vec{v}$, with $\vec{v}$ its linear velocity. Note that momentum is a vector quantity by virtue of it being proportional to the velocity vector. Any change in mass and/or change in velocity will result in a change of momentum, even if the change in velocity is only a change in direction (while the norm remains constant).  
+
+When a body is undergoing rotational motion, it also possesses an analogue of the linear momentum, called the angular momentum. The more an object rotates about an axis, the more angular momentum it possesses, the more it can resist chanes to this rotation. Importantly, angular momentum is linked to the object's linear momentum by the equation: 
+
+$$
+\begin{align}
+\tag{7}
+\vec{L}=m\left(\vec{r}\times\vec{v}\right)= \vec{r}\times\vec{p}\\
+\end{align}
+$$
+
+where $\vec{r}$ is the distance of the object from the center of the rotation axis. Notice that the angular momentum is a vector quantity as well, and it is obtained through a cross product of the vector $\vec{r}$ with the vector $\vec{p}$, which means that the resulting vector $\vec{L}$, will be perpendicular to these two vectors. Hence, for our example in figures 2 or 3 (left panels), the vector is perpendicular to the screen. We use the right hand rule to determine where it is pointing. Using the right hand, we points the fingers along $\vec{r}$, curl them in the direction of motion, and where the thumb points tells us the orientation of $\vec{L}$. Hence, in our case, the angular momentum points out of the screen.  
+
+The angular momentum is also related to the angular velocity, $\omega$, that is, how much the angle $\theta$ changes with respect to time. We can write the norms:
+
+$$
+\begin{align}
+\tag{8}
+\omega &= \frac{\Delta \theta}{\Delta t}\\
+\tag{8.1}
+v &= r\omega\\
+\tag{8.2}
+L&=mr^2\omega=I\omega
+\end{align}
+$$
+
+where we have used equation 3 and the fact that $v=\frac{\Delta s}{\Delta t}$ to obtain the 8.1. The quantity $I$ is the rotational inertia.
