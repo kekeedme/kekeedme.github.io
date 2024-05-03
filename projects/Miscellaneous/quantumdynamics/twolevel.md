@@ -238,7 +238,7 @@ of the system. For instance, we have seen that the off-diagonal terms is what dr
 by which the two states interact. However, it also controls the frequency of the oscillation between states. 
 This fact is apparent in the simulation, but it is not so clear with the expressions we have derived thus far. It becomes
 really clear when we perform the diagonalization of the Hamiltionian and obtain the eigenfunctions as functions of time and coupling strenght. 
-I have done so in Part 2 [here](/projects/quantumdynamics/Quantum_dynamics_two_levelsystem.pdf).
+I have done so in Part 2 [here](/projects/Miscellaneous/quantumdynamicsuantumdynamics/Quantum_dynamics_two_levelsystem.pdf).
 If you are interested in seeing the steps, do check out that document. 
 In addition, I have added some notes about the unitary evolution 
 operator in the document, but which can also be found on [this post](https://kekeedme.github.io/projects/quantumdynamics/unitary_evol). 
