@@ -14,6 +14,9 @@ Home. So I kept doing that for the rest of the slides.
 
 </div>
 
+### Numerical Corner
+- [Quantum dynamics with the dynamics](/projects/quantumdynamics/QDWD_intro.md)
+
 ### Classical Corner
 - [Dimensional Analysis](comingsoon.md)
 - [Circular motion](circularmotion.md)
@@ -30,3 +33,4 @@ Home. So I kept doing that for the rest of the slides.
 - [A Brief Discussion on Unitary Evolution](unitaryevol.md)
 - [Linear first order differential equations- Applied to chemical kinetics](/projects/Miscellaneous/slides/L1st_ODE.pdf)  
 - [My notes on the magnetic moment](/projects/Miscellaneous/magneticmoment)
+
