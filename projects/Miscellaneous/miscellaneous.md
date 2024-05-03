@@ -1,4 +1,4 @@
-## Posts on Quantum Mechanics Projects
+## Posts on Physical Sciences Project
 <div align="justify">
 
 On this page, you will find lecture slides, notes or paper style documents I have written
