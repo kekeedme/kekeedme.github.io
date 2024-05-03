@@ -20,7 +20,7 @@ read the code, and or just read about the dynamics.
 
 
 ## Table of Contens
-- [Two-level system-oscillations forever](/projects/Miscellaneous/quantumdynamics/twolevel)  
-- [Two-level system with an ending](/projects/Miscellaneous/quantumdynamics/unitary_evol)
+- [Two-level system-oscillations forever](/projects/quantumdynamics/twolevel)  
+- [Two-level system with an ending](/projects/quantumdynamics/unitary_evol)
 - [Unitary Evolution](unitary_evol.md)
-- [Three-level quantum system](/projects/Miscellaneous/quantumdynamics//threelevel_quantum)
+- [Three-level quantum system](/projects/quantumdynamics//threelevel_quantum)

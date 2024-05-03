@@ -28,7 +28,7 @@ but also to share if someone would want to learn these as well.
 
 ## Current projects
 
-- [Quantum dynamics with the dynamics](/projects/Miscellaneous/quantumdynamics/QDWD_intro.md)
+- [Quantum dynamics with the dynamics](/projects/quantumdynamics/QDWD_intro.md)
 - [My science blog in Haitian creole](/projects/ANPS/posts/Akey.md)
 - [ANPS: my blog at old URL](https://anps.space/)
 - [Notes on Quantum Mechanics](/projects/Miscellaneous/miscellaneous.md)
