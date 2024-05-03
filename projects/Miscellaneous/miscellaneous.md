@@ -15,7 +15,7 @@ Home. So I kept doing that for the rest of the slides.
 </div>
 
 ### Numerical Corner
-- [Quantum dynamics with the dynamics](/projects/quantumdynamics/QDWD_intro.md)
+- [Quantum dynamics with the dynamics](projects/quantumdynamics/QDWD_intro.md)
 
 ### Classical Corner
 - [Dimensional Analysis](comingsoon.md)
