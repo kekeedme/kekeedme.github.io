@@ -123,14 +123,14 @@ $$
 \end{align}
 $$
 
-This property implies that they form a set of linearly independent functions (basis functions), which we can use to describe any other function in the vector space spanned by these basis functions, through an appropriate linear combination. As a perhaps familiar example, this fact is akin to using the set of orthogonal unit vectors $\left(\hat{i},\hat{j},\hat{k}\right)$ to describe any vector in real 3-D space. For instance:
+This property implies that they form a set of linearly independent functions (basis functions), which we can use to describe any other function in the vector space spanned by these basis functions, through an appropriate linear combination. As a perhaps familiar example, this fact is akin to using the set of orthogonal unit vectors $\left(\vec{i},\vec{j},\vec{k}\right)$ to describe any vector in real 3-D space. For instance:
 
 $$
 \begin{align}
 \tag{9}
 \vec{v}=\begin{pmatrix} 3\\ 
 4\\ 
-6 \end{pmatrix} = \left(3\hat{i}+4\hat{j}+6\hat{k}\right)
+6 \end{pmatrix} = \left(3\vec{i}+4\vec{j}+6\vec{k}\right)
 \end{align}
 $$
 
