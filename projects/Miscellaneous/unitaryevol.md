@@ -3,7 +3,7 @@
 I want to start with a brief discussion on unitary operation and evolution. I will then make the connection with the discussion of
 the two-level system dynamics 
 that we have seen. In particular, how one can phenomenologically simulate the decay of the dynamics by modifying the evolution operator, thereby putting an end to the oscillatory 
-behavior of the system.
+behavior of the system. In our discussion, as in the two-level system example we have considered, the Hamiltonian will be time independent.
 
 ## Unitary Transformation
  
@@ -64,7 +64,7 @@ on the math section of [this document](Quantum_dynamics_two_levelsystem.pdf).
 
 The wavefunction in the Schrodinger equation is a complex quantity. The equation itself is linear. 
 The wavefunction can be viewed as a complex vector defined on a complex vector space equipped with an inner product (which gives us
-the norm of the wavefunction i.e the probability density associated with the wavefunction). 
+the norm of the wavefunction i.e the [probability density](SchrodingerEQ.md) associated with the wavefunction). 
 In addition, the wavefunction is a time-evolving quantity. Suppose the wavefunction $|\Psi(r,t)\rangle$ 
 has a given norm at $t=0$ on the entire
 subspace over which it is defined. Then it must retain the same norm at a later time $t$.(I have a demonstration of this [here](../Miscellaneous/slides/Prob_densisty_current_momentum.pdf))
@@ -124,17 +124,17 @@ $$
 
 Hence, we have $\hat{U}(t_2,t_0)=\hat{U}(t_2,t_1) \hat{U}(t_1,t_0)$.
 
-We can obtain an expression for the evolution operator, by using the time-dependent Schrodinger equation (TDSE).
+We can obtain an expression for the evolution operator, by using the time-dependent Schrodinger equation (TDSE). We will consider the case where the Hamiltonian, $\hat{H}(r)$ is independent of time.
 In order to do so, we will insert equation 5 into the TDSE:
 
 $$
 \begin{align}
 \tag{9}
-i\hbar\frac{\partial|\Psi(r,t)\rangle}{\partial t}&=\hat{H}(r,t)|\Psi(r,t)\rangle \\
+i\hbar\frac{\partial|\Psi(r,t)\rangle}{\partial t}&=\hat{H}(r)|\Psi(r,t)\rangle \\
 \tag{10}
-i\hbar\frac{\partial\hat{U}(t)}{\partial t}|\Psi(r,t_0)\rangle&=\hat{H}(r,t)\hat{U}(t)|\Psi(r,t_0)\rangle \\
+i\hbar\frac{\partial\hat{U}(t)}{\partial t}|\Psi(r,t_0)\rangle&=\hat{H}(r)\hat{U}(t)|\Psi(r,t_0)\rangle \\
 \tag{11}
-i\hbar\frac{\partial\hat{U}(t)}{\partial t}&=\hat{H}(r,t)\hat{U}(t)
+i\hbar\frac{\partial\hat{U}(t)}{\partial t}&=\hat{H}(r)\hat{U}(t)
 \end{align}
 $$
 
@@ -143,13 +143,13 @@ Equation 11 is a first-order differential equation in $\hat{U}(t)$, hence, the s
 $$
 \begin{align}
 \tag{12}
-\hat{U}(t)=\exp\left(\frac{-i}{\hbar}\int_0^t \hat{H}(r,t') ~dt'\right)
+\hat{U}(t)=\exp\left(\frac{-i}{\hbar}\int_0^t \hat{H}(r) ~dt'\right)
 \end{align}
 $$
 
-The expression obtained in equation 12 is not always valid. I invite you to read my friend Dr. Joshua Going's post on the [Magnus expansion](https://joshuagoings.com/2017/06/15/magnus/) to read about the general treatment of such differential equations involving matrices.
-We can look at the particular case where, the Hamiltonian is not dependent on time.
-If $\hat{H}(r,t)$ is time independent, it can be taken out of the integral, and the integral evaluates to $t$.
+The expression obtained in equation 12 is only valid for a time-independent $\hat{H}(r)$. I invite you to read my friend Dr. Joshua Going's post on the [Magnus expansion](https://joshuagoings.com/2017/06/15/magnus/) to read about the general treatment of such differential equations involving matrices. In addition, you can read a discussion on how perturbation theory is sometimes used to treat the time-dependent cases [here](time_dependentPT.md).  
+
+Since the Hamiltonian is not dependent on time, it can be taken out of the integral, and the integral evaluates to $t$.
 Hence for a time-independent Hamiltonian, the unitary evolution operator is:
 
 $$
@@ -177,7 +177,7 @@ Imagine every time the system transitions to
  state $|\phi_2\rangle$ it loses energy. We can simulate this by making the evolution operator non-unitary. As a result, the norm of the total 
  wavefunction will not be preserved. We can make it so the norm decreases with time, which would phenomenologically (without specifying the exact physical cause of the energy dissipation) simulate a decay in the dynamics of the two-level system, ending the oscillation. This method is what the orginal authors, 
  professors [Beratan](https://beratanlab.chem.duke.edu/) and [Polizzi](https://www.polizzilab.org/) showed in the [mathematica](https://pubs.acs.org/doi/10.1021/acs.jchemed.5b00662) notebook.    
- Recall from equations 12 and 13 that $\hat{U}(t)$ depends on $\hat{H}(r,t)$. The Hamiltonian, $\hat{H}(r,t)$,
+ Recall from equations 12 and 13 that $\hat{U}(t)$ depends on $\hat{H}(r)$. The Hamiltonian, $\hat{H}(r)$,
  is represented by a hermitian matrix, meaning that it is a square matrix equal to its own conjugate transpose $\left(\hat{H}=\hat{H}^{\dagger}\right)$.  
  In fact, every unitary matrix can be written as complex exponential of a hermitian matrix, that is: $\hat{U}=\exp{i\hat{H}}$, where $\hat{H}$ is a hermitian matrix.
  If we make the Hamiltonian non-hermitian, then $\hat{U}(t)$ will lose its unitary property. Indeed, by introducing a dissipation factor $-i\Gamma$,
@@ -192,3 +192,8 @@ Imagine every time the system transitions to
     <img src="/projects/quantumdynamics/images/dynamics_dissipation.png" alt="figure">
     <figcaption>Figure 1. Oscillation of the probability of measuring the system in state 1 (blue) or 2 (orange) as a function of time  </figcaption>
 </figure>   
+
+
+## Acknowledgement
+
+I would like to specially thank Professor [David Lauvergnat](https://scholar.google.fr/citations?user=iPGtR8UAAAAJ&hl=fr) of the [Institut de Chimie Physique] ((https://www.icp.universite-paris-saclay.fr/theosim/le-groupe/)) for reading this post and providing invaluable feeback that ultimately made it better.
