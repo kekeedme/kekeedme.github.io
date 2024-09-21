@@ -196,4 +196,4 @@ Imagine every time the system transitions to
 
 ## Acknowledgement
 
-I would like to specially thank Professor [David Lauvergnat](https://scholar.google.fr/citations?user=iPGtR8UAAAAJ&hl=fr) of the [Institut de Chimie Physique] ((https://www.icp.universite-paris-saclay.fr/theosim/le-groupe/)) for reading this post and providing invaluable feeback that ultimately made it better.
+I would like to specially thank Professor [David Lauvergnat](https://scholar.google.fr/citations?user=iPGtR8UAAAAJ&hl=fr) of the [Institut de Chimie Physique] (https://www.icp.universite-paris-saclay.fr/theosim/le-groupe/) for reading this post and providing invaluable feeback that ultimately made it better.
