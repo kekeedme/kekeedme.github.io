@@ -20,7 +20,7 @@ $$
 \end{align}
 $$
 
-where, $\langle v_1| = |v_1\rangle^\*$, with $|v_1\rangle^\*$ being the conjugate transpose of the vector $|v_1\rangle$.
+w, $\langle v_1| = |v_1\rangle^\*$, with $|v_1\rangle^\*$ being the conjugate transpose of the vector $|v_1\rangle$.
 Let $\hat{U}$ be an operator that acts on the vectors of our vector space. 
 When we define basis vectors for our space, $\hat{U}$ is represented by a matrix.
 It acts on the vectors under matrix multiplication:
@@ -147,7 +147,7 @@ $$
 \end{align}
 $$
 
-The expression obtained in equation 12 is only valid for a time-independent $\hat{H}(r)$. I invite you to read my friend Dr. Joshua Going's post on the [Magnus expansion](https://joshuagoings.com/2017/06/15/magnus/) to read about the general treatment of such differential equations involving matrices. In addition, you can read a discussion on how perturbation theory is sometimes used to treat the time-dependent cases [here](time_dependentPT.md).  
+The expression obtained in equation 12 is only valid for a time-independent $\hat{H}(r)$. I invite you to read my friend Dr. Joshua Going's post on the [Magnus expansion](https://joshuagoings.com/2017/06/15/magnus/) to read about the general treatment of such differential equations involving matrices. In addition, you can read a discussion on how perturbation theory is sometimes used to treat the time-dependent cases [here](projects/Miscellaneous/time_dependentPT.md).  
 
 Since the Hamiltonian is not dependent on time, it can be taken out of the integral, and the integral evaluates to $t$.
 Hence for a time-independent Hamiltonian, the unitary evolution operator is:
