@@ -147,7 +147,7 @@ $$
 \end{align}
 $$
 
-The expression obtained in equation 12 is only valid for a time-independent $\hat{H}(r)$. I invite you to read my friend Dr. Joshua Going's post on the [Magnus expansion](https://joshuagoings.com/2017/06/15/magnus/) to read about the general treatment of such differential equations involving matrices. In addition, you can read a discussion on how perturbation theory is sometimes used to treat the time-dependent cases [here](projects/Miscellaneous/time_dependentPT.md).  
+The expression obtained in equation 12 is only valid for a time-independent $\hat{H}(r)$. I invite you to read my friend Dr. Joshua Going's post on the [Magnus expansion](https://joshuagoings.com/2017/06/15/magnus/) to read about the general treatment of such differential equations involving matrices. In addition, you can read a discussion on how perturbation theory is sometimes used to treat the time-dependent cases [here](../Miscellaneous/time_dependentPT.md).  
 
 Since the Hamiltonian is not dependent on time, it can be taken out of the integral, and the integral evaluates to $t$.
 Hence for a time-independent Hamiltonian, the unitary evolution operator is:
