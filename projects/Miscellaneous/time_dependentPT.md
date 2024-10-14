@@ -58,9 +58,9 @@ $$
 i\hbar\sum_n \psi_n(r) \frac{\partial }{\partial t}\left[c_n(t)e^{\frac{-iE_nt}{\hbar}}\right]&=\hat{H}_ 0\sum_n c_n(t)\psi_n(r)e^{\frac{-iE_nt}{\hbar}} + V(t)\sum_n c_n(t)\psi_n(r)e^{\frac{-iE_nt}{\hbar}}\\
 \\
 \tag{3.1}
-i\hbar\sum_n \psi_n(r) \left[\dot{c_n}(t)e^{\frac{-iE_n t}{\hbar}}+\left(\frac{-iE_n}{\hbar}\right)e^{\frac{-iE_nt}{\hbar}}c_n(t)\right]&=\sum_n\left[ E_n c_n(t)\psi_n(r)e^{\frac{-iE_nt}{\hbar}} + c_n(t)V(t)\psi_n(r)e^{\frac{-iE_nt}{\hbar}}\right]\\
+i\hbar\sum_n \psi_n(r) \left[\dot{c_n}(t)e^{\frac{-iE_n t}{\hbar}}+c_n(t)\left(\frac{-iE_n}{\hbar}\right)e^{\frac{-iE_nt}{\hbar}}\right]&=\sum_n\left[ E_n c_n(t)\psi_n(r)e^{\frac{-iE_nt}{\hbar}} + c_n(t)V(t)\psi_n(r)e^{\frac{-iE_nt}{\hbar}}\right]\\
 \tag{3.2}
-\sum_n \psi_n(r) \left[i\hbar\dot{c_n}(t)e^{\frac{-iE_n t}{\hbar}}+E_n e^{\frac{-iE_nt}{\hbar}}c_n(t)\right]&=\sum_n\left[ E_n c_n(t)\psi_n(r)e^{\frac{-iE_nt}{\hbar}} + c_n(t)V(t)\psi_n(r)e^{\frac{-iE_nt}{\hbar}}\right]\\
+\sum_n \psi_n(r) \left[i\hbar\dot{c_n}(t)e^{\frac{-iE_n t}{\hbar}}+c_n(t)\left(E_n e^{\frac{-iE_nt}{\hbar}})\right\right]&=\sum_n\left[ E_n c_n(t)\psi_n(r)e^{\frac{-iE_nt}{\hbar}} + c_n(t)V(t)\psi_n(r)e^{\frac{-iE_nt}{\hbar}}\right]\\
 \tag{3.3}
 \sum_n \psi_n(r) \left[i\hbar\dot{c_n}(t)e^{\frac{-iE_n t}{\hbar}}\right]&=\sum_n\left[c_n(t)V(t)\psi_n(r)e^{\frac{-iE_nt}{\hbar}}\right]\\
 \\
