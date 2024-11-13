@@ -9,6 +9,6 @@ equation $4.1$ from the post on the [introduction to time-dependent perturbation
 $$
 \begin{align}
 \tag{1}
-\vert c_m(t)\vert ^2&=\vert \frac{-i}{\hbar}\int_0^t{e^{\frac{i\omega t'}{\hbar}}V_{mn}(t')dt'}\vert ^2
+\vert c_m(t)\vert ^2&=\vert \frac{-i}{\hbar}\int_0^t{e^{i\omega t'}V_{mn}(t')dt'}\vert ^2
 \end{align}
 $$
