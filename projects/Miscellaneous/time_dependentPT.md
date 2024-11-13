@@ -73,7 +73,7 @@ i\hbar\dot{c_m}(t)e^{\frac{-iE_m t}{\hbar}}&=\sum_n c_n(t)e^{\frac{-iE_nt}{\hbar
 \tag{3.6}
 i\hbar\dot{c_m}(t)&=\sum_n e^{\frac{i\left(E_m-E_n\right)t}{\hbar}} c_n(t) V_ {mn}(t)\\
 \tag{3.7}
-\dot{c_m}(t)&=\frac{-i}{\hbar}\sum_n e^{\frac{i\omega t}{\hbar}}c_n(t)V_{mn}(t)
+\dot{c_m}(t)&=\frac{-i}{\hbar}\sum_n e^{i\omega t}c_n(t)V_{mn}(t)
 \end{align}
 $$
 
@@ -88,9 +88,9 @@ equation 3.7 to obtain an expression for $c_m(t)$, and further use equation 2 to
 $$
 \begin{align}
 \tag{4}
-c_m(t)&=\frac{-i}{\hbar}\int_0^t{e^{\frac{i\omega t'}{\hbar}}V_{mn}(t')dt'}\\
+c_m(t)&=\frac{-i}{\hbar}\int_0^t{e^{i\omega t'}V_{mn}(t')dt'}\\
 \tag{4.1}
-\vert c_m(t)\vert ^2&=\vert \frac{-i}{\hbar}\int_0^t{e^{\frac{i\omega t'}{\hbar}}V_{mn}(t')dt'}\vert ^2
+\vert c_m(t)\vert ^2&=\vert \frac{-i}{\hbar}\int_0^t{e^{i\omega t'}V_{mn}(t')dt'}\vert ^2
 \end{align}
 $$
 
