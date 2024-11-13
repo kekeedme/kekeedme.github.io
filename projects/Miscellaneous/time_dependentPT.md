@@ -90,7 +90,7 @@ $$
 \tag{4}
 c_m(t)&=\frac{-i}{\hbar}\int_0^t{e^{\frac{i\omega t'}{\hbar}}V_{mn}(t')dt'}\\
 \tag{4.1}
-|c_m(t)|^2&=|\frac{-i}{\hbar}\int_0^t{e^{\frac{i\omega t'}{\hbar}}V_{mn}(t')dt'}|^2
+\vert c_m(t)\vert ^2&=\vert \frac{-i}{\hbar}\int_0^t{e^{\frac{i\omega t'}{\hbar}}V_{mn}(t')dt'}\vert ^2
 \end{align}
 $$
 
