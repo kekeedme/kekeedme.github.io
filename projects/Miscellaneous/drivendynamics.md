@@ -12,5 +12,5 @@ We will look at a two-level system driven by a time-dependent oscillating field.
 first-order perturbation theory, and we will obtain an expression for the rate of the transition. We will then look at an exact treatment 
 of this problem and compare the results with those obtained in the perturbation theory treatment. 
 
-- [Time-dependent perturbation and Fermi's Golden Rule]()
+- [Time-dependent perturbation and Fermi's Golden Rule](goldenrule.md)
 - [Exact dynamics and Rabi Oscillation]()
