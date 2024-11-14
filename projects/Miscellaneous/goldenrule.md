@@ -73,7 +73,7 @@ $$
 \begin{align}
 \tag{5}
 P_{mn}(t)=\frac{|V_{mn}|^2}{\left(2\hbar\right)^2} \left[\frac{e^{i\left(\omega_0-\omega\right)t'/2}}{\omega_0-\omega}\left(e^{i\left(\omega_0-\omega\right)t'/2}-e^{-i\left(\omega_0-\omega\right)t'/2}\right)\right]^2
-=\frac{|V_{mn}|^2}{\left(2\hbar\right)^2}\left[\frac{e^{i\left(\omega_0-\omega\right)t'/2}}{\omega_0-\omega}\left(2i\sin(\omega_0-\omega \right)t'/2\right]^2
+=\frac{|V_{mn}|^2}{\left(2\hbar\right)^2}\left[\frac{e^{i\left(\omega_0-\omega\right)t'/2}}{\omega_0-\omega}\left(2i\sin\left[(\omega_0-\omega \right)t'/2\right]\right]^2
 \end{align}
 $$
 
