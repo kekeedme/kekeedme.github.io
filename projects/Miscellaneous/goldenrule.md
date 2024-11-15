@@ -75,7 +75,7 @@ Upon factoring a $e^{i\left(\omega_0-\omega\right)t'/2}$ we obtain:
 
 $$
 \begin{align}
-\tag{5}
+\tag{6}
 P_{mn}(t)=\frac{|V_{mn}|^2}{\left(2\hbar\right)^2} \left[\frac{e^{i\left(\omega_0-\omega\right)t'/2}}{\omega_0-\omega}\left(e^{i\left(\omega_0-\omega\right)t'/2}-e^{-i\left(\omega_0-\omega\right)t'/2}\right)\right]^2
 =\frac{|V_{mn}|^2}{\left(2\hbar\right)^2}\left[\frac{e^{i\left(\omega_0-\omega\right)t'/2}}{\omega_0-\omega}\left(2i\sin\left[(\omega_0-\omega \right)t'/2\right]\right]^2
 \end{align}
@@ -85,7 +85,7 @@ Since it is a square modulus (so we multiply by the complex conjugate) the proba
 
 $$
 \begin{align}
-\tag{6}
-P_{mn}(t)=\frac{|V_{mn}|^2}{\left(2\hbar\right)^2}~ \frac{\sin^2\left[\left(\omega_0-\omega \right)t'/2\right]}{\left(\omega_0 -\omega\right)^2}
+\tag{7}
+P_{mn}(t)=\frac{|V_{mn}|^2}{\hbar^2}~ \frac{\sin^2\left[\left(\omega_0-\omega \right)t'/2\right]}{\left(\omega_0 -\omega\right)^2}
 \end{align}
 $$
