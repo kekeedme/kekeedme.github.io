@@ -89,3 +89,13 @@ $$
 P_{mn}(t)=\frac{|V_{mn}|^2}{\hbar^2}~ \frac{\sin^2\left[\left(\omega_0-\omega \right)t'/2\right]}{\left(\omega_0 -\omega\right)^2}
 \end{align}
 $$
+
+##
+<figure>
+    <img src="P as a function of time.png" alt="figure">
+    <figcaption>Figure 1. Oscillation of the probability of finding the system in the upper state as a function of the time over which the perturbation is applied.   
+</figcaption>
+</figure>
+
+##
+Notice how the $P_{mn}(t)$ oscillates in time. This automatically tells us something about the time-interval over which the perturbation should be applied. If the perturbation is left for long it will cause a transition to the upper, $|\psi_m\rangle$ state, but then stimulate a transition back to the lower, $|\psi_m\rangle$ state. The zeroes of $P_{mn}(t)$ as a function of time give us the time treshold at which the system would go back to the lower state. An expression for the zeroes can be obtained by simply setting the argument of the function equal to $n\pi$ with $n=0,1,2,3...$ and solving for time. We find that the probability of finding the system in the lower state occurs every $t=\frac{2n\pi}{\left(\omega_0-\omega\right)}$. 
