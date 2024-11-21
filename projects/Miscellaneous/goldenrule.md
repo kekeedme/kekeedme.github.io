@@ -101,7 +101,9 @@ $$
 </figure>
 
 
-Notice how the $P_{mn}(t)$ oscillates in time. This automatically tells us something about the time-interval over which the perturbation should be applied. If the perturbation is left for long it will cause a transition to the upper, $|\psi_m\rangle$ state, but then stimulate a transition back to the lower, $|\psi_m\rangle$ state. The zeroes of $P_{mn}(t)$ as a function of time give us the time treshold at which the system would go back to the lower state. An expression for the zeroes can be obtained by simply setting the argument of the function equal to $n\pi$ with $n=0,1,2,3...$ and solving for time. We find that the probability of finding the system in the lower state occurs every $t=\frac{2n\pi}{\left(\omega_0-\omega\right)}$. Hence the perturbation should be applied for a time interval much shorter than the time that it takes to drive the system back to the initial state.  
+Notice how the $P_{mn}(t)$ oscillates in time. This automatically tells us something about the time-interval over which the perturbation should be applied.  
+If the perturbation is left for long it will cause a transition to the upper, $|\psi_m\rangle$ state, but then stimulate a transition back to the lower, $|\psi_m\rangle$ state. The zeroes of $P_{mn}(t)$ as a function of time give us the time treshold at which the system would go back to the lower state. An expression for the zeroes can be obtained by simply setting the argument of the function equal to $n\pi$ with $n=0,1,2,3...$ and solving for time.  
+We find that the probability of finding the system in the lower state occurs every $t=\frac{2n\pi}{\left(\omega_0-\omega\right)}$. Hence the perturbation should be applied for a time interval much shorter than the time that it takes to drive the system back to the initial state.  
 
 Furthermore, we can look at $P_{mn}(t)$ as a function of the driving frequency, $\omega$. We see that the probability peaks *on resonance*, meaning when the driving frequency is equal to the fundamental frequency $\omega_0$ associated with the energy difference between the states.
 
