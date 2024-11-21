@@ -64,7 +64,7 @@ $$
 We can factor a $e^{i\left(\omega_0-\omega\right)t'/2}$ out, to make use of $\sin(\theta/2)$.
 
 ---
-**_NOTE:_**  
+**_NOTE:_1**  
 
 - $e^{i\theta/2} = \cos(\theta/2) + i \sin(\theta/2)$ 
 - $e^{-i\theta/2} = \cos(\theta/2) - i \sin(\theta/2)$
@@ -111,3 +111,64 @@ Furthermore, we can look at $P_{mn}(t)$ as a function of the driving frequency, 
 
 ##
 
+Notice how at resonance, the probablity is finite. Indeed, we can evaluate the expression for $P_{mn}(t)$ as the driving frequency becomes resonant, that is, as $\lim \left(\omega_0-\omega\right)\rightarrow 0$. We invoke l'Hôpital's rule and find that at resonance:
+
+$$
+\begin{align}
+\tag{8}
+P_{mn}(t)=\frac{|V_{mn}|^2}{4\hbar^2}t^2
+\end{align}
+$$
+
+
+## Transitionning to a Continuum of States
+
+Suppose that the frequency drives a transition to a continuum (closely spaced in energy) of states. In this case, our probability will be weighed by a density of states, $\rho(E)$, which corresponds to the number of states per energy.
+Our total probability sum over all accessible states is:
+
+$$
+\begin{align}
+\tag{9}
+P_{mn}(t)=\frac{|V_{mn}|^2}{\hbar^2} \int_{states} \rho(E) \frac{\sin^2\left[\left(\omega_0-\omega \right)t'/2\right]}{\left(\omega_0 -\omega\right)^2} dE\\
+\end{align}
+$$
+
+We can take the density out of the integral because the probability peaks at $\omega_0$, hence, it acts as a delta function that selects only the resonant energy. Hence only the value of the density of state at the final energy $E_m$ need to be considered. We can rewrite this integral over frequencies by substituting $dE\rightarrow \hbar d\omega$.
+
+$$
+\begin{align}
+\tag{10}
+P_{mn}(t)=\frac{|V_{mn}|^2}{\hbar^2} \hbar \rho(E_m)\int_{-\infty}^{\infty} \frac{\sin^2\left[\left(\omega_0-\omega \right)t'/2\right]}{\left(\omega_0 -\omega\right)^2} d\omega
+\end{align}
+$$
+
+---
+**_NOTE:_2**  
+$\int_{-\infty}^{\infty} {\frac{sin^2(x)}{x^2} dx}=\pi$
+---
+
+
+Performing the substitution $x=\frac{\left(\omega_0-\omega\right)t'}{2}$ and evaluating the integral from $-\infty$ to $\infty$ (which is allowed since the probability vanishes far from resonance) and making use of **note 2**, we obtain:
+
+$$
+\begin{align}
+\tag{11}
+P_{mn}(t)=\frac{2\pi|V_{mn}|^2}{\hbar} \rho(E_m)t
+\end{align}
+$$
+
+Notice how the oscillation also dissapears. We would obtain a similar result if we were driving the oscillation with an incoherent source of frequencies (such as incoherent light source), because then we would be driving the transition with a density of frequencies, and we would have to integrate over all driving frequencies.  
+We see that to first-order, the probability in linearly dependent of time. 
+
+## Fermi's Golden Rule
+
+We can now ask of the rate of such a transition. In order to this, we can take the derivative of the probability as function of time. Noting $k = \frac{dP_{mn}(t)}{dt}$ as the rate, we obtain:
+
+$$
+\begin{align}
+\tag{11}
+k=\frac{2\pi|V_{mn}|^2}{\hbar} \rho(E_m)
+\end{align}
+$$
+
+Hence to first order, we see that the transition rate is constant with respect to time, and is proportional to the square of the coupling term $|V_{mn}|$ and proportional to the density of states $\rho(E_m)$. This resul is known as **Fermi's Golden Rule**.
