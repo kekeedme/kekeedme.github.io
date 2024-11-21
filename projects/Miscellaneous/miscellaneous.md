@@ -30,7 +30,7 @@ Home. So I kept doing that for the rest of the slides.
 - [Three Flavors of the Quantum Harmonic Oscillator](QuantumHOscillator.md)
 - [On the Zero-Point Energy](ZPE.md)
 - [Introduction to Time-Dependent Perturbation Theory](time_dependentPT.md)
-- [Perturbative and Exact Treatment of Driven Transitions Between Quantum States](drivendynamics.md)
+- [Perturbative and an Exact Treatment of Driven Transitions Between Quantum States](drivendynamics.md)
 - [A Brief Discussion on Unitary Evolution](unitaryevol.md)
 - [Linear first order differential equations- Applied to chemical kinetics](/projects/Miscellaneous/slides/L1st_ODE.pdf)  
 - [My notes on the magnetic moment](/projects/Miscellaneous/magneticmoment)
