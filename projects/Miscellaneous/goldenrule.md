@@ -179,4 +179,5 @@ k=\frac{2\pi|V_{mn}|^2}{\hbar} \rho(E_m)
 \end{align}
 $$
 
-Hence to first order, we see that the transition rate is constant with respect to time, and is proportional to the square of the coupling term $|V_{mn}|$ and proportional to the density of states $\rho(E_m)$. This resul is known as **Fermi's Golden Rule**.
+Hence to first order, we see that the transition rate is constant with respect to time, and is proportional to the square of the coupling term $|V_{mn}|$ and proportional to the density of states $\rho(E_m)$.   
+This resul is known as **Fermi's Golden Rule**.
