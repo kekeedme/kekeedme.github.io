@@ -14,7 +14,9 @@ $$
 $$
 
 
-Equation $3.7$ in the [previous post](time_dependentPT.md) was exact. The first appromixation we have made is to say that the perturbation is small. We will see explicitly what it means for it to be small. However, by arguing that it is small, it allowed us to consider that the population of the states does not change as the perturbation acts on our system, which is why we were able to simply insert the value of $c_n(t=0)$ into the expression for $\dot{c_m}(t)$ and perform the integral. This immediately raises the issue of non-conservation of the probability. Indeed, if in using this technique, we get a non-zero value for $c_m(t)$, then the sum $|c_n|^2+|c_m|^2\neq 1$. Altough this may sound problematic, that is the essence of the technique; it is to assume that the system barely or does not change, such that we can calculate more easily. But we will see that we do get good predictions from it, and that it gets really close to the exact results when the driving potential is small. This consideration also gives an indication as to how small the perturbation should be, for now, we can say it should be small enough that equation $4.1$ never reaches $1$, because the approximation we made at the beginning about the populations not really changing would not apply.
+Equation $3.7$ in the [previous post](time_dependentPT.md) was exact.  
+The first appromixation we have made is to say that the perturbation is small. We will see explicitly what it means for it to be small. However, by arguing that it is small, it allowed us to consider that the population of the states does not change as the perturbation acts on our system, which is why we were able to simply insert the value of $c_n(t=0)$ into the expression for $\dot{c_m}(t)$ and perform the integral. This immediately raises the issue of non-conservation of the probability. Indeed, if in using this technique, we get a non-zero value for $c_m(t)$, then the sum $|c_n|^2+|c_m|^2\neq 1$. Altough this may sound problematic, that is the essence of the technique; it is to assume that the system barely or does not change, such that we can calculate more easily. But we will see that we do get good predictions from it, and that it gets really close to the exact results when the driving potential is small. This consideration also gives an indication as to how small the perturbation should be, for now, we can say it should be small enough that equation $4.1$ never reaches $1$, because the approximation we made at the beginning about the populations not really changing would not apply.  
+
 The probability is, however, conserved to first order. This statement means that if we take the potential term to zero in the first-order expression $4.1$, we recover $|c_n|^2+|c_m|^2=1$. Another question to consider, apart from the strenght of the perturbation, is the time-interval over which it is applied. I prefer to address this point in the next section where we introduce a time-dependent potential and calculate equation $4.1$.
 
 # Perturbation from a Oscillating Potential
@@ -90,26 +92,26 @@ P_{mn}(t)=\frac{|V_{mn}|^2}{\hbar^2}~ \frac{\sin^2\left[\left(\omega_0-\omega \r
 \end{align}
 $$
 
-##
+
 <figure>
     <img src="P as a function of time.png" alt="figure">
     <figcaption>Figure 1. Oscillation of the probability of finding the system in the upper state as a function of the time over which the perturbation is applied.   
 </figcaption>
 </figure>
 
-##
+
 Notice how the $P_{mn}(t)$ oscillates in time. This automatically tells us something about the time-interval over which the perturbation should be applied. If the perturbation is left for long it will cause a transition to the upper, $|\psi_m\rangle$ state, but then stimulate a transition back to the lower, $|\psi_m\rangle$ state. The zeroes of $P_{mn}(t)$ as a function of time give us the time treshold at which the system would go back to the lower state. An expression for the zeroes can be obtained by simply setting the argument of the function equal to $n\pi$ with $n=0,1,2,3...$ and solving for time. We find that the probability of finding the system in the lower state occurs every $t=\frac{2n\pi}{\left(\omega_0-\omega\right)}$. Hence the perturbation should be applied for a time interval much shorter than the time that it takes to drive the system back to the initial state.  
 
 Furthermore, we can look at $P_{mn}(t)$ as a function of the driving frequency, $\omega$. We see that the probability peaks *on resonance*, meaning when the driving frequency is equal to the fundamental frequency $\omega_0$ associated with the energy difference between the states.
 
-##
+
 <figure>
     <img src="P as a function of frequency.png" alt="figure">
     <figcaption>Figure 2. The probability of finding the system in the upper state as a function of the driving frequency peaks when the driving frequency is equal to the fundamental frequency.   
 </figcaption>
 </figure>
 
-##
+
 
 Notice how at resonance, the probablity is finite. Indeed, we can evaluate the expression for $P_{mn}(t)$ as the driving frequency becomes resonant, that is, as $\lim \left(\omega_0-\omega\right)\rightarrow 0$. We invoke l'Hôpital's rule and find that at resonance:
 
@@ -143,8 +145,10 @@ P_{mn}(t)=\frac{|V_{mn}|^2}{\hbar^2} \hbar \rho(E_m)\int_{-\infty}^{\infty} \fra
 $$
 
 ---
+
 **_NOTE:_2**  
 $\int_{-\infty}^{\infty} {\frac{sin^2(x)}{x^2} dx}=\pi$
+
 ---
 
 
