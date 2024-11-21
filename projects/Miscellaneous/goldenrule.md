@@ -9,7 +9,7 @@ the influence of a driving potential $V(t)$ ?  To answer this question, we would
 $$
 \begin{align}
 \tag{1}
-\vert c_m(t)\vert ^2  = \vert \frac{-i}{\hbar}\int_0^t{e^{i\omega_0 t'}V_{mn}(t')dt'}\vert ^2 ~\because \omega_0 = \frac{E_m-E_n}{\hbar}, V_{mn}=\langle\psi_m|\psi_n\rangle
+\vert c_m(t)\vert ^2  = \vert \frac{-i}{\hbar}\int_0^t{e^{i\omega_0 t'}V_{mn}(t')dt'}\vert ^2 ~\because \omega_0 = \frac{E_m-E_n}{\hbar}, V_{mn}=\langle\psi_m|V|\psi_n\rangle
 \end{align}
 $$
 
