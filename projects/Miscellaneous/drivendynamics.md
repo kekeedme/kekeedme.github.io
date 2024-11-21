@@ -13,4 +13,4 @@ first-order perturbation theory, and we will obtain an expression for the rate o
 of this problem and compare the results with those obtained in the perturbation theory treatment. 
 
 - [Time-dependent perturbation and Fermi's Golden Rule](goldenrule.md)
-- [Exact dynamics and Rabi Oscillation]()
+- [Exact dynamics and Rabi Oscillation](comingsoon.md)
