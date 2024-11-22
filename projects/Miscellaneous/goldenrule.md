@@ -170,7 +170,7 @@ We see that to first-order, the probability in linearly dependent of time.
 
 ## Fermi's Golden Rule
 
-We can now ask of the rate of such a transition. In order to this, we can take the derivative of the probability as function of time. Noting $k = \frac{dP_{mn}(t)}{dt}$ as the rate, we obtain:
+We can now ask of the rate of such a transition. In order to this, we can take the derivative of the probability as function of time. Writing $k = \frac{dP_{mn}(t)}{dt}$ as the rate, we obtain:
 
 $$
 \begin{align}
