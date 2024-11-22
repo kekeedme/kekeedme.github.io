@@ -98,7 +98,7 @@ $$
     <img src="P as a function of time.png" alt="figure">
     <figcaption>Figure 1. Oscillation of the probability of finding the system in the upper state as a function of the time over which the perturbation is applied.   
 </figcaption>
-</figure>
+</figure>  
 
 
 Notice how the $P_{mn}(t)$ oscillates in time. This automatically tells us something about the time-interval over which the perturbation should be applied.  
@@ -126,7 +126,7 @@ P_{mn}(t)=\frac{|V_{mn}|^2}{\hbar^2}t^2
 $$
 
 
-## Transitionning to a Continuum of States
+## Transitioning to a Continuum of States
 
 Suppose that the frequency drives a transition to a continuum (closely spaced in energy) of states. In this case, our probability will be weighed by a density of states, $\rho(E)$, which corresponds to the number of states per energy.
 Our total probability sum over all accessible states is:
