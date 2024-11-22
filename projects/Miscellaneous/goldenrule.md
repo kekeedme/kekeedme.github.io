@@ -121,7 +121,7 @@ Notice how at resonance, the probablity is finite. Indeed, we can evaluate the e
 $$
 \begin{align}
 \tag{8}
-P_{mn}(t)=\frac{|V_{mn}|^2}{4\hbar^2}t^2
+P_{mn}(t)=\frac{|V_{mn}|^2}{\hbar^2}t^2
 \end{align}
 $$
 
