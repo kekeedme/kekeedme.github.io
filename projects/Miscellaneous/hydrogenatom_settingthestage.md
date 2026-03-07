@@ -10,10 +10,10 @@ Our approach will be to first explore how the physicists Niels Bohr developped a
 We will then focus on developping the more accepted solution for the hydrogen atom, which comes from solving the Schrodinger equation for the system. We will see that the energy solutions from the Schrodinger equation are equivalent to Bohr's, and we will discuss how the Schrodinger equation is able to go further than the limits of the Bohr model for atoms and molecules.
 
 ## An atom should not be stable
-From our understanding of electricity and magnetism, we know that a charged particle generates an electric field $\vec{E}$ that permeates space around it. This field could influence (i.e. attract or repel) any other charged particle that were to pass in the region surrounding the source particle. The field is strongest closer to the source and falls as the inverse of the square of the distance from the source. The field is a vector quantity, hence it has a strenght (the norm of the vector) and a direction in space. Conventionally, the electric field lines for negatively charged particles are drawned pointing towards the source, and away from the source in the case of positively charged particles.
+From our understanding of electricity and magnetism, we know that a charged particle generates an electric field $\vec{E}$ that permeates space around it. This field could influence (i.e. attract or repel) any other charged particle that were to pass in the region surrounding the source particle. The field is a vector quantity, hence it has a magnitude, which is strongest closer to the source and falls as the inverse of the square of the distance from the source. It also has an orientation in space. Conventionally, the electric field lines for negatively charged particles are drawned pointing towards the source, and away from the source in the case of positively charged particles (Figure 1).
 
 <figure>
-    <img src="e-field" alt="figure">
-    <figcaption>Figure 1. Harmonic oscillator potential energy curve (red) superimposed over the Morse potential energy curve (blue) as a function of displacement. The dissociation treshold for the Morse curve (green). The harmonic oscillator approximates the Morse potential at small displacement about the equilibrium point.   
+    <img src="charged-paricles.png" alt="figure">
+    <figcaption>Figure 1. Charged particles generating electric field lines. (Left) negatively-charged particle generating electric field lines that point towards the particle. (Right) positively charged particle generating electric field lines that point away from the particle.  
 </figcaption>
 </figure>
