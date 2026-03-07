@@ -24,7 +24,6 @@ Home. So I kept doing that for the rest of the slides.
 ### Quantum Corner
 
 - [Introduction to the Schrödinger Equation](SchrodingerEQ.md)
-- [hydrogen atom](hydrogenatom_settingthestage.md)
 - [Expectation Values and Hermitian Operators](expectationval.md)
 - [Quantum probability density, probability current and momentum operator](/projects/Miscellaneous/slides/Prob_densisty_current_momentum.pdf) 
 - [A Brief Discussion on Commutators](commutationQM.md)
