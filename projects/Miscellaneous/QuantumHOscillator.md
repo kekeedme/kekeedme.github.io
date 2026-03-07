@@ -1,4 +1,4 @@
-# Three Flavors of the Quantum Harmonic Oscillator (Introduction)
+# Two Flavors of the Quantum Harmonic Oscillator (Introduction)
 This post presents the classical harmonic oscillator, discusses some of its features: outlining what the approximations are and when it can be useful as a model. We then discuss the quantum mechanical analogue of this system in three-different posts. If you wish to skip directly to the posts on the quantum mechanical analogue, feel free to go to the [bottom](#the-different-methods-of-solving-the-quantum-harmonic-oscillator) of this page, and click on the link of your choosing.
 
 ## Discussion of the Classical System
@@ -102,7 +102,7 @@ $$
 
 - [Quantum harmonic oscillator: series method](seriesQHO.md)  
 - [Quantum harmonic oscillator: algebraic method](algebraicQHO.md)  
-- [Quantum harmonic oscillator: numerical method](comingsoon.md)  
+ 
 
 ### Further Reading on
 #### Quantum harmonic oscillator 
