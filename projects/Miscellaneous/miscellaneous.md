@@ -27,7 +27,7 @@ Home. So I kept doing that for the rest of the slides.
 - [Expectation Values and Hermitian Operators](expectationval.md)
 - [Quantum probability density, probability current and momentum operator](/projects/Miscellaneous/slides/Prob_densisty_current_momentum.pdf) 
 - [A Brief Discussion on Commutators](commutationQM.md)
-- [Three Flavors of the Quantum Harmonic Oscillator](QuantumHOscillator.md)
+- [Two Flavors of the Quantum Harmonic Oscillator](QuantumHOscillator.md)
 - [On the Zero-Point Energy](ZPE.md)
 - [Introduction to Time-Dependent Perturbation Theory](time_dependentPT.md)
 - [Perturbative and an Exact Treatment of Driven Transitions Between Quantum States](drivendynamics.md)
