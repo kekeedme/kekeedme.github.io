@@ -9,11 +9,21 @@ In this series of posts, we will discuss the aformentioned third point by specif
 Our approach will be to first explore how the physicists Niels Bohr developped a hypothesis to explain: i) why the hydrogen atom was stable, and ii) how, from this hypothesis, he could calculate the allowed energies that the atom could absorb and emit when it interacted with specific frequencies of light. We will see how his model was successful in reproducing the experimental absorption/emission spectrum of the hydrogen atom.  
 We will then focus on developping the more accepted solution for the hydrogen atom, which comes from solving the Schrodinger equation for the system. We will see that the energy solutions from the Schrodinger equation are equivalent to Bohr's, and we will discuss how the Schrodinger equation is able to go further than the limits of the Bohr model for atoms and molecules.
 
-## An atom should not be stable
-From our understanding of electricity and magnetism, we know that a charged particle generates an electric field $\vec{E}$ that permeates space around it. This field could influence (i.e. attract or repel) any other charged particle that were to pass in the region surrounding the source particle. The field is a vector quantity, hence it has a magnitude, which is strongest closer to the source and falls as the inverse of the square of the distance from the source. It also has an orientation in space. Conventionally, the electric field lines for negatively charged particles are drawned pointing towards the source, and away from the source in the case of positively charged particles (Figure 1).
+## Electric fields from charged particles
+From our understanding of electricity and magnetism, we know that a charged particle generates an electric field $\vec{E}$ that permeates space around it. The field is a dynamical variable, in that it has a value at different points in space and in time. It could influence (i.e. attract or repel depending on the charge of the source particle) any other charged particle that were to pass in the region surrounding the source particle. The field is a vector quantity, hence it has a magnitude, which is strongest closer to the source and falls as the inverse of the square of the distance from the source. It also has an orientation in space. Conventionally, the electric field lines for negatively charged particles are drawned pointing towards the source, and away from the source in the case of positively charged particles (Figure 1).  
 
 <figure>
     <img src="charged-paricles.png" alt="figure">
     <figcaption>Figure 1. Charged particles generating electric field lines. (Left) negatively-charged particle generating electric field lines that point towards the particle. (Right) positively charged particle generating electric field lines that point away from the particle.  
 </figcaption>
-</figure>
+</figure>  
+
+###
+If we were to bring two, equal in magnitude, but oppositely charged particle, next to one another, the electric field lines emanating out of the positive charge would bend towards the negatively charged particle, in such a way that the field lineswould merge and converge towards the negative charge particle (Figure 2). Although it is not drawn on figure 2, we should also imagnine the field lines at the "back" of the positively charged particles to extend far out of the page and to wrap around and converge towards the negative charge, making even bigger semicircular circle then the ones pictured. These two equal but opposite charges form a dipole, in which, the charges cancel, and what remains is a neutral composite particle.  
+
+
+<figure>
+    <img src="dipole.png" alt="figure">
+    <figcaption>Figure 2. Two equal but oppositely charged particles form a neutral dipole.  
+</figcaption>
+</figure>  
