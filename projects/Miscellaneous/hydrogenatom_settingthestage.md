@@ -27,3 +27,6 @@ If we were to bring two, equal in magnitude, but oppositely charged particle, ne
     <figcaption>Figure 2. Two equal but oppositely charged particles form a neutral dipole.  
 </figcaption>
 </figure>  
+
+## Atoms should not be stable
+A hydrogen atom is built from one proton, which is positively charged, and an electron, which is negatively charged. We know that the proton and electron form a bound state, which is evidenced by the very existence of the hydrogen atom (not a free electron here, and a free proton there). The two particles have charges equal in magnitude but opposite in charge. Hence, from what we have discussed, they form a neutral dipole. These charges should not be seen as stationary, in fact they both are moving around a common center of mass.
