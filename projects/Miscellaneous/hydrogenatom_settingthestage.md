@@ -1,4 +1,4 @@
-# Hydrogen Atom
+# Hydrogen Atom: Setting the stage
 
 ## Introduction
 Quantum mechanics is undoubtedly one of the most succesfull theories to date. In addition to being the basis for understanding the structure, composition and interaction of matter, its applications are at the root of all the technological developments of this century and the last.  
