@@ -39,7 +39,7 @@ The circular motion we described is what occcurs when an object with a finite ve
 </figcaption>
 </figure> 
 
-this figure was borrowed from my post on [circular motion](circularmotion.md) 
+this figure was borrowed from my post on [circular motion](circularmotion.md)  
 
 
 ### 
