@@ -29,6 +29,7 @@ Home. So I kept doing that for the rest of the slides.
 - [A Brief Discussion on Commutators](commutationQM.md)
 - [Two Flavors of the Quantum Harmonic Oscillator](QuantumHOscillator.md)
 - [On the Zero-Point Energy](ZPE.md)
+- [The Hydrogen atom: Setting the stage](hydrogenatom_settingthestage.md)
 - [Introduction to Time-Dependent Perturbation Theory](time_dependentPT.md)
 - [Perturbative and an Exact Treatment of Driven Transitions Between Quantum States](drivendynamics.md)
 - [A Brief Discussion on Unitary Evolution](unitaryevol.md)
