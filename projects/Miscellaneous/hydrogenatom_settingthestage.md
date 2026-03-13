@@ -29,4 +29,32 @@ If we were to bring two, equal in magnitude, but oppositely charged particle, ne
 </figure>  
 
 ## Atoms should not be stable
-A hydrogen atom is built from one proton, which is positively charged, and an electron, which is negatively charged. We know that the proton and electron form a bound state, which is evidenced by the very existence of the hydrogen atom (not a free electron here, and a free proton there). The two particles have charges equal in magnitude but opposite in charge. Hence, from what we have discussed, they form a neutral dipole. These charges should not be seen as stationary, in fact they both are moving around a common center of mass. 
+A hydrogen atom is built from one proton, which is positively charged, and an electron, which is negatively charged. We know that the proton and electron form a bound state, which is evidenced by the very existence of the hydrogen atom (not a free electron here, and a free proton there). The two particles have charges equal in magnitude but opposite in charge. Hence, from what we have discussed, they form a neutral dipole. These particles should not be seen as stationary, they do possess kinetic energy.  
+Let us consider what would happen if we "throw" an electron with a velocity $\vec{v}_1$ past a proton, specifically such that the velocity of the electron is perpendicular to the line joining the center of the two particles. The proton is 1800 times heavier than the electron, hence, to a first approximation, we can consider it stationary relative to the electron. Throught the field lines, the electron would experience an attractive force from the proton that is along the line joining the centers of the particles and oriented towards the proton. This force would change the velocity of the electron from $\vec{v}_1$ to $\vec{v}_2$, as shown in figure 3. The velocity of the electron would continue to change in this manner as to trace a circular path around the proton.  
+The circular motion we described is what occcurs when an object with a finite velocity feels an attractive force that is perpendicular to its direction of motion. The force (called a centripetal force) causes the particle to rotate around a point centered on the particle or body that attracts.  
+
+<figure>
+    <img src="/projects/figures/circular_motion.png" alt="figure">
+    <figcaption>Figure 3. Source particle (proton:blue) sets up an attractive potential, which attracts a test particle (electron:red) with initial velocitiy. The force exerted on the test particle causes a velocity change, which changes the direction of the particle. The net result is a circular motion around the proton. 
+</figcaption>
+</figure> 
+
+this figure was borrowed from my post on [circular motion](circularmotion.md) 
+
+### 
+The hypothetical situation we described for the electron and proton (to make a hydrogen atom) is probably where the past idea and sentence "an atom has a nucleus and electron going around the nucleus" comes from. However, what we described does not happen at all for the electron and proton in a hydrogen atom, or any atom for that matter. If the atom is to be stable, the interaction as we described it cannot happen. In order to see why, we need to remember that the charged particles generate an electric field, and the acceleration of the charge due to the circular motion would cause the value of the electric field to change in space and time. Furthermore, this shaking electric field would generate a magnetic field, which would in turn generate an electric field again. To see this somewhat semi-quantitatively, let us look at two of the four Maxwell equations:
+
+$$
+\begin{align}
+\tag{1}
+\nabla \times \vec{B} = \mu_0\left(\vec{J}+\frac{\partial \vec{E}}{\partial t}\right)\\
+\tag{2}
+\nabla \times \vec{E} = \frac{-\partial \vec{B}}{\partial t}
+\end{align}
+$$
+
+We will not go into a deep dive of the Maxwell equations, but we can see from equation 1 that when the value of the electric field changes in time $\left(\frac{\partial \vec{E}}{\partial t}\right)$, and/or in the presence an electric current $\left(\vec{J}\right)$ a circulating magnetic field,$\left(\nabla \times \vec{B}\right)$, is generated. The second equation says that when the value a of the magnetic field changes in time $\left(\frac{\partial \vec{B}}{\partial t}\right)$, it generates a circulating electric field $\left(\nabla \times \vec{E}\right)$. This interplay between oscillating electric and magnetic field is what we know as electromagnetic radiation. The generated eletromagnetic radiation carries away energy from the electron-proton dipole. The resulting energy loss would cause the electron to fall into the proton, and we would not have stable atom.  
+
+This conundrum is what lead Bohr to develop his model of the atom, wich we will explore in the following post. We will also discuss additional successes of the Bohr model, such as its ability to explain the absorption and emission spectrum.
+
+-[The Bohr model](comingsoon.md) 
