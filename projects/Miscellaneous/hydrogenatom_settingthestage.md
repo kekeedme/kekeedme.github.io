@@ -42,7 +42,7 @@ The circular motion we described is what occcurs when an object with a finite ve
 this figure was borrowed from my post on [circular motion](circularmotion.md)  
 
 
-### 
+
 The hypothetical situation we described for the electron and proton (to make a hydrogen atom) is probably where the past idea and sentence "an atom has a nucleus and electron going around the nucleus" comes from. However, what we described does not happen at all for the electron and proton in a hydrogen atom, or any atom for that matter. If the atom is to be stable, the interaction as we described it cannot happen. In order to see why, we need to remember that the charged particles generate an electric field, and the acceleration of the charge due to the circular motion would cause the value of the electric field to change in space and time. Furthermore, this shaking electric field would generate a magnetic field, which would in turn generate an electric field again. To see this somewhat semi-quantitatively, let us look at two of the four Maxwell equations:
 
 $$
