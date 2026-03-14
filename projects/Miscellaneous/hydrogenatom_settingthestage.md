@@ -59,6 +59,6 @@ $$
 
 We will not go into a deep dive of the Maxwell equations, but we can see from equation 1 that when the value of the electric field changes in time $\left(\frac{\partial \vec{E}}{\partial t}\right)$, and/or in the presence an electric current $\left(\vec{J}\right)$ a circulating magnetic field,$\left(\nabla \times \vec{B}\right)$, is generated. The second equation says that when the value a of the magnetic field changes in time $\left(\frac{\partial \vec{B}}{\partial t}\right)$, it generates a circulating electric field $\left(\nabla \times \vec{E}\right)$. This interplay between oscillating electric and magnetic field is what we know as electromagnetic radiation. The generated eletromagnetic radiation carries away energy from the electron-proton dipole. The resulting energy loss would cause the electron to fall into the proton, and we would not have stable atom.  
 
-This conundrum is what lead Bohr to develop his model of the atom, wich we will explore in the following post. We will also discuss additional successes of the Bohr model, such as its ability to explain the absorption and emission spectrum of the hydrogen atom.
+This conundrum is what lead Bohr to develop his model of the atom, which we will explore in the following post. We will also discuss additional successes of the Bohr model, such as its ability to explain the absorption and emission spectrum of the hydrogen atom.
 
 -[The Bohr model](comingsoon.md) 
