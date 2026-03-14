@@ -18,7 +18,7 @@ From our understanding of electricity and magnetism, we know that a charged part
 </figcaption>
 </figure>  
 
-  
+ ####
 
 If we were to bring two, equal in magnitude, but oppositely charged particle, next to one another, the electric field lines emanating out of the positive charge would bend towards the negatively charged particle, in such a way that the field lineswould merge and converge towards the negative charge particle (Figure 2). Although it is not drawn on figure 2, we should also imagnine the field lines at the "back" of the positively charged particles to extend far out of the page and to wrap around and converge towards the negative charge, making even bigger semicircular circle then the ones pictured. These two equal but opposite charges form a dipole, in which, the charges cancel, and what remains is a neutral composite particle.  
 
