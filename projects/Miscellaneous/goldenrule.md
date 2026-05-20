@@ -48,7 +48,7 @@ The probability for transitioning to the state $\psi_m$ is thus given by:
 $$
 \begin{align}
 \tag{4}
-P_{mn}(t)=\vert c_m(t)\vert^2=\frac{|V_{mn}|^2}{\left(2\hbar\right)^2} \left[\frac{ e^{i\left(\omega + \omega_0\right) t'}-1}{\omega + \omega_0}+\frac{ e^{i\left(\omega_0 - \omega\right) t'}-1}{\omega_0 - \omega}\right]^2
+P_{mn}(t)=\vert c_m(t)\vert^2=\frac{|V_{mn}|^2}{\left(2\hbar\right)^2} \left[\frac{ e^{i\left(\omega + \omega_0\right) t}-1}{\omega + \omega_0}+\frac{ e^{i\left(\omega_0 - \omega\right) t}-1}{\omega_0 - \omega}\right]^2
 \end{align}
 $$
 
