@@ -39,7 +39,7 @@ $$
 \tag{3}
 c_m(t)= \frac{-i}{2\hbar}\int_0^t V_{mn}\left(e^{i\omega t'} + e^{-i\omega t'}\right){e^{i\omega_0 t'}dt'}\\
 =\frac{-iV_{mn}}{2\hbar} \int_0^t {e^{i\left(\omega + \omega_0\right) t'}+e^{i\left(\omega_0 - \omega\right) t'}dt'}\\
-c_m(t)=\frac{-iV_{mn}}{2\hbar}\left[\frac{ e^{i\left(\omega + \omega_0\right) t'}-1}{\omega + \omega_0}+\frac{ e^{i\left(\omega_0 - \omega\right) t'}-1}{\omega_0 - \omega}\right]
+c_m(t)=\frac{-iV_{mn}}{2\hbar}\left[\frac{ e^{i\left(\omega + \omega_0\right) t}-1}{\omega + \omega_0}+\frac{ e^{i\left(\omega_0 - \omega\right) t'}-1}{\omega_0 - \omega}\right]
 \end{align}
 $$
 
