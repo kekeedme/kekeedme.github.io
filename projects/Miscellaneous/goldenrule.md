@@ -60,11 +60,11 @@ In the case in which the second term dominates, we can rewrite equation $4$ as:
 $$
 \begin{align}
 \tag{5}
-P_{mn}(t)=\frac{|V_{mn}|^2}{\left(2\hbar\right)^2} \left[\frac{ e^{i\left(\omega_0 - \omega\right) t'}-1}{\omega_0 - \omega}\right]^2
+P_{mn}(t)=\frac{|V_{mn}|^2}{\left(2\hbar\right)^2} \left[\frac{ e^{i\left(\omega_0 - \omega\right) t}-1}{\omega_0 - \omega}\right]^2
 \end{align}
 $$
 
-We can factor a $e^{i\left(\omega_0-\omega\right)t'/2}$ out, to make use of $\sin(\theta/2)$.
+We can factor a $e^{i\left(\omega_0-\omega\right)t/2}$ out, to make use of $\sin(\theta/2)$.
 
 ---
 **_NOTE:_1**  
@@ -74,13 +74,13 @@ We can factor a $e^{i\left(\omega_0-\omega\right)t'/2}$ out, to make use of $\si
 - Thus we have $e^{i\theta/2} - e^{-i\theta/2} = 2i\sin(\theta/2)$
 
 ---
-Upon factoring a $e^{i\left(\omega_0-\omega\right)t'/2}$ we obtain: 
+Upon factoring a $e^{i\left(\omega_0-\omega\right)t/2}$ we obtain: 
 
 $$
 \begin{align}
 \tag{6}
-P_{mn}(t)=\frac{|V_{mn}|^2}{\left(2\hbar\right)^2} \left[\frac{e^{i\left(\omega_0-\omega\right)t'/2}}{\omega_0-\omega}\left(e^{i\left(\omega_0-\omega\right)t'/2}-e^{-i\left(\omega_0-\omega\right)t'/2}\right)\right]^2
-=\frac{|V_{mn}|^2}{\left(2\hbar\right)^2}\left[\frac{e^{i\left(\omega_0-\omega\right)t'/2}}{\omega_0-\omega}\left(2i\sin\left[(\omega_0-\omega \right)t'/2\right]\right]^2
+P_{mn}(t)=\frac{|V_{mn}|^2}{\left(2\hbar\right)^2} \left[\frac{e^{i\left(\omega_0-\omega\right)t/2}}{\omega_0-\omega}\left(e^{i\left(\omega_0-\omega\right)t/2}-e^{-i\left(\omega_0-\omega\right)t/2}\right)\right]^2
+=\frac{|V_{mn}|^2}{\left(2\hbar\right)^2}\left[\frac{e^{i\left(\omega_0-\omega\right)t/2}}{\omega_0-\omega}\left(2i\sin\left[(\omega_0-\omega \right)t/2\right]\right]^2
 \end{align}
 $$
 
