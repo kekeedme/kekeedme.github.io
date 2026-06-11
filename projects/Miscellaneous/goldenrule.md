@@ -27,8 +27,8 @@ Suppose that the our potential $V(r,t)$ is given by a spatial part, and time-dep
 $$
 \begin{align}
 \tag{2}
-V(r,t) = V(r) \cos\left(\omega t\right)=
-\frac{V(r)}{2}\left(e^{i\omega t} + e^{-i\omega t}\right)~ \because e^{\pm i\omega t} = \cos\left(\omega t\right) \pm i\sin\left(\omega t\right)
+V(r,t) = 2V(r) \cos\left(\omega t\right)=
+\V(r)\left(e^{i\omega t} + e^{-i\omega t}\right)~ \because e^{\pm i\omega t} = \cos\left(\omega t\right) \pm i\sin\left(\omega t\right)
 \end{align}
 $$
 
@@ -37,9 +37,9 @@ Hence, we insert the exponential form of the potential into the expression for $
 $$
 \begin{align}
 \tag{3}
-c_m(t)= \frac{-i}{2\hbar}\int_0^t V_{mn}\left(e^{i\omega t'} + e^{-i\omega t'}\right){e^{i\omega_0 t'}dt'}\\
-=\frac{-iV_{mn}}{2\hbar} \int_0^t {e^{i\left(\omega + \omega_0\right) t'}+e^{i\left(\omega_0 - \omega\right) t'}dt'}\\
-c_m(t)=\frac{-iV_{mn}}{2\hbar}\left[\frac{ e^{i\left(\omega + \omega_0\right) t}-1}{\omega + \omega_0}+\frac{ e^{i\left(\omega_0 - \omega\right) t}-1}{\omega_0 - \omega}\right]
+c_m(t)= \frac{-i}{\hbar}\int_0^t V_{mn}\left(e^{i\omega t'} + e^{-i\omega t'}\right){e^{i\omega_0 t'}dt'}\\
+=\frac{-iV_{mn}}{\hbar} \int_0^t {e^{i\left(\omega + \omega_0\right) t'}+e^{i\left(\omega_0 - \omega\right) t'}dt'}\\
+c_m(t)=\frac{-iV_{mn}}{\hbar}\left[\frac{ e^{i\left(\omega + \omega_0\right) t}-1}{i\left(\omega + \omega_0\right)}+\frac{ e^{i\left(\omega_0 - \omega\right) t}-1}{i\left(\omega_0 - \omega\right)}\right]
 \end{align}
 $$
 
@@ -48,7 +48,7 @@ The probability for transitioning to the state $\psi_m$ is thus given by:
 $$
 \begin{align}
 \tag{4}
-P_{mn}(t)=\vert c_m(t)\vert^2=\frac{|V_{mn}|^2}{\left(2\hbar\right)^2} \left[\frac{ e^{i\left(\omega + \omega_0\right) t}-1}{\omega + \omega_0}+\frac{ e^{i\left(\omega_0 - \omega\right) t}-1}{\omega_0 - \omega}\right]^2
+P_{mn}(t)=\vert c_m(t)\vert^2=\frac{|V_{mn}|^2}{\left(\hbar\right)^2} \left[\frac{ e^{i\left(\omega + \omega_0\right) t}-1}{i\left(\omega + \omega_0\right)}+\frac{ e^{i\left(\omega_0 - \omega\right) t}-1}{i\left(\omega_0 - \omega\right)}\right]^2
 \end{align}
 $$
 
@@ -60,7 +60,7 @@ In the case in which the second term dominates, we can rewrite equation $4$ as:
 $$
 \begin{align}
 \tag{5}
-P_{mn}(t)=\frac{|V_{mn}|^2}{\left(2\hbar\right)^2} \left[\frac{ e^{i\left(\omega_0 - \omega\right) t}-1}{\omega_0 - \omega}\right]^2
+P_{mn}(t)=\frac{|V_{mn}|^2}{\left(\hbar\right)^2} \left[\frac{ e^{i\left(\omega_0 - \omega\right) t}-1}{i\left(\omega_0 - \omega\right)}\right]^2
 \end{align}
 $$
 
@@ -79,8 +79,8 @@ Upon factoring a $e^{i\left(\omega_0-\omega\right)t/2}$ we obtain:
 $$
 \begin{align}
 \tag{6}
-P_{mn}(t)=\frac{|V_{mn}|^2}{\left(2\hbar\right)^2} \left[\frac{e^{i\left(\omega_0-\omega\right)t/2}}{\omega_0-\omega}\left(e^{i\left(\omega_0-\omega\right)t/2}-e^{-i\left(\omega_0-\omega\right)t/2}\right)\right]^2
-=\frac{|V_{mn}|^2}{\left(2\hbar\right)^2}\left[\frac{e^{i\left(\omega_0-\omega\right)t/2}}{\omega_0-\omega}\left(2i\sin\left[(\omega_0-\omega \right)t/2\right]\right]^2
+P_{mn}(t)=\frac{|V_{mn}|^2}{\left(\hbar\right)^2} \left[\frac{e^{i\left(\omega_0-\omega\right)t/2}}{i\left(\omega_0-\omega\right)}\left(e^{i\left(\omega_0-\omega\right)t/2}-e^{-i\left(\omega_0-\omega\right)t/2}\right)\right]^2
+=\frac{|V_{mn}|^2}{\left(\hbar\right)^2}\left[\frac{e^{i\left(\omega_0-\omega\right)t/2}}{i\left(\omega_0-\omega\right)}\left(2i\sin\left[(\omega_0-\omega \right)t/2\right]\right]^2
 \end{align}
 $$
 
@@ -89,7 +89,7 @@ Since it is a square modulus (so we multiply by the complex conjugate) the proba
 $$
 \begin{align}
 \tag{7}
-P_{mn}(t)=\frac{|V_{mn}|^2}{\hbar^2}~ \frac{\sin^2\left[\left(\omega_0-\omega \right)t'/2\right]}{\left(\omega_0 -\omega\right)^2}
+P_{mn}(t)=\frac{|V_{mn}|^2}{\hbar^2}~ \frac{\sin^2\left[\left(\omega_0-\omega \right)t/2\right]}{\left(\frac{\omega_0 -\omega\}{2}right)^2}
 \end{align}
 $$
 
@@ -134,7 +134,7 @@ Our total probability sum over all accessible states is:
 $$
 \begin{align}
 \tag{9}
-P_{mn}(t)=\frac{|V_{mn}|^2}{\hbar^2} \int_{states} \rho(E) \frac{\sin^2\left[\left(\omega_0-\omega \right)t'/2\right]}{\left(\omega_0 -\omega\right)^2} dE\\
+P_{mn}(t)=\frac{|V_{mn}|^2}{\hbar^2} \int_{states} \rho(E) \frac{\sin^2\left[\left(\omega_0-\omega \right)t'/2\right]}{\left(\frac{\omega_0 -\omega}{2}\right)^2} dE\\
 \end{align}
 $$
 
@@ -143,7 +143,7 @@ We can take the density out of the integral because the probability peaks at $\o
 $$
 \begin{align}
 \tag{10}
-P_{mn}(t)=\frac{|V_{mn}|^2}{\hbar^2} \hbar \rho(E_m)\int_{-\infty}^{\infty} \frac{\sin^2\left[\left(\omega_0-\omega \right)t'/2\right]}{\left(\omega_0 -\omega\right)^2} d\omega
+P_{mn}(t)=\frac{|V_{mn}|^2}{\hbar^2} \hbar \rho(E_m)\int_{-\infty}^{\infty} \frac{\sin^2\left[\left(\omega_0-\omega \right)t'/2\right]}{\left(\frac{\omega_0 -\omega}{2}\right)^2} d\omega
 \end{align}
 $$
 
