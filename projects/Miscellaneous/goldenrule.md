@@ -89,7 +89,7 @@ Since it is a square modulus (so we multiply by the complex conjugate) the proba
 $$
 \begin{align}
 \tag{7}
-P_{mn}(t)=\frac{|V_{mn}|^2}{\hbar^2}~ \frac{\sin^2\left[\left(\omega_0-\omega \right)t/2\right]}{\left(\frac{\omega_0 -\omega}{2}right)^2}
+P_{mn}(t)=\frac{|V_{mn}|^2}{\hbar^2}~ \frac{\sin^2\left[\left(\omega_0-\omega \right)t/2\right]}{\left(\frac{\omega_0 -\omega}{2}\right)^2}
 \end{align}
 $$
 
